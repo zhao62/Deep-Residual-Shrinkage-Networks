@@ -119,7 +119,7 @@ img_aug = tflearn.ImageAugmentation()
 img_aug.add_random_flip_leftright()
 img_aug.add_random_crop([32, 32], padding=4)
   
-# Building Deep Residual Shrinkage Network
+# Build a Deep Residual Shrinkage Network with 3 blocks
 net = tflearn.input_data(shape=[None, 32, 32, 3],
                          data_preprocessing=img_prep,
                          data_augmentation=img_aug)
