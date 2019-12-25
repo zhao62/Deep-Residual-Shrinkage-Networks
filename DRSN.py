@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Dec 23 21:23:09 2019
+
+Implemented using TensorFlow 1.0 and TFLearn 0.3.2
  
 M. Zhao, S. Zhong, X. Fu, B. Tang, M. Pecht, Deep Residual Shrinkage Networks for Fault Diagnosis, 
 IEEE Transactions on Industrial Informatics, 2019, DOI: 10.1109/TII.2019.2943898
