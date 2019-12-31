@@ -1,7 +1,7 @@
 # Deep-Residual-Shrinkage-Networks
 The deep residual shrinkage network is a variant of deep residual networks (ResNets), and aims to improve the feature learning ability from highly noise signals or complex backgrounds. Although the method is originally developed for vibration-based fault diagnosis, it can be applied to image recognition and speech recognition as well. The major innovation is the integration of soft thresholding as nonlinear transformation layers into ResNets. Moreover, the thresholds are automatically determined by a specially designed sub-network, so that no professional expertise on threshold determination is required.
 
-The method is implemented using TensorFlow 1.0 and TFLearn 0.3.2, and applied for image classification. A small network with 3 residual shrinkage blocks is constructed in the code. More blocks and more training iterations can be used for a higher performance.
+The method is implemented using TensorFlow 1.0, TFLearn 0.3.2, and Keras 2.2.1, and applied for image classification. A small network with 3 residual shrinkage blocks is constructed in the code. More blocks and more training iterations can be used for a higher performance.
 
 Reference:
 M. Zhao, S. Zhong, X. Fu, B. Tang, and M. Pecht, Deep residual shrinkage networks for fault diagnosis, 
