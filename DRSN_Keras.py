@@ -62,7 +62,9 @@ def sign_backend(inputs):
 
 def pad_backend(inputs, in_channels, out_channels):
     pad_dim = (out_channels - in_channels)//2
-    return K.spatial_3d_padding(inputs, padding = ((0,0),(0,0),(pad_dim,pad_dim)))
+    inputs = K.expand_dims(inputs,-1)
+    inputs = K.spatial_3d_padding(inputs, ((0,0),(0,0),(pad_dim,pad_dim)), 'channels_last')
+    return K.squeeze(inputs, -1)
 
 # Residual Shrinakge Block
 def residual_shrinkage_block(incoming, nb_blocks, out_channels, downsample=False,
@@ -116,7 +118,7 @@ def residual_shrinkage_block(incoming, nb_blocks, out_channels, downsample=False
             
         # Zero_padding to match channels (it is important to use zero padding rather than 1by1 convolution)
         if in_channels != out_channels:
-            identity = Lambda(pad_backend)(identity, in_channels, out_channels)
+            identity = Lambda(pad_backend, arguments={'in_channels':in_channels,'out_channels':out_channels})(identity)
         
         residual = keras.layers.add([residual, identity])
     
