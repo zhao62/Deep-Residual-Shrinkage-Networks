@@ -4,7 +4,7 @@ The deep residual shrinkage network is a variant of deep residual networks (ResN
 The method is implemented using TensorFlow 1.0.1, TFLearn 0.3.2, and Keras 2.2.1, and applied for image classification. A small network with 3 residual shrinkage blocks is constructed in the code. More blocks and more training iterations can be used for a higher performance.
 
 Reference:
-M. Zhao, S. Zhong, X. Fu, B. Tang, M. Pecht, Deep residual shrinkage networks for fault diagnosis, 
+Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
 Abstract:
