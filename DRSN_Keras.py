@@ -112,11 +112,11 @@ def residual_shrinkage_block(incoming, nb_blocks, out_channels, downsample=False
         n_sub = keras.layers.maximum([sub, zeros])
         residual = keras.layers.multiply([Lambda(sign_backend)(residual), n_sub])
         
-        # Downsampling (it is important to use the pooL-size of (1, 1))
+        # Downsampling using the pooL-size of (1, 1)
         if downsample_strides > 1:
             identity = AveragePooling2D(pool_size=(1,1), strides=(2,2))(identity)
             
-        # Zero_padding to match channels (it is important to use zero padding rather than 1by1 convolution)
+        # Zero_padding to match channels
         if in_channels != out_channels:
             identity = Lambda(pad_backend, arguments={'in_channels':in_channels,'out_channels':out_channels})(identity)
         
