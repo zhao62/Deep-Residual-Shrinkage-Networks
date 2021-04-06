@@ -20,9 +20,17 @@ https://ieeexplore.ieee.org/document/8850096
 
 **(1) The performance on the manually noised Cifar10 dataset**
 
+In the DRSN_TFLearn.py, we manually add noise to the Cifar10 dataset, and get the results of a deep residual shrinkage network. Then, we delete lines 79-88 in DRSN_TFLearn.py, make it be a deep residual network, and get its results.
+
+Methods  | Deep residual shrinkage network  | Deep residual network
+ ---- | ----- | ------  
+Training accuracy  | % | %
+Validation accuracy  | % | %
+
 **(2) The performance on the un-noised Cifar10 dataset**
 
 If we delete lines 25-27 in DRSN_TFLearn.py, the code will conduct a deep residual shrinkage network on the Cifar10 dataset without manually added noise. Then, if we delete lines 79-88 in DRSN_TFLearn.py, the code will conduct a deep residual network on the Cifar10 dataset without manually added noise.
+
 Methods  | Deep residual shrinkage network  | Deep residual network
  ---- | ----- | ------  
 Training accuracy  | 90.28% | 89.26%
