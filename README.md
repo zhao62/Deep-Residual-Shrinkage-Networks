@@ -26,4 +26,4 @@ Validation accuracy  | 85.87% | 85.57%
 
 ## Additional notes
 
-There might be some problems in the Keras codes. The TFLearn code is recommended for usage.
+There might be some problems in the Keras code. The TFLearn code is recommended for usage.
