@@ -24,8 +24,8 @@ In the DRSN_TFLearn.py, we manually add noise to the Cifar10 dataset, and get th
 
 Methods  | Deep residual shrinkage network  | Deep residual network
  ---- | ----- | ------  
-Training accuracy  | 88.96% | %
-Validation accuracy  | 84.33% | %
+Training accuracy  | 88.96% | 87.78%
+Validation accuracy  | 84.33% | 83.99%
 
 **(2) The performance on the un-noised Cifar10 dataset**
 
