@@ -13,3 +13,10 @@ Abstract:
 This paper develops new deep learning methods, namely, deep residual shrinkage networks, to improve the feature learning ability from highly noised vibration signals and achieve a high fault diagnosing accuracy. Soft thresholding is inserted as nonlinear transformation layers into the deep architectures to eliminate unimportant features. Moreover, considering that it is generally challenging to set proper values for the thresholds, the developed deep residual shrinkage networks integrate a few specialized neural networks as trainable modules to automatically determine the thresholds, so that professional expertise on signal processing is not required. The efficacy of the developed methods is validated through experiments with various types of noise.
 
 https://ieeexplore.ieee.org/document/8850096
+
+Results：
+If we delete lines 25-27 in DRSN_TFLearn.py, the code will conduct a deep residual shrinkage network on the Cifar10 dataset without manually added noise. If we delete lines 79-88 in DRSN_TFLearn.py, the code will conduct a deep residual network on the Cifar10 dataset without manually added noise.
+Methods  | Deep residual shrinkage network  | Deep residual network
+ ---- | ----- | ------  
+Training accuracy  | 90.28% | 89.26% 
+Validation accuracy  | 85.87% | 85.57%
