@@ -11,6 +11,9 @@ IEEE Transactions on Industrial Informatics, 2019, DOI: 10.1109/TII.2019.2943898
 There might be some problems in the Keras code. The weights in custom layers of models created using the Keras functional API may not be optimized.
 https://www.reddit.com/r/MachineLearning/comments/hrawam/d_theres_a_flawbug_in_tensorflow_thats_preventing/
 
+TensorFlow被曝存在严重bug，搭配Keras可能丢失权重
+https://cloud.tencent.com/developer/news/661458
+
 The TFLearn code is recommended for usage.
 https://github.com/zhao62/Deep-Residual-Shrinkage-Networks/blob/master/DRSN_TFLearn.py
 
