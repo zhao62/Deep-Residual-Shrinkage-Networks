@@ -8,6 +8,12 @@ Implemented using TensorFlow 1.0.1 and Keras 2.2.1
 M. Zhao, S. Zhong, X. Fu, et al., Deep Residual Shrinkage Networks for Fault Diagnosis, 
 IEEE Transactions on Industrial Informatics, 2019, DOI: 10.1109/TII.2019.2943898
 
+There might be some problems in the Keras code. The weights in custom layers of models created using the Keras functional API may not be optimized.
+https://www.reddit.com/r/MachineLearning/comments/hrawam/d_theres_a_flawbug_in_tensorflow_thats_preventing/
+
+The TFLearn code is recommended for usage.
+https://github.com/zhao62/Deep-Residual-Shrinkage-Networks/blob/master/DRSN_TFLearn.py
+
 @author: super_9527
 """
 
