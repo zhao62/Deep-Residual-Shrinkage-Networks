@@ -16,7 +16,7 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
 https://ieeexplore.ieee.org/document/8850096
 
-http://homepage.hit.edu.cn/zhaominghang?lang=zh
+http://homepage.hit.edu.cn/zhaominghang
 
 ## Results：
 
