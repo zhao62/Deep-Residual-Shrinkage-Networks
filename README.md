@@ -463,3 +463,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [209] 尹建国, 盛文, 蒋伟. 基于***深度残差收缩网络***的雷达空中目标识别[J/OL]. 系统工程与电子技术: 1-8 [2023-11-29].
 
 [210] 李天桢, 高世伟, 党小超等. 一种基于遮蔽卷积注意力***残差收缩网络***的软测量建模方法[P]. 甘肃省：CN116910483A, 2023-10-20.
+
+[211] Song X, Zhang Q, Sun R, et al. A Hybrid Deep Learning Prediction Method of Remaining Useful Life for Rolling Bearings Using Multiscale Stacking ***Deep Residual Shrinkage Network***[J]. International Journal of Intelligent Systems, 2023, 6665534.
+
+[212] Huang X, Song Z, Ji C, et al. Research on a Classification Method for Strip Steel Surface Defects Based on Knowledge Distillation and a Self-Adaptive ***Residual Shrinkage Network***[J]. Algorithms, 2023, 16(11): 516.
+
+[213] Zhang Z, Zhang C, Zhang X, et al. ***Deep residual shrinkage networks*** with adaptively convex global parametric rectifier linear units for fault diagnosis[J]. Measurement Science and Technology, 2023, 35(2): 025023.
+
+[214] Wu W, Peng H, Zhu H, et al. Mvc-Rsn: A Malware Variants Classification Method Based on ***Residual Shrinkage Networks***[J]. Available at SSRN 4612610.
