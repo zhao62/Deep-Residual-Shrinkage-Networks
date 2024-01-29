@@ -475,3 +475,22 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [213] Zhang Z, Zhang C, Zhang X, et al. ***Deep residual shrinkage networks*** with adaptively convex global parametric rectifier linear units for fault diagnosis[J]. Measurement Science and Technology, 2023, 35(2): 025023.
 
 [214] Wu W, Peng H, Zhu H, et al. Mvc-Rsn: A Malware Variants Classification Method Based on ***Residual Shrinkage Networks***[J]. Available at SSRN 4612610.
+
+[215] 赵睿, 刘硕佳, 陈建勇. 基于***深度残差收缩网络***的非授权频段无线信号识别方法[P]. 福建省：CN117312942A, 2023-12-29.
+
+[216] 杨阿锋, 庄立旭, 杨卓霖等. 融合注意力机制与***深度残差收缩网络***的水声目标识别方法[P]. 浙江省：CN117310668A, 2023-12-29.
+
+[217] 贾广飞, 李明. 一种基于改进***深度残差收缩网络***的旋转机械故障诊断方法[P]. 河北省：CN117313003A, 2023-12-29.
+
+[218] 邓艾东, 卞文彬, 刘洋等. 基于改进***深度残差收缩网络***的滚动轴承故障诊断方法[P]. 江苏省：CN114441173B, 2023-11-24.
+
+[219] 陈晓兵, 郭舒心, 张闯闯等. 一种基于改进***深度残差收缩网络***的轴承故障诊断方法[P]. 江苏省：CN117112991A, 2023-11-24.
+
+[220] 尹柏强, 程怡, 王若宇等. 基于改进一维***深度残差收缩网络***的电能质量扰动识别方法[P]. 安徽省：CN117093519A, 2023-11-21.
+
+[221] 张璐莹, 卞雨辰, 蒋鹏等. 一种基于改进***残差收缩网络***的管道漏磁图像识别方法[P]. 黑龙江省：CN117058443A, 2023-11-14.
+
+[222] 朱容波, 王晗铭, 李松泉. 基于纹理-颜色多尺度***残差收缩网络***的玉米病害识别方法[P]. 湖北省：CN116630960A, 2023-08-22.
+
+[223] 赵振喜, 宋京哲, 倪凤祥等. 一种基于***残差收缩网络***和长短期记忆网络的变电站设备寿命预测方法[P]. 吉林省：CN116595853A, 2023-08-15.
+
