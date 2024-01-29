@@ -489,3 +489,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [220] 尹柏强, 程怡, 王若宇等. 基于改进一维***深度残差收缩网络***的电能质量扰动识别方法[P]. 安徽省：CN117093519A, 2023-11-21.
 
 [221] 张璐莹, 卞雨辰, 蒋鹏等. 一种基于改进***残差收缩网络***的管道漏磁图像识别方法[P]. 黑龙江省：CN117058443A, 2023-11-14.
+
+[222] 赵建, 姜伟. 融合改进TCN与***DRSN***的IoT入侵检测模型[J/OL]. 小型微型计算机系统:1-10 [2024-01-29].
+
+[223] Sun Y, Zhang J, Zhang Y. New Deep Learning Network (***Deep Residual Shrinkage Network***) Is Applied for Lithology Identification To Search for the Reservoir of CO2 Geological Storage[J]. Energy & Fuels, 2024.
+
+[224] Ehteram M, Afshari Nia M, Panahi F, et al. Gaussian mutation–orca predation algorithm–***deep residual shrinkage network (DRSN)***–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data[J]. Environmental Sciences Europe, 2024, 36(1): 13.
