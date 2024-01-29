@@ -496,10 +496,8 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 [224] Ehteram M, Afshari Nia M, Panahi F, et al. Gaussian mutation–orca predation algorithm–***deep residual shrinkage network (DRSN)***–temporal convolutional network (TCN)–random forest model: an advanced machine learning model for predicting monthly rainfall and filtering irrelevant data[J]. Environmental Sciences Europe, 2024, 36(1): 13.
 
-[225] Sun Y, Pang S, Zhang J, et al. DRSN-GAF: Deep Residual Shrinkage Network (DRSN) for Lithology Classification through Well Logging Data Transformed by Gram Angle Field[J]. IEEE Geoscience and Remote Sensing Letters, 2023.
+[225] Sun Y, Pang S, Zhang J, et al. DRSN-GAF: ***Deep Residual Shrinkage Network (DRSN)*** for Lithology Classification through Well Logging Data Transformed by Gram Angle Field[J]. IEEE Geoscience and Remote Sensing Letters, 2023.
 
-[226] Zeng F, Guo M, Tan L, et al. Wearable Sensor-Based Residual Multifeature Fusion Shrinkage Networks for Human Activity Recognition[J]. Sensors, 2024, 24(3): 758.
+[226] Zhang L, Bian Y, Jiang P, et al. Improving Pipeline Magnetic Flux Leakage (MFL) Detection Performance with Mixed Attention Mechanisms (AM) and ***Deep Residual Shrinkage Networks (DRSN)***[J]. IEEE Sensors Journal, 2024.
 
-[227] Zhang L, Bian Y, Jiang P, et al. Improving Pipeline Magnetic Flux Leakage (MFL) Detection Performance with Mixed Attention Mechanisms (AM) and Deep Residual Shrinkage Networks (DRSN)[J]. IEEE Sensors Journal, 2024.
-
-[228] Li Q, Lu T, Lai C, et al. Lithium-ion battery capacity estimation based on fragment charging data using deep residual shrinkage networks and uncertainty evaluation[J]. Energy, 2023: 130208.
+[227] Li Q, Lu T, Lai C, et al. Lithium-ion battery capacity estimation based on fragment charging data using ***deep residual shrinkage networks*** and uncertainty evaluation[J]. Energy, 2023: 130208.
