@@ -501,3 +501,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [226] Zhang L, Bian Y, Jiang P, et al. Improving Pipeline Magnetic Flux Leakage (MFL) Detection Performance with Mixed Attention Mechanisms (AM) and ***Deep Residual Shrinkage Networks (DRSN)***[J]. IEEE Sensors Journal, 2024.
 
 [227] Li Q, Lu T, Lai C, et al. Lithium-ion battery capacity estimation based on fragment charging data using ***deep residual shrinkage networks*** and uncertainty evaluation[J]. Energy, 2023: 130208.
+
+[228] 陈仁祥, 张晓, 朱玉清等. 基于***深度残差收缩***迁移***网络***的复杂工况下滚动轴承故障诊断[J]. 振动与冲击, 2024, 43(03): 194-200.
+
+[229] 郭松宜. 基于***残差收缩网络***与注意力机制的遥感图像目标检测算法[D]. 西安科技大学, 2022.
+
+[230] 赵宇晗. 基于***残差收缩***的多状态下调节阀状态监控研究[D]. 哈尔滨工程大学, 2022.
