@@ -507,3 +507,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [229] 郭松宜. 基于***残差收缩网络***与注意力机制的遥感图像目标检测算法[D]. 西安科技大学, 2022.
 
 [230] 赵宇晗. 基于***残差收缩***的多状态下调节阀状态监控研究[D]. 哈尔滨工程大学, 2022.
+
+[231] Wang L, Zou T, Cai K, et al. Rolling bearing fault diagnosis method based on improved ***residual shrinkage network***[J]. Journal of the Brazilian Society of Mechanical Sciences and Engineering, 2024, 46(3): 1-12.
+
+[232] Li T, Wu X, Luo Z, et al. A Baring Fault Diagnosis Method under Small Sample Conditions Based on the Fractional Order Siamese ***Deep Residual Shrinkage Network***[J]. Fractal and Fractional, 2024, 8(3): 134.
+
+[233] Li S, Qin L, Zhao D, et al. Indoor positioning system for single LED light based on ***deep residual shrinkage network***[J]. Optics Communications, 2024: 130366.
