@@ -513,3 +513,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [232] Li T, Wu X, Luo Z, et al. A Baring Fault Diagnosis Method under Small Sample Conditions Based on the Fractional Order Siamese ***Deep Residual Shrinkage Network***[J]. Fractal and Fractional, 2024, 8(3): 134.
 
 [233] Li S, Qin L, Zhao D, et al. Indoor positioning system for single LED light based on ***deep residual shrinkage network***[J]. Optics Communications, 2024: 130366.
+
+[234] 高振国, 曹雯琪. 结合***残差收缩模块***的多传感器数据轴承故障诊断方法[P]. 福建省: CN117333715A, 2024-01-02.
+
+[235] 郭棉, 曾繁成, 柳秀山等. 一种基于***残差收缩网络***的人体活动识别方法[P]. 广东省: CN117523672A, 2024-02-06.
+
+[236] Zhu, X, Zhang, J, Wang, X, et al. Improved ***deep residual shrinkage network*** for a multi-cylinder heavy-duty engine fault detection with single channel surface vibration[J]. Energy and AI, 2024, 100356.
