@@ -525,3 +525,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [238] 黄湛钧, 董鑫, 卢沐宇等. 基于***DRSN***与电压幅值分析的航空HVDC系统逆变器故障诊断[J]. 航空学报, 2024, 45(03): 216-227.
 
 [239] Yang L, Chen Z, Xu Z, et al. Remaining Useful Life Prediction of Lithium-Ion Battery Based on Improved ***Deep Residual Shrinkage Network***. Available at SSRN 4753969.
+
+[240] 姜屹远. 基于***DRSN***-TCN的短期光伏功率预测及其不确定性分析[D]. 广西大学, 2023.
