@@ -519,3 +519,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [235] 郭棉, 曾繁成, 柳秀山等. 一种基于***残差收缩网络***的人体活动识别方法[P]. 广东省: CN117523672A, 2024-02-06.
 
 [236] Zhu, X, Zhang, J, Wang, X, et al. Improved ***deep residual shrinkage network*** for a multi-cylinder heavy-duty engine fault detection with single channel surface vibration[J]. Energy and AI, 2024, 100356.
+
+[237] 全睿, 刘品, 张键等. 基于***RSN***-GRU融合网络的锂电池荷电状态估计[J/OL]. 华中科技大学学报(自然科学版): 1-7 [2024-03-14].
+
+[238] 黄湛钧, 董鑫, 卢沐宇等. 基于***DRSN***与电压幅值分析的航空HVDC系统逆变器故障诊断[J]. 航空学报, 2024, 45(03): 216-227.
