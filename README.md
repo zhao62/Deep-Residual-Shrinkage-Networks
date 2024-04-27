@@ -527,3 +527,13 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [239] Yang L, Chen Z, Xu Z, et al. Remaining Useful Life Prediction of Lithium-Ion Battery Based on Improved ***Deep Residual Shrinkage Network***. Available at SSRN 4753969.
 
 [240] 姜屹远. 基于***DRSN***-TCN的短期光伏功率预测及其不确定性分析[D]. 广西大学, 2023.
+
+[241] 龚铭扬, 程瑞寅, 杨楚原, 等. 基于MRMR-***DRSN***的电力系统暂态稳定评估[J]. 电力学报, 2024, 39(01): 21-28.
+
+[242] 邵小强, 原泽文, 杨永德, 等. 基于GRU-***DRSN***的双通道人体活动识别[J]. 科学技术与工程, 2024, 24(02): 676-683.
+
+[243] 杨惠, 陈雷, 徐建军, 等. 基于一维***残差收缩网络***的电能质量复合扰动识别[J]. 自动化技术与应用, 2024, 43(04): 51-55.
+
+[244] 邱少明, 刘良玉, 王岩, 等. 一种基于改进***深度残差收缩网络***的机械设备故障诊断方法[P]. 辽宁省: CN202311750834.X, 2024-03-19.
+
+[245] 刘成勇, 吴玉意, 张丁丁, 等. 基于***深度残差收缩网络***的DAS管道监测信号识别方法[P]. 陕西省: CN202311624883.9, 2024-03-22.
