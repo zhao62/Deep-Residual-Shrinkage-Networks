@@ -537,3 +537,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [244] 邱少明, 刘良玉, 王岩, 等. 一种基于改进***深度残差收缩网络***的机械设备故障诊断方法[P]. 辽宁省: CN202311750834.X, 2024-03-19.
 
 [245] 刘成勇, 吴玉意, 张丁丁, 等. 基于***深度残差收缩网络***的DAS管道监测信号识别方法[P]. 陕西省: CN202311624883.9, 2024-03-22.
+
+[246] Yang J, Kong L, Ye H. Surface hardness determination of laser cladding using laser-induced breakdown spectroscopy and machine learning (PLSR, CNN, ResNet, and ***DRSN***). Applied Optics, 2024, 63(10), 2509-2517.
+
+[247] Yin J, Wen S, Zhang C, et al. Radar sequence HRRP target recognition based on ***DRSN***-LSTM. In Proceedings of the 2024 8th International Conference on Control Engineering and Artificial Intelligence, 2024, pp. 66-72.
