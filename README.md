@@ -541,3 +541,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [246] Yang J, Kong L, Ye H. Surface hardness determination of laser cladding using laser-induced breakdown spectroscopy and machine learning (PLSR, CNN, ResNet, and ***DRSN***). Applied Optics, 2024, 63(10), 2509-2517.
 
 [247] Yin J, Wen S, Zhang C, et al. Radar sequence HRRP target recognition based on ***DRSN***-LSTM. In Proceedings of the 2024 8th International Conference on Control Engineering and Artificial Intelligence, 2024, pp. 66-72.
+
+[248] 郝本建, 荣飞, 周子然, 等. 基于***DRSN***网络抗塔康干扰的IFF信号识别方法、系统、设备及存储介质[P]. 陕西省:CN202311817031.1, 2024-03-29.
