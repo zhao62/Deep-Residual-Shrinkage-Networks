@@ -547,3 +547,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [249] 朱劲锟, 郑侃, 梁振华, 等. 基于VAE-***DRSN***的微纳卫星推力器故障诊断方法[J]. 航天器工程, 2024, 33(02): 76-83.
 
 [250] 梁惠康, 谢浩燊, 黄红斌, 等. 基于改进***深度残差收缩网络***的分布式光纤声传感信号识别[J]. 激光与光电子学进展, 2024, 61(05): 162-168.
+
+[251] Liu Y, Wang Z, Zhang D, et al. Product Quality Anomaly Recognition and Diagnosis Based on ***DRSN***-SVM-SHAP. Symmetry, 2024, 16(5), 532.
