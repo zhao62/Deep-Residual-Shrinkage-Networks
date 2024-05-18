@@ -549,3 +549,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [250] 梁惠康, 谢浩燊, 黄红斌, 等. 基于改进***深度残差收缩网络***的分布式光纤声传感信号识别[J]. 激光与光电子学进展, 2024, 61(05): 162-168.
 
 [251] Liu Y, Wang Z, Zhang D, et al. Product Quality Anomaly Recognition and Diagnosis Based on ***DRSN***-SVM-SHAP. Symmetry, 2024, 16(5), 532.
+
+[252] 高树辉, 张浩. 融合HSI的***深度残差收缩网络***鉴别变造文件字迹油墨研究[J]. 中国人民公安大学学报(自然科学版), 2024, 30(01): 1-7.
