@@ -565,3 +565,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [258] 宋月, 安治国, 黄晓红, 等. 一种基于改进***深度残差收缩网络***的图像纹理预测方法[P]. 河北省:CN202410157446.9, 2024-05-10.
 
 [259] 田波, 张广生, 马泽宁, 等. 基于EMD-***DRSN***和ILSO-SVM的水电机组故障诊断[J/OL]. 中国农村水利水电, 1-13[2024-05-24].
+
+[260] X Li, J Chen, J Wang, et al. Research on Fault Diagnosis Method of Bearings in the Spindle System for CNC Machine Tools Based on ***DRSN***-Transformer[J].IEEE Access, Accepted.
