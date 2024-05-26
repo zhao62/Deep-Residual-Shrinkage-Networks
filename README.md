@@ -567,3 +567,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [259] 田波, 张广生, 马泽宁, 等. 基于EMD-***DRSN***和ILSO-SVM的水电机组故障诊断[J/OL]. 中国农村水利水电, 1-13[2024-05-24].
 
 [260] X Li, J Chen, J Wang, et al. Research on Fault Diagnosis Method of Bearings in the Spindle System for CNC Machine Tools Based on ***DRSN***-Transformer[J].IEEE Access, Accepted.
+
+[261] Zhang, X, Wang, Y, Wei, S, et al. Multi-scale ***deep residual shrinkage networks*** with a hybrid attention mechanism for rolling bearing fault diagnosis[J]. Journal of Instrumentation, 2024, 19(05), P05015.
+
+[262] Wang, Q, Nie, Z, Liu, H. Assessment of Power System Stability During Transients Using ***Deep Residual Shrinkage Network*** and CBAM Integration[J]. Journal of Circuits, Systems and Computers, 2024.
