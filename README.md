@@ -571,3 +571,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [261] Zhang, X, Wang, Y, Wei, S, et al. Multi-scale ***deep residual shrinkage networks*** with a hybrid attention mechanism for rolling bearing fault diagnosis[J]. Journal of Instrumentation, 2024, 19(05), P05015.
 
 [262] Wang, Q, Nie, Z, Liu, H. Assessment of Power System Stability During Transients Using ***Deep Residual Shrinkage Network*** and CBAM Integration[J]. Journal of Circuits, Systems and Computers, 2024.
+
+[263] 刘高辉, 宋博武. 低信噪比下***DRSN***和集成融合的OFDM通信辐射源个体识别的方法[P]. 陕西: CN202410125095.3, 2024-05-24.
+
+[264] Zuo, F, Zhang, D, Li, L, et al. GSOOA-1DDRSN: Network Traffic Anomaly Detection Based on ***Deep Residual Shrinkage Networks***[J]. Heliyon, 2024.
+
+[265] Zhang, P, Xue, Y, Song, R, et al. Photovoltaic DC arc fault detection method based on ***deep residual shrinkage network***. Journal of Power Electronics, 2024, 1-13.
