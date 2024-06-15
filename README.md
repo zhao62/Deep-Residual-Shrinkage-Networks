@@ -579,3 +579,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [265] Zhang, P, Xue, Y, Song, R, et al. Photovoltaic DC arc fault detection method based on ***deep residual shrinkage network***. Journal of Power Electronics, 2024, 1-13.
 
 [266] 王晓琪, 吴轲, 赵观辉, 等. 基于全局注意力***残差收缩网络***的柱塞泵故障诊断方法[J/OL]. 中国舰船研究, 1-8 [2024-06-15].
+
+[267] Jiang W, Wu J, Zhu H, et al.Multi-Model Fusion Health Assessment for MultiState Industrial Robot via Fuzzy ***Deep Residual Shrinkage Network*** and Versatile Cluster[J]. IEEE Transactions on Fuzzy Systems. 2024.
