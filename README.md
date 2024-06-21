@@ -583,3 +583,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [267] Jiang W, Wu J, Zhu H, et al.Multi-Model Fusion Health Assessment for MultiState Industrial Robot via Fuzzy ***Deep Residual Shrinkage Network*** and Versatile Cluster[J]. IEEE Transactions on Fuzzy Systems. 2024.
 
 [268] 李振东. 基于***残差收缩网络***和卷积网络的机器人地面分类研究[D]. 哈尔滨工程大学, 2023.
+
+[269] 曾高俊, 芦天亮, 任英杰, 等. 改进***深度残差收缩网络***的端到端合成语音检测[J/OL]. 计算机科学与探索, 1-15 [2024-06-21].
