@@ -585,3 +585,17 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [268] 李振东. 基于***残差收缩网络***和卷积网络的机器人地面分类研究[D]. 哈尔滨工程大学, 2023.
 
 [269] 曾高俊, 芦天亮, 任英杰, 等. 改进***深度残差收缩网络***的端到端合成语音检测[J/OL]. 计算机科学与探索, 1-15 [2024-06-21].
+
+[270] 刘京华,魏祥麟,范建华,等.基于时序***深度残差收缩网络***的混叠信号调制识别方法[J/OL].电信科学,1-20[2024-08-02].
+
+[271] Sun T, Gao J, Meng L, et al. A bearing fault diagnosis method based on adaptive ***residual shrinkage network***[J]. Measurement, 2024: 115416.
+
+[272] Cao J, Zhang J, Jiao X, et al. Gearbox Fault Diagnosis Method in Noisy Environments Based on ***Deep Residual Shrinkage Networks***[J]. Sensors, 2024, 24(14): 4633.
+
+[273] Gao S, Li T, Dong X. Soft sensor modeling based on masked convolutional transformer block ***deep residual shrinkage network***[J]. Journal of the Taiwan Institute of Chemical Engineers, 2024, 163: 105666.
+
+[274] Peng H, Li J, Cheng W, et al. Automatic diagnosis of pediatric high myopia via Attention-based Patch ***Residual Shrinkage network***[J]. Expert Systems with Applications, 2024: 124704.
+
+[275] 谢振华, 侯林明, 黄惠根, 等. 一种基于***深度残差收缩网络***的光伏串联直流电弧故障检测方法、存储介质及电子设备[P]. 浙江省: CN202410170401.5, 2024-06-25.
+
+[276] 高慧慧, 马晟魁, 韩红桂, 等. 一种基于注意力增强记忆***残差收缩网络***的滚动轴承早期故障监测方法[P]. 北京市:CN202410280268.9, 2024-06-21.
