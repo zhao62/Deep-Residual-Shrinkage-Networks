@@ -601,3 +601,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [276] 高慧慧, 马晟魁, 韩红桂, 等. 一种基于注意力增强记忆***残差收缩网络***的滚动轴承早期故障监测方法[P]. 北京市:CN202410280268.9, 2024-06-21.
 
 [277] 陈松, 陈文华, 张文广. 基于***DRSN***融合Transformer编码器的轴承故障诊断方法研究[J]. 自动化与仪表, 2024, 39(05): 103-108.
+
+[278] Luo L, Liu Y. Fault Diagnosis of Planetary Gear Train Crack Based on DC-***DRSN***[J]. Applied Sciences, 2024, 14(16), 6873.
