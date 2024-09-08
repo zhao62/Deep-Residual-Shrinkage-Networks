@@ -607,3 +607,17 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [279] F. Wang; D. Chen; X. Zhang. Mental Fatigue Detection of Construction Equipment Operators Based on EEG Collected by A Novel Valve-type Semi-dry Electrode Using ***Deep Residual Shrinkage Networks*** under Real Construction Environment, IEEE Transactions on Instrumentation and Measurement, 2024.
 
 [280] 杜雨蒙, 庄炜, 张旭, 等. 基于***DRSN***的MG-Y激光器快速准连续波长调谐方法[J]. 光子学报, 2024, 53(08): 167-176.
+
+[281] T. Sun, J. Gao. New Fault Diagnosis Method for Rolling Bearings Based on Improved ***Residual Shrinkage Network*** Combined with Transfer Learning[J]. Sensors, 24(2024): 5700.
+
+[282] Zhang Li, et al. ***Residual Shrinkage*** ViT with Discriminative Rebalancing Strategy for Small and Imbalanced Fault Diagnosis[J]. Sensors, 24(2024): 890.
+
+[283] Chen H, et al. Automatic Modulation Recognition Method Based on Phase Transformation and ***Deep Residual Shrinkage Network***[J]. Electronics, 13(2024): 2141.
+
+[284] Liu Z., et al. ***Deep residual shrinkage network*** with multichannel VMD inputs for noise reduction of micro-thrust measurement[J]. AIP Advances, 14.6 (2024).
+
+[285] Li S., H. Peng, Z. Mao. ***Deep Residual Shrinkage Network*** Based Fault Diagnosis for Quadrotor UAV Formation System[J]. IEEE 13th Data Driven Control and Learning Systems Conference, 2024.
+
+[286] Liu, Xiangyu, and Zipeng Hou. Improved ***Deep Residual Shrinkage Network*** for Noisy Image Recognition. 5th International Seminar on Artificial Intelligence, Networking and Information Technology, 2024.
+
+[287] Lin Z., et al. GNSS blanket jamming classification algorithm based on spatial attention mechanism and ***residual shrinkage neural network***[J]. Measurement Science and Technology, 35(2024): 045120.
