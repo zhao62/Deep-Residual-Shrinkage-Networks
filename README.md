@@ -605,3 +605,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [278] Luo L, Liu Y. Fault Diagnosis of Planetary Gear Train Crack Based on DC-***DRSN***[J]. Applied Sciences, 2024, 14(16), 6873.
 
 [279] F. Wang; D. Chen; X. Zhang. Mental Fatigue Detection of Construction Equipment Operators Based on EEG Collected by A Novel Valve-type Semi-dry Electrode Using ***Deep Residual Shrinkage Networks*** under Real Construction Environment, IEEE Transactions on Instrumentation and Measurement, 2024.
+
+[280] 杜雨蒙, 庄炜, 张旭, 等. 基于***DRSN***的MG-Y激光器快速准连续波长调谐方法[J]. 光子学报, 2024, 53(08): 167-176.
