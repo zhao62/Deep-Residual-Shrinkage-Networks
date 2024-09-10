@@ -823,3 +823,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [387] 闫学成.《4.1 基于一维***深度残差收缩网络***的温度传感器偏差故障诊断方法》中央空调冷源系统温度传感器偏差故障诊断方法研究[D].华南理工大学,2023.
 
 [388] 张诚志.《第三章 基于I***DRSN***-LSTM的变工况下的轴承故障诊断》基于深度学习的变工况下轴承故障诊断[D].安徽大学,2023.
+
+[389] Yin B, Zeng Y, Wang R, et al. Small-Sample GIS Partial Discharge Type Identification Method Based on Fusion of One-Dimensional AT-***DRSN*** and IDRN Models[J]. IEEE Transactions on Dielectrics and Electrical Insulation, 2024.
+
+[390] Y. Shang, L. Geng, C. Li, et al. A Multi-Fault Testing Method for TSVs Based on GAF-***DRSN*** and Mirror Constant Current Source Structure[J]. IEEE Transactions on Components, Packaging and Manufacturing Technology, 2024.
+
+[391] Gao H, Zhang X, Gao X, et al. Multi-timescale Attention ***Residual Shrinkage Network*** with Adaptive Global-Local Denoising for Rolling-Bearing Fault Diagnosis[J]. Knowledge-Based Systems, 2024: 112478.
