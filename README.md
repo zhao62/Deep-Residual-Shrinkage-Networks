@@ -829,3 +829,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [390] Y. Shang, L. Geng, C. Li, et al. A Multi-Fault Testing Method for TSVs Based on GAF-***DRSN*** and Mirror Constant Current Source Structure[J]. IEEE Transactions on Components, Packaging and Manufacturing Technology, 2024.
 
 [391] Gao H, Zhang X, Gao X, et al. Multi-timescale Attention ***Residual Shrinkage Network*** with Adaptive Global-Local Denoising for Rolling-Bearing Fault Diagnosis[J]. Knowledge-Based Systems, 2024: 112478.
+
+[392] 宋博武. 《***DRSN***与集成融合的OFDM辐射源个体识别方法研究》改进残差网络的OFDM辐射源个体识别方法研究[D]. 西安理工大学, 2024.
