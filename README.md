@@ -831,3 +831,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [391] Gao H, Zhang X, Gao X, et al. Multi-timescale Attention ***Residual Shrinkage Network*** with Adaptive Global-Local Denoising for Rolling-Bearing Fault Diagnosis[J]. Knowledge-Based Systems, 2024: 112478.
 
 [392] 宋博武. 《***DRSN***与集成融合的OFDM辐射源个体识别方法研究》改进残差网络的OFDM辐射源个体识别方法研究[D]. 西安理工大学, 2024.
+
+[393] 安有为.《第四章 基于时频增强和***深度残差收缩网络***的LFM信号源分类识别》抗信道影响的LFM信号源识别[D].东南大学,2023.
