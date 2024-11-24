@@ -859,3 +859,21 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [405] 李逸凡. 基于***深度残差收缩网络***的射频指纹特征提取与识别研究[D]. 海南大学, 2023.
 
 [406] 张正旭. 基于注意力和多尺度***残差收缩***U-Net的胎儿心电提取[D]. 哈尔滨理工大学, 2023.
+
+[407] 王瑞峰, 王智. 基于***DRSN***-BiLSTM的S700K转辙机故障诊断[J/OL]. 电子测量与仪器学报, 1-10[2024-11-24].
+
+[408] 韩东洋,陈宏,陈新财,等.短时傅里叶变换结合***DRSN***的滚动轴承故障诊断研究[J].中国测试,2024,50(10):136-141.
+
+[409] Lv X, Wang J, Qin R, et al. Self-learning guided ***residual shrinkage network*** for intelligent fault diagnosis of planetary gearbox[J]. Engineering Applications of Artificial Intelligence, 2025, 139: 109603.
+
+[410] Qiu S, Liu L, Wang Y, Mechanical equipment fault diagnosis method based on improved ***deep residual shrinkage network***[J]. PloS one, 2024, 19(10): e0307672.
+
+[411] Xu C, Wu J, Xuan Q, et al. A Robust Specific Emitter Identification Method for CPS Devices Based on ***Deep Residual Shrinkage Network***[J]. IEEE Transactions on Reliability, 2024.
+
+[412] Wang L, Xie K. Multi‐function radar work mode recognition based on ***residual shrinkage*** reconstruction recurrent neural network[J]. IET Radar, Sonar & Navigation, 2024.
+
+[413] Hong L, Wen C.Rolling bearing fault diagnosis based on multiscale ***residual shrinkage network***[C]. In Sixth International Conference on Information Science, Electrical, and Automation Engineering (ISEAE 2024) (Vol. 13275, pp. 559-564).
+
+[414] Wang L, Zhu T, Xu X, et al. Detection and Identification of Maize Disease and Insect Pests Based on the Spatial ***Residual Shrinkage Network*** Model[C]. In 8TH International Conference on Computing, Control and Industrial (Vol. 2, p. 86). Springer Nature, 2024.
+
+[415] Yin S, Chen Z. Research on Compound Fault Diagnosis of Bearings Using an Improved ***DRSN***-GRU Dual-Channel Model[J]. IEEE Sensors Journal, 2024.
