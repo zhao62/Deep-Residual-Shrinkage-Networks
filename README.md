@@ -48,9 +48,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 ## Thanks for the applications
 
-[1] Li Y, Chen H. Image recognition based on ***deep residual shrinkage Network***[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
+[1] Li Y, Chen H. Image recognition based on **deep residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
 
-[2] Yu Y, Guo L, Gao H, et al. Pareto-optimal adaptive loss ***residual shrinkage network*** for imbalanced fault diagnostics of machines[J]. IEEE Transactions on Industrial Informatics, 2021, 18(4): 2233-2243.
+[2] Yu Y, Guo L, Gao H, et al. Pareto-optimal adaptive loss **residual shrinkage network** for imbalanced fault diagnostics of machines[J]. IEEE Transactions on Industrial Informatics, 2021, 18(4): 2233-2243.
 
 [3] Hu H, Ma X, Shang Y. A novel method for transformer fault diagnosis based on refined ***deep residual shrinkage network***[J]. IET Electric Power Applications, 2022, 16(2): 206-223.
 
@@ -970,10 +970,10 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 [461] 王瑞东.《4.2 ***深度残差收缩网络***》基于多级多输出深度学习模型的滚动轴承故障诊断方法研究[D].长安大学,2023.
 
-[462] 卢安琪.《4.3.2 时域注意力机制***残差收缩网络***》《4.3.3 通道域注意力机制***残差收缩网络***》基于集成学习与注意力机制的泵机设备异常声音检测方法研究[D].合肥学院,2023.
+[462] 卢安琪.《4.3.2 时域注意力机制**残差收缩网络**》《4.3.3 通道域注意力机制**残差收缩网络**》基于集成学习与注意力机制的泵机设备异常声音检测方法研究[D].合肥学院,2023.
 
-[463] 刘艳.《2.4 ***深度残差收缩网络***》基于深度学习的圆锥角膜辅助诊断[D].天津理工大学,2023.
+[463] 刘艳.《2.4 **深度残差收缩网络**》基于深度学习的圆锥角膜辅助诊断[D].天津理工大学,2023.
 
-[464] 王钧珲.《3.2.3 一维***残差收缩网络***》基于脑电微状态与功能脑网络的听障者情感识别研究[D].天津理工大学,2023.
+[464] 王钧珲.《3.2.3 一维**残差收缩网络**》基于脑电微状态与功能脑网络的听障者情感识别研究[D].天津理工大学,2023.
 
-[465] 李颖.《第5章 基于***残差收缩网络***的单幅图像超分辨率方法》基于深度学习的单幅图像超分辨率方法研究[D].哈尔滨工业大学,2023.
+[465] 李颖.《第5章 基于**残差收缩网络**的单幅图像超分辨率方法》基于深度学习的单幅图像超分辨率方法研究[D].哈尔滨工业大学,2023.
