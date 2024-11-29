@@ -47,9 +47,8 @@ Validation accuracy  | 85.87% | 85.57%
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
 
 ## Thanks for the applications
-$${\color{red}[1] Li Y, Chen H. Image recognition based on **deep residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.}$$
 
-[1] Li Y, Chen H. Image recognition based on **deep residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
+[1] Li Y, Chen H. Image recognition based on **$${\color{red}deep}$$ residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
 
 [2] Yu Y, Guo L, Gao H, et al. Pareto-optimal adaptive loss **residual shrinkage network** for imbalanced fault diagnostics of machines[J]. IEEE Transactions on Industrial Informatics, 2021, 18(4): 2233-2243.
 
