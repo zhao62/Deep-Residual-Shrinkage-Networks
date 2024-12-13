@@ -22,26 +22,6 @@ https://ieeexplore.ieee.org/document/8850096
 
 http://homepage.hit.edu.cn/zhaominghang
 
-## Results:
-
-**(1) The performance on the manually noised Cifar10 dataset**
-
-In the DRSN_TFLearn.py, we manually add noise to the Cifar10 dataset, and get the results of a deep residual shrinkage network. Then, we delete lines 79-88 in DRSN_TFLearn.py, make it be a deep residual network, and get its results.
-
-Methods  | Deep residual shrinkage network  | Deep residual network
- ---- | ----- | ------  
-Training accuracy  | 88.96% | 87.78%
-Validation accuracy  | 84.33% | 83.99%
-
-**(2) The performance on the un-noised Cifar10 dataset**
-
-If we delete lines 25-27 in DRSN_TFLearn.py, the code will conduct a deep residual shrinkage network on the Cifar10 dataset without manually added noise. Then, if we delete lines 79-88 in DRSN_TFLearn.py, the code will conduct a deep residual network on the un-noised Cifar10 dataset.
-
-Methods  | Deep residual shrinkage network  | Deep residual network
- ---- | ----- | ------  
-Training accuracy  | 90.28% | 89.26%
-Validation accuracy  | 85.87% | 85.57%
-
 ## Additional notes
 
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
