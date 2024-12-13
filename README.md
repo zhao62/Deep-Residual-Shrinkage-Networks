@@ -1,4 +1,4 @@
-# Deep-Residual-Shrinkage-Networks (深度残差收缩网络)
+# Deep-Residual-Shrinkage-Networks 深度残差收缩网络
 
 The deep residual shrinkage network is a variant of deep residual networks (ResNets), and aims to improve the feature learning ability from highly noise signals or complex backgrounds. Although the method is originally developed for vibration-based fault diagnosis, it can be applied to image recognition and speech recognition as well. The major innovation is the integration of soft thresholding as nonlinear transformation layers into ResNets. Moreover, the thresholds are automatically determined by a specially designed sub-network, so that no professional expertise on threshold determination is required.
 
