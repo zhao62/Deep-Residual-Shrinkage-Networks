@@ -14,7 +14,7 @@ This paper develops new deep learning methods, namely, deep residual shrinkage n
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
-***The paper has been cited over 1000 times on Google Scholar.***
+***The paper has been cited over 1000 times on Google Scholar.(本论文的谷歌学术引用量已经超过1000次)***
 
 https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
@@ -1577,3 +1577,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [622] 史宝岱, 张秦, 李瑶, 等. 基于改进残差注意力网络的SAR图像目标识别[J]. 激光与光电子学进展, 2021, 58(08): 114-122.
 
 >首先分析了对网络添加注意力机制的必要性，接着在残差注意力网络中引入**残差收缩块**，从识别率和参数量的角度进行实验分析。
+
+[623] 孙瑶, 姜千一, 王志坚, 等. 一种三相鼠笼式异步电机转子断条小样本故障诊断方法[P]. 北京市:CN202411221230.0, 2024-12-10.
+
+>首先采用改进**残差收缩网络**对于电流及振动数据滤除噪声分量，提高少量可利用训练样本的参考价值，提取更多有效特征；其次采用密集连接机制连接每个**残差收缩模块**，实现特征重用以避免**残差收缩模块**滤除有效信息；
+
+[624] 缪金, 张涛, 陈静静, 等. 一种GIS局部放电类型识别方法、装置、终端及介质[P]. 江苏省:CN202411235257.5, 2024-12-10.
+
+>利用所述样本集对构建的**深度残差收缩网络DRSN**识别模型进行训练，并以SLoss损失函数最小为目标对模型的网络参数进行优化；
