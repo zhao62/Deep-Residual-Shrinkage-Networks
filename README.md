@@ -9,12 +9,12 @@ The method is implemented using TensorFlow 1.0.1, TFLearn 0.3.2, and Keras 2.2.1
 ## Abstract:
 This paper develops new deep learning methods, namely, deep residual shrinkage networks, to improve the feature learning ability from highly noised vibration signals and achieve a high fault diagnosing accuracy. Soft thresholding is inserted as nonlinear transformation layers into the deep architectures to eliminate unimportant features. Moreover, considering that it is generally challenging to set proper values for the thresholds, the developed deep residual shrinkage networks integrate a few specialized neural networks as trainable modules to automatically determine the thresholds, so that professional expertise on signal processing is not required. The efficacy of the developed methods is validated through experiments with various types of noise.
 
-## Paper:
+## Original Paper (原始文献):
 
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
-**The paper has been cited over 1000 times on Google Scholar.(本论文的谷歌学术引用量已经超过1000次)**
+**The paper has been cited over 1000 times on Google Scholar. (本论文的谷歌学术引用量已经超过1000次)**
 
 https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
