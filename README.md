@@ -1,4 +1,4 @@
-# Deep-Residual-Shrinkage-Networks
+# Deep-Residual-Shrinkage-Networks (深度残差收缩网络)
 
 The deep residual shrinkage network is a variant of deep residual networks (ResNets), and aims to improve the feature learning ability from highly noise signals or complex backgrounds. Although the method is originally developed for vibration-based fault diagnosis, it can be applied to image recognition and speech recognition as well. The major innovation is the integration of soft thresholding as nonlinear transformation layers into ResNets. Moreover, the thresholds are automatically determined by a specially designed sub-network, so that no professional expertise on threshold determination is required.
 
@@ -9,7 +9,7 @@ The method is implemented using TensorFlow 1.0.1, TFLearn 0.3.2, and Keras 2.2.1
 ## Abstract:
 This paper develops new deep learning methods, namely, deep residual shrinkage networks, to improve the feature learning ability from highly noised vibration signals and achieve a high fault diagnosing accuracy. Soft thresholding is inserted as nonlinear transformation layers into the deep architectures to eliminate unimportant features. Moreover, considering that it is generally challenging to set proper values for the thresholds, the developed deep residual shrinkage networks integrate a few specialized neural networks as trainable modules to automatically determine the thresholds, so that professional expertise on signal processing is not required. The efficacy of the developed methods is validated through experiments with various types of noise.
 
-## Reference:
+## Paper:
 
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
@@ -1567,3 +1567,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [624] 缪金, 张涛, 陈静静, 等. 一种GIS局部放电类型识别方法、装置、终端及介质[P]. 江苏省:CN202411235257.5, 2024-12-10.
 
 >利用所述样本集对构建的**深度残差收缩网络DRSN**识别模型进行训练，并以SLoss损失函数最小为目标对模型的网络参数进行优化；
+
+[625] Zhang C, Luo S, Cao S, et al. Evaluating Pilot Mental Workload Using fNIRS-Based Functional Connectivity Features with a **Deep Residual Shrinkage Network** Under Emergency Flight Scenarios[J]. International Journal of Human–Computer Interaction, 2024, 1-16.
+
+[626] Li X, Wang J, Wang J, et al. The research of digital twin models for CNC spindle systems based on **deep residual shrinkage network**[C]. In Journal of Physics: Conference Series, 2024, vol. 2921, no. 1, p. 012023).
