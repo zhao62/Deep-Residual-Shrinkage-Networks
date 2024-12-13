@@ -6,10 +6,10 @@ The deep residual shrinkage network is a variant of deep residual networks (ResN
 
 The method is implemented using TensorFlow 1.0.1, TFLearn 0.3.2, and Keras 2.2.1, and applied for image classification. A small network with 3 residual shrinkage blocks is constructed in the code. More blocks and more training iterations can be used for a higher performance.
 
-## Abstract:
+## Abstract (摘要)
 This paper develops new deep learning methods, namely, deep residual shrinkage networks, to improve the feature learning ability from highly noised vibration signals and achieve a high fault diagnosing accuracy. Soft thresholding is inserted as nonlinear transformation layers into the deep architectures to eliminate unimportant features. Moreover, considering that it is generally challenging to set proper values for the thresholds, the developed deep residual shrinkage networks integrate a few specialized neural networks as trainable modules to automatically determine the thresholds, so that professional expertise on signal processing is not required. The efficacy of the developed methods is validated through experiments with various types of noise.
 
-## Original Paper (原始文献):
+## Original Paper (原始文献)
 
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
@@ -22,11 +22,11 @@ https://ieeexplore.ieee.org/document/8850096
 
 http://homepage.hit.edu.cn/zhaominghang
 
-## Additional notes
+## Additional notes (备注)
 
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
 
-## Thanks for the applications
+## Thanks for the applications (感谢以下文献及作者)
 
 **According to incomplete statistics, deep residual shrinkage networks have been directly applied or improved by many scholars to many fields such as machinery, electricity, vision, medical, speech, text, radar, remote sensing.(根据不完全统计，深度残差收缩网络已经被国内外学者直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域)**
 
