@@ -48,6 +48,8 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 ## Thanks for the applications
 
+**According to incomplete statistics, deep residual shrinkage networks have been directly applied or improved by many scholars to many fields such as machinery, electricity, vision, medical, speech, text, radar, remote sensing in hundreds of literatures.(根据不完全统计，深度残差收缩网络已经在数百篇文献中被国内外学者直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域)**
+
 [1] Li Y, Chen H. Image recognition based on **deep residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
 
 [2] Yu Y, Guo L, Gao H, et al. Pareto-optimal adaptive loss **residual shrinkage network** for imbalanced fault diagnostics of machines[J]. IEEE Transactions on Industrial Informatics, 2021, 18(4): 2233-2243.
