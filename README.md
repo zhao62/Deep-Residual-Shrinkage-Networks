@@ -22,11 +22,11 @@ https://ieeexplore.ieee.org/document/8850096
 
 http://homepage.hit.edu.cn/zhaominghang
 
-## Additional notes (备注)
+## Additional Notes (备注)
 
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
 
-## Thanks for the applications (感谢以下文献及作者)
+## Thanks for the Applications (感谢以下文献及作者)
 
 **According to incomplete statistics, deep residual shrinkage networks have been directly applied or improved by many scholars to many fields such as machinery, electricity, vision, medical, speech, text, radar, remote sensing.(根据不完全统计，深度残差收缩网络已经被国内外学者直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域)**
 
