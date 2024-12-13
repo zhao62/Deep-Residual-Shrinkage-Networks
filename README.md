@@ -14,7 +14,7 @@ This paper develops new deep learning methods, namely, deep residual shrinkage n
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
-***The paper has been cited over 1000 times on Google Scholar.(本论文的谷歌学术引用量已经超过1000次)***
+**The paper has been cited over 1000 times on Google Scholar.(本论文的谷歌学术引用量已经超过1000次)**
 
 https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
