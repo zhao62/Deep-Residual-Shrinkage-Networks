@@ -2023,3 +2023,71 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [720] 邵杰,蔡田田,李肖博,等.低压配电网串联电弧故障检测方法、装置、设备和介质[P].广东省:CN202410588034.0,2024-09-13.
 
 >针对连续小波变换得到的时频图特征设计了**深度残差收缩网络**的电弧故障检测模型。
+
+[721] Yang T, Tang T, Wang J, et al. A novel cross-domain fault diagnosis method based on model agnostic meta-learning. Measurement, 2022, 199, p.111564.
+
+>Meanwhile, the training strategy of MAML is optimized to adapt to the cross-domain problem, and the **residual shrinkage network** and the large-margin Gaussian Mixture (L-GM) loss are applied to improve the classification accuracy of the model.
+
+[722] Zhang J, Xing L, Tan Z, et al. Multi-head attention fusion networks for multi-modal speech emotion recognition. Computers & Industrial Engineering, 2022, 168, p.108078.
+
+>In unimodal, we use a two-layer Transformer’s encoder combination model to extract speech and text features separately, and MoCap is modeled using a **deep residual shrinkage network**.
+
+[723] Wu X, Xu B, Luo H, et al. Adulteration quantification of cheap honey in high-quality Manuka honey by two-dimensional correlation spectroscopy combined with deep learning. Food Control, 2023, 154, p.110010.
+
+>The combination of synchronous 2D-COS and **deep residual shrinkage networks** (**DRSN**) achieved the best performance compared to the other models, with the root mean square errors of prediction (RMSEP) of 3.1166 for Manuka honey and 2.3188 for acacia honey, respectively.
+
+[724] Xu X, Zhang Y, Zhang R et al. Patient-specific method for predicting epileptic seizures based on **DRSN**-GRU. Biomedical Signal Processing and Control, 2023, 81, p.104449.
+
+>A patient-specific seizure prediction method based on **deep residual shrinkage network** (**DRSN**) and gated recurrent unit (GRU) was then proposed.
+
+[725] Xing Z, He Y, Chen J, et al. Health evaluation of power transformer using deep learning neural network. Electric Power Systems Research, 2023, 215, p.109016.
+
+>And then, the significant features are extracted by DLNN which contains improved **Deep Residual Shrinkage Networks** (IDRSN) and the one-dimension convolution neural network (1DCNN).
+
+[726] Ma X, Hu H, Ren Y. A hybrid deep learning model based on feature capture of water level influencing factors and prediction error correction for water level prediction of cascade hydropower stations under multiple time scales. Journal of Hydrology, 2023, 617, p.129044.
+
+>A new hybrid model based on a refined **deep residual shrinkage network** and an optimized gated recurrent unit – long term memory network (GRU-LSTM) model is proposed for water level prediction at different time scales.
+
+[727] Su Z, Yu J, Xiao X, et al. Deep learning seismic damage assessment with embedded signal denoising considering three-dimensional time–frequency feature correlation. Engineering Structures, 2023, 286, p.116148.
+
+>Seismic signals are first transformed into time–frequency maps using NAMEMD (noise-assisted multivariate empirical mode decomposition) and non-parametric time–frequency analysis with Duhamel integral, and the seismic damage level is predicted with a **deep residual shrinkage network** (DRSNet).
+
+[728] Zhang R, Jia J, Zhang R.EEG analysis of Parkinson's disease using time–frequency analysis and deep learning. Biomedical Signal Processing and Control, 2022, 78, p.103883.
+
+> By combining time–frequency analysis with deep learning, tunable Q-factor wavelet transform with **deep residual shrinkage network** (TQWT-DRSN) and the wavelet packet transform with **deep residual shrinkage network** (WPT-DRSN) are applied to classify four kinds of clinical sleep EEG data in Shaanxi Provincial People's Hospital...
+
+[729] Quan R, Liu P, Li Z, et al. A multi-dimensional residual shrinking network combined with a long short-term memory network for state of charge estimation of Li-ion batteries. Journal of Energy Storage, 2023, 57, p.106263.
+
+>To solve these problems, a fusion network combining a multi-dimensional **residual shrinkage network** (MRSN) with a long short-term memory network (LSTM) is proposed for SoC estimation. 
+
+[730] Mandava M. MDensNet201-IDRSRNet: Efficient cardiovascular disease prediction system using hybrid deep learning. Biomedical Signal Processing and Control, 2024, 93, p.106147.
+
+>Finally, a deep learning-based improved **deep residual shrinkage network** (IDRSNet) is employed to predict cardiovascular disease.
+
+[731] Li H, Zhang Z, Zhang C.Data augmentation via variational mode reconstruction and its application in few-shot fault diagnosis of rolling bearings. Measurement, 2023, 217, p.113062.
+
+>Next, the augmented balanced dataset is utilized to train a **deep residual shrinkage network** (**DRSN**), which is then employed for the classification of test samples.
+
+[732] Dai C, Hu S, Zhang Y, et al. Cavitation state identification of centrifugal pump based on CEEMD-**DRSN**. Nuclear Engineering and Technology, 2023, 55(4), pp.1507-1517.
+
+>A closed cavitation test bench of a centrifugal pump is constructed, and a method for precisely identifying the cavitation state is proposed based on Complementary Ensemble Empirical Mode Decomposition (CEEMD) and **Deep Residual Shrinkage Network** (DRSN). First, we compared the cavitation sensitivity of pressure fluctuation, vibration, and liquid-borne noise and decomposed the liquid-borne noise by CEEMD to capture cavitation characteristics. The decomposition results are sent into a 12-layer **deep residual shrinkage network** (**DRSN**) for cavitation identification training.
+
+[733] Dai C, Hu S, Zhang Y, et al. Cavitation state identification of centrifugal pump based on CEEMD-DRSN. Nuclear Engineering and Technology, 2023, 55(4), pp.1507-1517.
+
+>This paper presents an Efficient Shrinkage Temporal Convolutional Network (ESTCN) model, which combines the Temporal Convolutional Network (TCN) and an improved **Deep Residual Shrinkage Network** (**DRSN**) to forecast PV power output.
+
+[734] Chen J, Lin W, Cai S, et al. BiTCN_**DRSN**: An effective software vulnerability detection model based on an improved temporal convolutional network. Journal of Systems and Software, 2023, 204, p.111772.
+
+>To overcome the limitations of the traditional TCN, we propose a bidirectional TCN model based on the **Deep Residual Shrinkage Network** (**DRSN**), namely BiTCN_DRSN. 
+
+[735] Yin H, Xu H, Fan W, et al. Fault diagnosis of pressure relief valve based on improved deep Residual Shrinking Network. Measurement, 2024, 224, p.113752.
+
+>Specifically, we combined the Elastic Weight Consolidation (EWC) algorithm with **Deep Residual Shrinkage Network** (**DRSN**) to achieve high diagnostic accuracy.
+
+[736] Wu X, Xu H, Zhou H, et al. Improving lithofacies prediction in lacustrine shale by combining deep learning and well log curve morphology in Sanzhao Sag, Songliao Basin, China. Computers & Geosciences, 2024, 193, p.105735.
+
+>In this study, the lower Qingshankou member in the Sanzhao Sag was selected as the research target, and the **Deep Residual Shrinkage Network** (**DRSN**), known for its ability to handle complex nonlinear relationships and mitigate the effects of noisy data through residual connections and shrinkage mechanisms, was employed as a deep learning framework for predicting lithofacies in lacustrine shale formations for the first time.
+
+[737] Ma C, Tu X, Zhou G, et al. Source-free cross-domain fault diagnosis of rotating machinery using the Siamese framework. Knowledge-Based Systems, 2024, 300, p.112179.
+
+>Specifically, a **deep residual shrinkage network** with parallel spatial and channel-wise attention mechanisms (**DRSN**-SCW) is used for feature extraction to suppress background noise.
