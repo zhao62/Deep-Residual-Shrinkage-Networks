@@ -1922,7 +1922,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 [696] 杨洋.产品宣传人工智能检测系统及方法[P].江苏省:CN202011413481.0,2021-11-02.
 
->还可以采用**深度残差收缩网络**（Deep  Residual  Shrinkage  Network，DRSN）来替换深度残差网络。**深度残差收缩网络**是一种人工智能算法，其实是深度残差网络（Deep Residual Network，ResNet）的新型改进，将软阈值化作为非线性层引入ResNet的网络结构之中，其目的是提高深度学习方法在含噪声数据或复杂数据上的特征学习效果。更具体的话，**深度残差收缩网络的原型可认为来自于Squeeze‑and‑Excitation Network（SENet），本质上就是将SENet中各个特征通道的加权替换成了各个特征通道的软阈值化。
+>还可以采用**深度残差收缩网络**（Deep  Residual  Shrinkage  Network，DRSN）来替换深度残差网络。**深度残差收缩网络**是一种人工智能算法，其实是深度残差网络（Deep Residual Network，ResNet）的新型改进，将软阈值化作为非线性层引入ResNet的网络结构之中，其目的是提高深度学习方法在含噪声数据或复杂数据上的特征学习效果。更具体的话，**深度残差收缩网络**的原型可认为来自于Squeeze‑and‑Excitation Network（SENet），本质上就是将SENet中各个特征通道的加权替换成了各个特征通道的软阈值化。
 
 [697] 陈名亮,陈书楷,杨奇.一种金属分类方法、装置、设备及存储介质[P].福建省:CN202110797634.4,2021-10-22.
 
@@ -2091,3 +2091,39 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [737] Ma C, Tu X, Zhou G, et al. Source-free cross-domain fault diagnosis of rotating machinery using the Siamese framework. Knowledge-Based Systems, 2024, 300, p.112179.
 
 >Specifically, a **deep residual shrinkage network** with parallel spatial and channel-wise attention mechanisms (**DRSN**-SCW) is used for feature extraction to suppress background noise.
+
+[738] Jiarun Y, Yafeng, W. MDTCNet: Multi-Task Classifications Network and TCNN for Direction of Arrival Estimation[J]. China Communications, 2024, 21(10), pp.1-19.
+
+>To overcome the DoA estimation challenge without the prior information about signal sources number and multipath number in millimeter wave system, the multi-task **deep residual shrinkage network** (MT-**DRSN**) and transfer learning-based convolutional neural network (TCNN), namely MDTCNet, are proposed.
+
+[739] Zhan J, He S, Wang C et al. Improved TCN-Vine Copula Method for Wind Speed Prediction Using 5G+ Technology Data Transmission[C]. In 2024 6th International Conference on Industrial Artificial Intelligence (IAI) (pp. 1-6)
+
+>Initially, the residual module in TCN is improved by using the attention mechanism and soft thresholding concept from **deep residual shrinkage network** (**DRSN**) for preliminary prediction.
+
+[740] Wang Y, Cai X, Tang X, et al. HSRA-Net: Intelligent Detection Network of Anomaly Monitoring Data in High-Speed Railway[J]. IEEE Transactions on Intelligent Transportation Systems.2024.
+
+>To achieve the end-to-end classification, the anomaly detection module improves the residual network by creating a **deep residual shrinkage network** with self-attention (**DRSN**-SA).
+
+[741] Wang F, Chen D, Zhang X, et al. Study on a novel electrode with automatic replenishment of conductive fluid for use in the built environment[J]. IEEE Transactions on Instrumentation and Measurement. 2024.
+
+>this study proposes a method to improve the efficiency of preform lifting alignment based on the **deep residual shrinkage network** (**DRSN**).
+
+[742] Guo H, Zhao, X. MSDFM-ASTRSB: A rolling bearing fault diagnosis method with limited samples[J]. IEEE Transactions on Instrumentation and Measurement. 2024.
+
+>Then, asymmetric soft threshold **residual shrinkage block** (ASTRSB) is designed, by constructing asymmetric threshold block (ATB), adaptive slope block (ASB) and Asymmetric soft threshold function...
+
+[743] Yu J, Yao S, Jiang X, et al. Stretchable Capacitive Tactile Sensor Array for Accurate Distributed Pressure Recognition[J]. IEEE Sensors Journal. 2024.
+
+>An improved bilinear convolutional neural network (BCNN) integrated with **deep residual shrinkage network** (**DRSN**) is proposed to actually heighten the feature extraction capability and thus precise distributed pressure recognition.
+
+[744] Fang L, Liu Y, Li X, et al. Intelligent Fault Diagnosis of Rolling Bearing Based on Deep Transfer Learning[C]. In 2024 6th International Conference on Natural Language Processing (ICNLP) (pp. 753-757).
+
+>Secondly, a **Deep Residual Shrinkage Network** (**DRSN**) is used to filter out the sample noise and automatically extract the data features;
+
+[745] Su N, Liu F. A method of EEG emotion recognition based on residual contraction network[C]. In 2024 2nd International Conference on Signal Processing and Intelligent Computing (SPIC) (pp. 141-144).
+
+>Then the **residual shrinkage module** is combined with the improved deep separable convolutional network to remove redundant features and reduce the network computing cost while solving the problem of model gradient disappearance.
+
+[746] Zhang X, Liu C, Yuan W, et al. Sparse Prior-Guided Deep Learning for OTFS Channel Estimation[J]. IEEE Transactions on Vehicular Technology, 2024.
+
+>In this paper, we propose a **deep residual shrinkage neural network** (DRSNN) based on sparse prior for solving the orthogonal time frequency space (OTFS) channel estimation problem.
