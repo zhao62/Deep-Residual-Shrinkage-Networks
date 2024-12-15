@@ -16,9 +16,9 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
 **The paper has been cited over 1000 times on Google Scholar. (本论文的谷歌学术引用量已经超过1000次)**
 
-https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
-
 https://ieeexplore.ieee.org/document/8850096
+
+https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
 http://homepage.hit.edu.cn/zhaominghang
 
@@ -2259,3 +2259,23 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [778] 逄岭,屠志鹏.CT扫描参数的调整方法、装置、存储介质和CT设备[P].辽宁省:CN202210763346.1,2022-11-11.
 
 >具体地，神经网络(Neural Networks，NN)模型可以是卷积神经网络(Convolutional Neural Networks，CNN)模型、**残差收缩网络**(**Deep Residual Shrinkage Network**，**DRSN**)模型...
+
+[779] 钱海波,钱海燕.一种智能建筑的外部作业人员实时跟踪记录系统[P].上海市:CN202210941874.1,2022-11-08.
+
+>特征提取的算法包括有卷积神经网络、深度残差网络、**深度残差收缩网络**等...
+
+[780] 胡郡郡,唐大闰.模型生成方法、装置、计算机设备和存储介质[P].北京市:CN202210772572.6,2022-10-18.
+
+>具体可通过卷积神经网络、深度残差网络或**深度残差收缩网络**对视频序列进行特征提取。
+
+[781] 廖正凯,胡金龙,侯立升,等.一种车位检测方法、装置及电子设备[P].浙江省:CN202210868622.0,2022-10-14.
+
+>本申请实施例中基于待检测图像提取出待检测特征集的方式可以为卷积神经网络模型，也可以为**深度残差收缩网络**模型...
+
+[782] 陈雁翔,朱玉鹏,盛振涛,等.基于有监督对比学习和卷积神经网络的滚动轴承故障诊断方法[P].安徽省:CN202011564313.1,2022-09-13.
+
+>这里根据信号的复杂程度可以选择更为复杂的**深度残差收缩网络**作为特征提取器。
+
+[783] 杨奕飞,刘世界,苏贞,等.一种船舶动力设备剩余寿命预测系统及方法[P].江苏省:CN202210550575.5,2022-08-09.
+
+>**深度残差收缩网络**依次连接的输入层、卷积层、四个**残差收缩单元**、池化层、全连接层；
