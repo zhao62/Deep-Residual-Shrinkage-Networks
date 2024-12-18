@@ -2815,3 +2815,115 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [909] Chinnappan B, Hakim K, Kumar NS et al. Blockchain and IoT integration for secure short-term and long-term air quality monitoring system using optimized neural network[J]. Environmental Science and Pollution Research, 2024, pp.1-16.
 
 >Predictions utilize Graph attention-based **deep Residual shrinkage Network** and Bidirectional long short Term Memory (GRNBTM) categorized into five levels.
+
+[910] Liu J, Qu Q, Yang H, et al. Deep learning-based intelligent fault diagnosis for power distribution networks[J]. International Journal of Computers Communications & Control, 2024, 19(4).
+
+>Second, a fusion **deep residual shrinkage network** (FDRSN) is integrated with IBES and support vector machine (SVM) to form the FDRSN-IBS-SVM model for fault identification.
+
+[911] Fu Z, Zhou Z, Yuan Y. Fault diagnosis of wind turbine main bearing in the condition of noise based on generative adversarial network[J]. Processes, 2022, 10(10), p.2006.
+
+>this article proposes a double-layer fault diagnosis model for the main bearing of the wind turbine that combines the auxiliary classifier generation adversarial network (ACGAN) and the **deep residual shrinkage network** (**DRSN**).
+
+[912] Ma C, Tu X, Zhou G, et al. Source-free cross-domain fault diagnosis of rotating machinery using the Siamese framework[J]. Knowledge-Based Systems, 2024, 300, p.112179.
+
+>Specifically, a **deep residual shrinkage network** with parallel spatial and channel-wise attention mechanisms (**DRSN**-SCW) is used for feature extraction to suppress background noise.
+
+[913] Liu H, Wang J, Liu S, et al. Study on Soil Total Nitrogen Content Prediction Method Based on Synthetic Neural Network Model[J]. Sustainability, 2024, 16(8), p.3195.
+
+>a new method of soil total nitrogen content detection based on convolutional noise reduction autoencoder (CDAE)-whale optimization algorithm (WOA)-**deep residual shrinkage network** (**DSRN**) is proposed.
+
+[914] Li L, Li Y, Zhang J. A hybrid remaining useful life prediction method for lithium-ion batteries based on transfer learning with CDRSN-BiGRU-AM[J]. Measurement Science and Technology, 2024, 35(5), p.056124.
+
+>This method first employs a channel-wise **deep residual shrinkage network** to adaptively extract features from input data enhancing important information features and suppressing ineffective ones based on the significance of the feature information.
+
+[915] Xue T, Ma P. TC-net: transformer combined with cnn for image denoising[J]. Applied Intelligence, 2023, 53(6), pp.6753-6762.
+
+>Ingeniously adding a **deep residual shrinkage network** into a transformer block improves the networks ability to deal with noise and its robustness in complex scenes.
+
+[916] Yin L, Xiang X, Liu K, et al. Specific Emitter Identification Based on a Hybrid Deep Neural Network for ACARS Authentication[J]. Wireless Communications and Mobile Computing, 2022(1), p.4748519.
+
+>Our deep learning architecture is a combination of **Deep Residual Shrinkage Network** (**DRSN**), Bidirectional-LSTM (Bi-LSTM), and attention mechanism (AM), which perform the functions of local and global feature learning and feature focusing, respectively, so that the individual information hidden in the signal waveform can be thoroughly mined.
+
+[917] Shi B, Zhang Q, Wang D, et al. Synthetic aperture radar SAR image target recognition algorithm based on attention mechanism[J]. IEEE Access, 2021, 9, pp.140512-140524.
+
+>First, use dual-channel one-dimensional convolution to reconstruct the **residual shrinkage network** to construct a lightweight and efficient feature module, which improved the information extraction of the module with the consumption of a small amount of computing resources.
+
+[918] Su Z, Yu J, Xiao X, et al. Deep learning seismic damage assessment with embedded signal denoising considering three-dimensional time–frequency feature correlation[J]. Engineering Structures, 2023, 286, p.116148.
+
+>We propose a novel deep learning framework, DRSNet (**deep residual shrinkage network**), which incorporates the CNN structure of ResNet and a soft-threshold denoising module for simulta-neous seismic signal denoising and damage assessment.
+
+[919] Zhang A, Li Y, Wang S. 2DDSRU-MobileNet: an end-to-end cloud-noise-robust lightweight convolution neural network[J]. Journal of Applied Remote Sensing, 2024, 18(2), pp.024511-024511.
+
+>Then using the idea of a **deep residual shrinkage network**, we construct a two-dimensional deep shrinkage residual unit (2DDSRU). 
+
+[920] Li Y, Wang R, Mao R, et al. A Fault Diagnosis Method Based on an Improved Deep Q-Network for the Inter-Turn Short Circuits of a Permanent Magnet Synchronous Motor[J]. IEEE Transactions on Transportation Electrification, 2023.
+
+>A 1-D **deep residual shrinkage network** and the prioritized experience replay (PER) strategy are introduced into the original network structure, and the sampling strategy of the original network is optimized.
+
+[921] Zou X, Yin Z, Li Y, et al. Novel multiple object tracking method for yellow feather broilers in a flat breeding chamber based on improved YOLOv3 and deep SORT[J]. International Journal of Agricultural and Biological Engineering, 2023, 16(5), pp.44-55.
+
+>The **DRSN** (**Deep Residual Shrinkage Network**) was integrated with MobileNetV2 to enhance the feature extraction capability of the network.
+
+[922] Li S, Ma G, Gao H, et al. A new aerodynamic identification technology for short-time hypersonic wind tunnels while considering inertial force interference. Aerospace Science and Technology, 2023, 138, p.108310.
+
+>Therefore, this study develops a novel intelligent aerodynamic identification method based on **deep residual shrinkage network** (**DRSN**) deep learning technology and applies this method to aerodynamic force tests in hypersonic wind tunnels.
+
+[923] Yan J, Shi M, Lv X, et al. An Inversion Method for Coupled Typical Error Sources based on Remote Sensing Image. Journal of Imaging Science & Technology, 2022, 66(6).
+
+>The initial values of coupled typical error sources are subsequently determined based on the Deep Residual Shrinkage Network (DRSN).
+
+[924] Lu W, Gao L, Cao H, et al. A comparison of contributions of individual muscle and combination muscles to interaction force prediction using KPCA-DRSN model. Frontiers in Bioengineering and Biotechnology, 2022, 10, p.970859.
+
+>After that, the processed sequence is fed into the **Deep Residual Shrinkage Network** (**DRSN**) to predict the interaction force.
+
+[925] Huang X, Liu Y, Qi X, et al. Intelligent Classification of Metallographic Based on Improved Deep Residual Efficiency Networks[J]. International Journal of Pattern Recognition and Artificial Intelligence, 2024, 38(03), p.2452008.
+
+>In addition, a **deep residual shrinkage network** model based on an attention mechanism is proposed.
+
+[926] Fan F, Zhang M, Yu D, et al. Lightweight Context Awareness and Feature Enhancement for Anchor-Free Remote Sensing Target Detection[J]. IEEE Sensors Journal, 2024.
+
+>Second, we proposed that ELAN-RSN uses an optimized **residual shrinkage network** (**RSN**) to eliminate background noise and conflicting information in the multiscale feature fusion.
+
+[927] Liu Z, Zhang L, Xiao Q, et al. Performance Degradation Assessment of Railway Axle Box Bearing Based on Combination of Denoising Features and Time Series Information[J]. Sensors, 2023, 23(13), p.5910.
+
+>To solve the above problems, an end-to-end performance degradation assessment model of railway axle box bearing based on a **deep residual shrinkage network** and a deep long short-term memory network (DRSN-LSTM) is proposed.
+
+[928] Yan J, Hu X, Zhang K, et al. Detection of Dim Small Ground Targets in SAR Remote Sensing Image based on Multi-level Feature Fusion[J]. Journal of Imaging Science & Technology, 2023, 67(1).
+
+>Cross-level feature fusion is then performed on the spatial pyramid of feature maps, combined with the constructed soft thresholding module which adopts **DRSN** (**Deep Residual Shrinkage Network**)...
+
+[929] Shi H, Gan C, Zhang X, et al. A fault diagnosis method for rolling bearings based on RDDAN under multivariable working conditions[J]. Measurement Science and Technology, 2022, 34(2), p.025003.
+
+> Secondly, a **deep residual shrinkage network** is used for noise reduction and feature extraction.
+
+[930] Hu B, Hao Z, Chen Z, et al. Combination with Continual Learning Update Scheme for Power System Transient Stability Assessment[J]. Sensors, 2022, 22(22), p.8982.
+
+>A **deep residual shrinkage network** (**DRSN**) is selected as a classifier to construct the TSA model of SCP-DRSN at the same time.
+
+[931] Xu D, Li M, Wu Y, et al. Dual Attention-Based Global-Local Feature Extraction Network for Unsupervised Change Detection in PolSAR Images[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2024.
+
+>Subsequently, our DA-GLN utilizes a **deep residual shrinkage network** that incorporates channel attention mechanisms and soft-thresholding to weaken the influence of speckle noise and capture local features.
+
+[932] Wang M, Rao C, Xiao X, et al. Efficient shrinkage temporal convolutional network model for photovoltaic power prediction[J]. Energy, 2024, 297, p.131295.
+
+>This paper presents an Efficient Shrinkage Temporal Convolutional Network (ESTCN) model, which combines the Temporal Convolutional Network (TCN) and an improved **Deep Residual Shrinkage Network** (**DRSN**) to forecast PV power output.
+
+[933] Wang X, Hao Z, Chen Z, et al. Joint prediction of Li-ion battery state of charge and state of health based on the DRSN-CW-LSTM model[J]. IEEE Access, 2023.
+
+> Then we use the data information of Lithium battery voltage, current, temperature, and capacity in the **deep residual shrinkage network** for feature extraction...
+
+[934] Zhang R, Yi J, Tang H, et al. Fault Diagnosis Method of Waterproof Valves in Engineering Mixing Machinery Based on a New Adaptive Feature Extraction Model[J]. Energies, 2022, 15(8), p.2796.
+
+>This fault diagnosis method is based on a new adaptive feature extraction model, with multi-path signals to the improved **deep residual shrinkage network**-stacked denoising convolutional autoencoder (named DRSN-SDCAE).
+
+[935] Muthusamy C.D, Murugesh R. Integrated deep learning approach for automatic coronary artery segmentation and classification on computed tomographic coronary angiography[J]. Network Modeling Analysis in Health Informatics and Bioinformatics, 2024, 13(1), p.39.
+
+>Finally, the improved **deep residual shrinkage network** (IDRSN) model classifies heart blood vessels into four distinct classes: normal, block, narrow, and blood flow-reduced.
+
+[936] Hu J, Zhang Y, Li W, et al. Trustworthy Artificial Intelligence Based on an Explicable Temporal Feature Network for Industrial Fault Diagnosis[J]. Cognitive Computation, 2024, 16(2), pp.534-545.
+
+>First, adaptive features extracted from the improved **deep residual shrinkage network** are combined with empirical features to increase the robustness of the model.
+
+[937] Sun X, Liu J, Qian Y. Enhancing Emotion Recognition in College Students' Online Learning: A Research on Integrating Feature Fusion and Attention Mechanisms[J]. Traitement du Signal, 2024, 41(1).
+
+>then, by combining the channel attention mechanism and soft thresholding to improve the ResNet network, a **Deep Residual Shrinkage Network** (**DRSN**) is constructed to achieve emotion recognition of college students' online learning
