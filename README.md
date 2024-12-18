@@ -2824,9 +2824,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >this article proposes a double-layer fault diagnosis model for the main bearing of the wind turbine that combines the auxiliary classifier generation adversarial network (ACGAN) and the **deep residual shrinkage network** (**DRSN**).
 
-[912] Ma C, Tu X, Zhou G, et al. Source-free cross-domain fault diagnosis of rotating machinery using the Siamese framework[J]. Knowledge-Based Systems, 2024, 300, p.112179.
+[912] Zhang X, Li J. SDCSN: a hierarchical parallel localization method for pipeline leakage based on vibration signals. Measurement Science and Technology, 2024, 36(1), p.016158.
 
->Specifically, a **deep residual shrinkage network** with parallel spatial and channel-wise attention mechanisms (**DRSN**-SCW) is used for feature extraction to suppress background noise.
+>Moreover, implementing the **residual shrinkage building unit** module for noise reduction in the network architecture.
 
 [913] Liu H, Wang J, Liu S, et al. Study on Soil Total Nitrogen Content Prediction Method Based on Synthetic Neural Network Model[J]. Sustainability, 2024, 16(8), p.3195.
 
@@ -2959,3 +2959,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [945] Kang S, Liang X, Wang Y, et al. Few-shot rolling bearing fault classification method based on improved relation network[J]. Measurement Science and Technology, 2022, 33(12), p.125020.
 
 >The **residual shrinkage module** and the scaled exponential linear unit activation function are introduced into the embedding module of the RN.
+
+[946] Wang L, Xie K. Multi‐function radar work mode recognition based on residual shrinkage reconstruction recurrent neural network[J]. IET Radar, Sonar & Navigation, 2024.
+
+> A **residual shrinkage module** with one‐dimensional convolution is integrated into the temporal classification network,combining the strengths of both RNN and CNN architectures.
+
+[947] Zhang B, Zhang J, Yu P, et al. Asymmetric-Based Residual Shrinkage Encoder Bearing Health Index Construction and Remaining Life Prediction[J]. Sensors, 2024, 24(20), p.6510.
+
+>The encoder component comprises two convolutional layers, two **residual shrinkage modules**, and a fully connected module.
