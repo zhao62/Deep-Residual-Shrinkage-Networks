@@ -2657,3 +2657,51 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [870] 陈佳琳,尚志武,张雷.基于IDRSN-BiLSTM的铣削加工表面粗糙度预测方法[J].仪器仪表学报,2024,45(04):27-36.
 
 >利用**深度残差收缩网络**(**DRSN**)中软阈值化结构和注意力机制对输入信号进行降噪处理。
+
+[871] Ma X, Hu H, Shang Y. A new method for transformer fault prediction based on multifeature enhancement and refined long short-term memory[J]. IEEE Transactions on Instrumentation and Measurement, 2021, 70, 1-11.
+
+>First, this study constructs a cross-entropy loss function with variable thresholds and dynamic weights to reduce error transmission in the **deep residual shrinkage network**, enhancing the sensitivity of the normal and abnormal transformer states by the network. Second, the multiobjective particle swarm algorithm and random walk strategy are adopted to optimize the long short-term memory (LSTM) network to ensure the prediction model's objectivity. Finally, the improved subchannel threshold depth **residual shrinkage network** is integrated with the optimized LSTM network.
+
+[872] Zhang R, Jia J, Zhang R. EEG analysis of Parkinson's disease using time–frequency analysis and deep learning[J]. Biomedical Signal Processing and Control, 2022, 78, 103883.
+
+>By combining time-frequency analysis with deep learning, tunable Q-factor wavelet transform with **deep residual shrinkage network** (TQWT-DRSN) and the wavelet packet transform with **deep residual shrinkage network** (WPTDRSN) are applied to classify four kinds of clinical sleep EEG data in Shaanxi Provincial People's Hospital, which included different types of diseases, Parkinson's disease, REM sleep disorder, Parkinson's disease with REM sleep disorder, and select a group of normal people as a control group.
+
+[873] Shu Y, He C, Qiao L, et al. Vibration Control with Reinforcement Learning Based on Multi-Reward Lightweight Networks[J]. Applied Sciences, 2024, 14(9), 3853. 
+
+>This paper proposes a reinforcement learning method using a **deep residual shrinkage network** based on multi-reward priority experience playback for high-frequency and high-dimensional continuous vibration control.
+
+[874] Meng Y, Xu H, Ma Z, et al. Detail-semantic guide network based on spatial attention for surface defect detection with fewer samples[J]. Applied Intelligence, 2023, 53(6), 7022-7040.
+
+>In the first stage, we design a new semantic branch based on the modified **residual shrinkage network** and the proposed joined atrous spatial pyramid pooling (JASPP) module. This is the first time that **residual shrinkage network** is applied to defect detection and achieves good results.
+
+[875] Liu F, Li W, Wu Y, et al. Fault Diagnosis of Imbalance and Misalignment in Rotor-Bearing Systems Using Deep Learning[J]. Polish Maritime Research, 2024, 31(1), 102-113.
+
+>In this paper, a fault diagnosis method based on an improved **deep residual shrinkage network** (IDRSN) is proposed with the aim of achieving end-to-end fault diagnosis of a rotor-bearing system.
+
+[876] Tao L, Liu H, Zhang J, et al. Associated fault diagnosis of power supply systems based on graph matching: a knowledge and data fusion approach[J]. Mathematics, 2022, 10(22), 4306.
+
+>To this end, this paper proposes a graph-matching approach for the associated fault diagnosis of power supply systems based on a **deep residual shrinkage network**.
+
+[877] Li H, Zhang Z, Zhang C. Data augmentation via variational mode reconstruction and its application in few-shot fault diagnosis of rolling bearings[J]. Measurement, 2023, 217, 113062.
+
+>Next, the augmented balanced dataset is uti-lized to train a **deep residual shrinkage network** (**DRSN**), which is then employed for the classification of test samples.
+
+[878] Yin H, Xu H, Fan W, et al. Fault diagnosis of pressure relief valve based on improved deep Residual Shrinking Network[J]. Measurement, 2024, 224, 113752.
+
+> Specifically, we combined the Elastic Weight Consolidation (EWC) algorithm with **Deep Residual Shrinkage Network** (**DRSN**) to achieve high diagnostic accuracy.
+
+[879] Song Z, Qing X, Zhou M, et al. Mine underground object detection algorithm based on TTFNet and anchor-free[J]. Open Computer Science, 2024, 14(1), 20240015.
+
+>First, CenterNet and TTFNet algorithms are introduced, then pooling is introduced into CSPNet basic structure to design a lightweight feature extraction network, at the same time optimizing the feature fusion way in the original algorithm, optimizing **residual shrinkage network** structure, and introducing it into object detection task.
+
+[880] Wu Z, Jiang C, Jiang F, et al. An improved displacement sensor accuracy calibration method for ball screw positioning error compensation[J]. IEEE Sensors Journal. 2024.
+
+>In this article, an ultrasonic sensor accuracy calibration method is proposed, namely, frequency feature extraction **deep residual shrinkage network** (FFE-DRSN), which used probability statistics and test data to enhance the resolution of ultrasonic sensors.
+
+[881] Dianqing Y, Yanping M. Remote sensing landslide target detection method based on improved Faster R-CNN[J]. Journal of Applied Remote Sensing, 2022, 16(4), 044521-044521.
+
+>Finally, multiscale feature fusion is performed by adding a feature pyramid network structure to optimize the extracted landslide small target features, and then the backbone network is set as **deep residual shrinkage network** 50 to make the model more focused on information useful for landslide detection.
+
+[882] Zhang Z, Zhang C, Zhang X, et al. A self-adaptive DRSN-GPReLU for bearing fault diagnosis under variable working conditions[J]. Measurement Science and Technology, 2022, 33(12), 124005.
+
+>To solve this problem, a self-adaptive **deep residual shrinkage network** with a global parametric rectifier linear unit (DRSN-GPReLU) is proposed in this paper.
