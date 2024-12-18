@@ -2771,3 +2771,47 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [898] 朱波,李劲魁,马君亮.一种共享车辆的防超载方法、装置及电子设备[P].浙江省:CN202110476740.2,2021-07-20.
 
 >在本实施例中，可以使用**残差收缩神经网络**、卷积神经网络和多层感知神经网络等等构建本实施例中的神经网络模型...
+
+[899] Zhong Z, Liu H, Mao W, et al. Imbalanced bearing fault diagnosis based on RFH-GAN and PSA-DRSN[J]. IEEE Access, 2023, 11, pp.131926-131938.
+
+>To address this issue, we propose employing a residual factorized hierarchical search-based generative adversarial network (RFH-GAN) and a **residual shrinkage network** with pyramidal squeezed attention (PSA-DRSN) for unbalanced fault diagnosis.
+
+[900] Zeng L, Jian J, Chang X, et al. A meta-learning method for few-shot bearing fault diagnosis under variable working conditions[J]. Measurement Science and Technology, 2024, 35(5), p.056205.
+
+>In this approach, a **deep residual shrinkage network** is employed to extract salient features from bearing vibration signals.
+
+[901] Feng Q, Zhang J, Chen L, et al. Waveform Reconstruction of DSSS Signal Based on VAE‐GAN[J]. Wireless Communications and Mobile Computing, 2022(1), p.3667592.
+
+>In this method, the **deep residual shrinkage network** (**DRSN**) and self‐attention mechanism are added to the encoder and discriminator of VAE‐GAN.
+
+[902] Li K, Chen M, Lin Y, et al. A novel adversarial domain adaptation transfer learning method for tool wear state prediction[J]. Knowledge-Based Systems, 2022, 27;254:109537.
+
+>Firstly, the dual-path **deep residual shrinkage network** was used to extract the tool wear multiscale sensitive features from the spindle vibration signals.
+
+[903] Liu S, Chen Z, Yuan L, et al. State of health estimation of lithium-ion batteries based on multi-feature extraction and temporal convolutional network[J]. Journal of Energy Storage, 2024, 75, p.109658.
+
+>Concurrently, to enhance the adaptive threshold training ability of the model with multiple input parameters, a **residual shrinkage network** was introduced.
+
+[904] Wang H, Pan X, Zhu Y, et al. Maize leaf disease recognition based on TC-MRSN model in sustainable agriculture[J]. Computers and Electronics in Agriculture, 2024, 221, p.108915.
+
+>Focusing on the accurate recognition of maize leaf diseases in complex backgrounds, this paper proposes a texture-color dual-branch multiscale **residual shrinkage network** (TC-MRSN) model based on deep learning.
+
+[905] Qu N, Wei W, Hu C.Series arc fault detection based on multimodal feature fusion[J]. Sensors, 2023, 23(17), p.7646.
+
+>Finally, an arc fault detection model is constructed based on a one-dimensional convolutional network and a **deep residual shrinkage network** to achieve high accuracy.
+
+[906] Guo J, Lu L, Li J.Smart Contract Vulnerability Detection Based on Multi-Scale Encoders[J]. Electronics, 2024, 13(3), p.489.
+
+>Finally, to focus the model’s attention on vulnerability-related characteristics, we employ the **Deep Residual Shrinkage Network** (**DRSN**).
+
+[907] Hu C, Qu N, Zhang S. Series arc fault detection based on continuous wavelet transform and DRSN-CW with limited source data[J]. Scientific Reports, 2022, 12(1), p.12809.
+
+>In order to solve this problem, an arc fault detection method based on continuous wavelet transform and **deep residual shrinkage network** with the channel-wise threshold (DRSN-CW) is proposed.
+
+[908] Xu X, Deng R, Zhao G, et al. Deep Domain Generalization-Based Indoor Pedestrian Identification Using Footstep-Induced Vibrations[J]. IEEE Transactions on Instrumentation and Measurement, 2024.
+
+>Second, a **deep residual shrinkage network** (**DRSN**) specially designed for noise component suppression is used as a backbone network to automatically extract features.
+
+[909] Chinnappan B, Hakim K, Kumar NS et al. Blockchain and IoT integration for secure short-term and long-term air quality monitoring system using optimized neural network[J]. Environmental Science and Pollution Research, 2024, pp.1-16.
+
+>Predictions utilize Graph attention-based **deep Residual shrinkage Network** and Bidirectional long short Term Memory (GRNBTM) categorized into five levels.
