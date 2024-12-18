@@ -2967,3 +2967,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [947] Zhang B, Zhang J, Yu P, et al. Asymmetric-Based Residual Shrinkage Encoder Bearing Health Index Construction and Remaining Life Prediction[J]. Sensors, 2024, 24(20), p.6510.
 
 >The encoder component comprises two convolutional layers, two **residual shrinkage modules**, and a fully connected module.
+
+[948] 杜亦康. 《第三章 **深度残差收缩网络**与自注意力机制理论概述》基于混合建模方法的ETF期权定价研究[D]. 上海财经大学, 2022.
+
+>具体而言,将**深度残差收缩网络**(**DRSN**)、自注意力机制(Self-attention)以及滑动平均(Moving-average)方法结合,构建DRSN-SA-smooth模块,利用该模块对Black-Scholes模型和Heston模型的定价偏差进行预测,将预测偏差与Black-Scholes模型和Heston模型的原始定价结果相加,得到更符合市场实际交易情况的期权定价。
