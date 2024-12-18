@@ -2682,13 +2682,13 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >To this end, this paper proposes a graph-matching approach for the associated fault diagnosis of power supply systems based on a **deep residual shrinkage network**.
 
-[877] Li H, Zhang Z, Zhang C. Data augmentation via variational mode reconstruction and its application in few-shot fault diagnosis of rolling bearings[J]. Measurement, 2023, 217, 113062.
+[877] Sun C, Xue M, Zhao N, et al. A Deep Learning Method for NLOS Error Mitigation in Coastal Scenes[J]. Journal of Marine Science and Engineering, 2022, 10(12), 1952.
 
->Next, the augmented balanced dataset is uti-lized to train a **deep residual shrinkage network** (**DRSN**), which is then employed for the classification of test samples.
+>We employed data augmentation and a **deep residual shrinkage network** in order to alleviate the adverse effects of NLOS errors.
 
-[878] Yin H, Xu H, Fan W, et al. Fault diagnosis of pressure relief valve based on improved deep Residual Shrinking Network[J]. Measurement, 2024, 224, 113752.
+[878] Zhang H, Zhou F, Wu Q, et al. SSwsrNet: A Semi-Supervised Few-Shot Learning Framework for Wireless Signal Recognition[J]. IEEE Transactions on Communications. 2024.
 
-> Specifically, we combined the Elastic Weight Consolidation (EWC) algorithm with **Deep Residual Shrinkage Network** (**DRSN**) to achieve high diagnostic accuracy.
+>To overcome this challenge, a novel SSwsrNet framework is proposed by using the **deep residual shrinkage network** (**DRSN**) and semi-supervised learning.
 
 [879] Song Z, Qing X, Zhou M, et al. Mine underground object detection algorithm based on TTFNet and anchor-free[J]. Open Computer Science, 2024, 14(1), 20240015.
 
