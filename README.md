@@ -2927,3 +2927,15 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [937] Sun X, Liu J, Qian Y. Enhancing Emotion Recognition in College Students' Online Learning: A Research on Integrating Feature Fusion and Attention Mechanisms[J]. Traitement du Signal, 2024, 41(1).
 
 >then, by combining the channel attention mechanism and soft thresholding to improve the ResNet network, a **Deep Residual Shrinkage Network** (**DRSN**) is constructed to achieve emotion recognition of college students' online learning
+
+[938] Liang H, Shen H, Liu P, et al. Deep learning for sub-Nyquist sampling scanning white light interferometry. Optics Letters, 2023, 48(22), pp.5976-5979.
+
+>The method designs Envelope-**Deep Residual Shrinkage Networks** with channel-wise thresholds (E-DRSN-cw), a network model extracting oversampling envelopes from under sampled signals.
+
+[939] Chen C, Liang R, Song M, et al. Noise-assisted data enhancement promoting image classification of municipal solid waste. Resources, Conservation and Recycling, 2024, 209, p.107790.
+
+>this paper examined the potential of noise-assisted data enhancement methods on two representative MSW classification models: Convolutional Neural Networks (CNN) and **Deep Residual Shrinkage Networks** (**DRSN**)...Notably, **DRSN** demonstrated exceptional robustness under noise conditions, achieving over 90 % accuracy in training and test sets.
+
+[940] Zhang S, Zhang Y, Ma M, et al. GAN-SNR-shrinkage-based network for modulation recognition with small training sample size[C]. In International Conference on Communications and Networking in China (pp. 80-90).
+
+>In addition, a preprocessing module and **residual shrinkage networks** are used to improve the capability of characterizing signal features and the anti-noise performance.
