@@ -2662,9 +2662,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >First, this study constructs a cross-entropy loss function with variable thresholds and dynamic weights to reduce error transmission in the **deep residual shrinkage network**, enhancing the sensitivity of the normal and abnormal transformer states by the network. Second, the multiobjective particle swarm algorithm and random walk strategy are adopted to optimize the long short-term memory (LSTM) network to ensure the prediction model's objectivity. Finally, the improved subchannel threshold depth **residual shrinkage network** is integrated with the optimized LSTM network.
 
-[872] Zhang R, Jia J, Zhang R. EEG analysis of Parkinson's disease using time–frequency analysis and deep learning[J]. Biomedical Signal Processing and Control, 2022, 78, 103883.
+[872] Hu J, Li W, Zheng X, et al. Prior knowledge-based residuals shrinkage prototype networks for cross-domain fault diagnosis[J]. Measurement Science and Technology, 2023, 34(10), 105011.
 
->By combining time-frequency analysis with deep learning, tunable Q-factor wavelet transform with **deep residual shrinkage network** (TQWT-DRSN) and the wavelet packet transform with **deep residual shrinkage network** (WPTDRSN) are applied to classify four kinds of clinical sleep EEG data in Shaanxi Provincial People's Hospital, which included different types of diseases, Parkinson's disease, REM sleep disorder, Parkinson's disease with REM sleep disorder, and select a group of normal people as a control group.
+> First, our method combines general supervised learning and metric meta-learning to extract prior knowledge from the labeled source data by utilizing a denoised **residual shrinkage network**.
 
 [873] Shu Y, He C, Qiao L, et al. Vibration Control with Reinforcement Learning Based on Multi-Reward Lightweight Networks[J]. Applied Sciences, 2024, 14(9), 3853. 
 
