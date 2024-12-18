@@ -2705,3 +2705,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [882] Zhang Z, Zhang C, Zhang X, et al. A self-adaptive DRSN-GPReLU for bearing fault diagnosis under variable working conditions[J]. Measurement Science and Technology, 2022, 33(12), 124005.
 
 >To solve this problem, a self-adaptive **deep residual shrinkage network** with a global parametric rectifier linear unit (DRSN-GPReLU) is proposed in this paper.
+
+[883] 刘国伟, 陈历, 许建远, 等. 环网柜的局部放电信号的故障识别方法、装置和系统[P]. 广东省:CN202411445500.6, 2024-11-15.
+
+>该网络模型结构主要包含输入层、卷积层（Conv）、多个串接的通道级阈值**残差收缩块**（RBU）、批量归一化（BN）、激活函数（ReLU）...
