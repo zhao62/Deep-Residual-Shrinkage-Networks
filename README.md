@@ -2939,3 +2939,23 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [940] Zhang S, Zhang Y, Ma M, et al. GAN-SNR-shrinkage-based network for modulation recognition with small training sample size[C]. In International Conference on Communications and Networking in China (pp. 80-90).
 
 >In addition, a preprocessing module and **residual shrinkage networks** are used to improve the capability of characterizing signal features and the anti-noise performance.
+
+[941] He S, Zhu L, Li H, et al. Cross-condition quantitative diagnosis method for bearing faults based on IDRSN-ECDAN[J]. Measurement Science and Technology, 2023, 35(2), p.025129.
+
+>Therefore, in this work, a cross-condition quantitative diagnostic method for estimating the bearing faults based on an improved **deep residual shrinkage network**-entropy conditional domain adversarial network (IDRSN-ECDAN) was proposed. First, a sub-network was added to the residual module to construct a **residual shrinkage module**, which reduced the noise interference in vibration signals. Next, DropBlock layers were added to the **deep residual shrinkage network**...
+
+[942] Wang H, Chen X, Liu C. Pose-guided part matching network via shrinking and reweighting for occluded person re-identification[J]. Image and Vision Computing, 2021, 111, p.104186.
+
+>so we utilize the **Deep Residual Shrinkage Module** (DRS Module) to eliminate un-important features by automatically determining the soft thresholds.
+
+[943] Li C, Shi Z, Zhou L, et al. Tfformer: A time frequency information fusion based cnn-transformer model for osa detection with single-lead ecg[J]. IEEE Transactions on Instrumentation and Measurement, 2023.
+
+>To address this problem, this article presents a time-frequency information fusion-based CNN-Transformer model (TFFormer) for OSA detection with single-lead ECG, in which a module consisting of a **deep residual shrinkage module**, a multiscale convolutional attention (MSCA) module, and a multilayer convolution module is developed for time-frequency feature extraction.
+
+[944] Li S, Zhang C, Zhang X. A Novel Spatio-Temporal Enhanced Convolutional Autoencoder Network for Unsupervised Health Indicator Construction[J]. IEEE Transactions on Instrumentation and Measurement, 2024.
+
+>SMM enhances the deep mining of local spatial features via **deep residual shrinkage module**.
+
+[945] Kang S, Liang X, Wang Y, et al. Few-shot rolling bearing fault classification method based on improved relation network[J]. Measurement Science and Technology, 2022, 33(12), p.125020.
+
+>The **residual shrinkage module** and the scaled exponential linear unit activation function are introduced into the embedding module of the RN.
