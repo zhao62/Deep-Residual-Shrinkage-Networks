@@ -3219,3 +3219,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >To enhance noise immunity and inter-channel feature information, the **Residual Shrinkage Network** module (**DRSN**-CW) is first introduced. 
 
 >Subsequently, the EAM mechanism is integrated into the **residual shrinkage network** module (RSBU-CW) to address the impact of time-domain feature vectors on the threshold τ.
+
+[1014] Ming X, Cheng W, Zhu R, et al. Human Activities Recognition with Amplitude-Phase of Channel State Information using Deep Residual Networks. In 2022 IEEE 17th Conference on Industrial Electronics and Applications (ICIEA) 2022 Dec 16 (pp. 1-6).
+
+>The results show that the accuracy of activity recognition based on the amplitude-phase of channel state information under **deep residual shrinkage network** is 97.2% on average, which is higher than the accuracy of analyzing the amplitude and phase using CNN, the amplitude of CSI using DRSN and the phase of CSI using DRSN.
