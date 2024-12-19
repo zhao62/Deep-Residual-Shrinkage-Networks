@@ -3275,3 +3275,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1027] Zhou G, Zhuang Y, Ding X, et al. A Simple Siamese Framework for Vibration Signal Representations. In IEEE International Conference on Image Processing (ICIP) 2022 Oct 16 (pp. 2456-2460).
 
 >To improve the feature learning ability for TD data, a **deep residual shrinkage network** with channel-wise thresholds (**DRSN**-CW) [14] is utilized in this work.
+
+[1028] 周璇, 闫学成. 一种基于一维DRSN的冷水机组故障诊断方法及系统[P]. 广东省: CN202310535170.9, 2023-09-15.
+
+>构建一维**DRSN**故障诊断模型，包括输入层、一维卷积层、**残差收缩单元**、批量标准化层、整流线性函数、全局平均池化层、全连接层与输出层；在**残差收缩单元**中，嵌入注意力机制建立子通道阈值网络获取逐通道阈值...
