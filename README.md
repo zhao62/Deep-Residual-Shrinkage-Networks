@@ -3267,3 +3267,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1025] Yang M, Cai J, Yang Z, et al. Insect Recognition Method With Strong Anti-Interference Capability for Next-Generation Consumer Imaging Technology. IEEE Transactions on Consumer Electronics. 2024 Jun 17.
 
 >Therefore, this paper proposes a novel multi-source visual data fusion insect recognition algorithm based on a **deep residual shrinkage network**.
+
+[1026] 张火明, 黄敏, 陆萍蓝. 基于改进Resnet-LSTM模型的系泊缆仿真张力预测[J]. 计量学报, 1-8 [2024-12-19].
+
+>本文利用LSTM算法的时序特性结合特征提取网络Resnet搭建改进型**残差收缩网络**(**residual shrinkage network**，Resnet-LSTM) 模型来优化网络同时提高风浪流联合作用下系泊力预测准确率。
