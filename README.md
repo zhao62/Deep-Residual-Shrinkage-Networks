@@ -3241,3 +3241,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >Our approach improves the Cycle-Consistent Adversarial Networks (Cyclegan) by incorporating an improved **Deep Residual Shrinkage Network** in the generator...
 
 [1019] Jin Z, Cao Y, Liu L, et al. Research on Predicting Container Vessel Handling Time Based on Improved **Deep Residual Shrinkage Net**. In 2024 9th International Symposium on Computer and Information Processing Technology (ISCIPT) 2024 May 24 (pp. 509-514).
+
+[1020] Lv X, Jing Q, Liang C, et al. Quantification of crack in-pipe detection signals in steel pipelines based on differential eddy current detection technique with incremental permeability extraction. In Fourth International Conference on Testing Technology and Automation Engineering (TTAE 2024) 2024 Dec 12 (Vol. 13439, pp. 479-483).
+
+>One method for one-dimensional timedomain signal inspection is the **Deep Residual Shrinkage Net** (**DRSN**), which offers noise immunity and has seen efficient improvements from ...
