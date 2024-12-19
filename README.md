@@ -3245,3 +3245,21 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1020] Lv X, Jing Q, Liang C, et al. Quantification of crack in-pipe detection signals in steel pipelines based on differential eddy current detection technique with incremental permeability extraction. In Fourth International Conference on Testing Technology and Automation Engineering (TTAE 2024) 2024 Dec 12 (Vol. 13439, pp. 479-483).
 
 >One method for one-dimensional timedomain signal inspection is the **Deep Residual Shrinkage Net** (**DRSN**), which offers noise immunity and has seen efficient improvements from ...
+
+[1021] Ma X, Hu H, Shang Y. A new method for transformer fault prediction based on multifeature enhancement and refined long short-term memory. IEEE Transactions on Instrumentation and Measurement. 2021, 19;70:1-1.
+
+>First, this study constructs a cross-entropy loss function with variable thresholds and dynamic weights to reduce error transmission in the **deep residual shrinkage network**, enhancing the sensitivity of the normal and abnormal transformer states by the network.
+
+>Finally, the improved subchannel threshold **depth residual shrinkage network** is integrated with the optimized LSTM network.
+
+[1022] Wu X, Peng H, Cui X, Guo T, Ni R, Zhang Y. Multi-Channel vibration signals fusion based on rolling bearings and MRST-Transformer fault diagnosis model. IEEE Sensors Journal. 2024 Apr 10.
+
+>The MRST-Transformer comprises an enhanced **residual shrinkage building unit** with channel-wise (RSBU-CW) and a shallow cross-vision transformer (Cross Vit).
+
+[1023] Zheng Y, Lyu W, Wang C, Guo Q, Zhou D, Xu W. Efficient Conflict-Filtered Network for Defect Detection. IEEE Transactions on Instrumentation and Measurement. 2023 Jul 10.
+
+>Next, we introduce the noise reduction-**residual shrinkage building unit** with channelwise thresholds (NR-RSBU-CW) in the skip connection of the same layer to filter noise and …
+
+[1024] Ji D, Fang W, Zhai C, Cao Z, Ma Y. TTNN: A Physically-Guided Deep Learning Model for Focal Depth and Epicenter Distance Estimation Base on Multistation Waveforms. IEEE Transactions on Geoscience and Remote Sensing. 2024 Sep 2.
+
+>In this study, a physically guided deep learning model, referred to as the travel time neural network (TTNN), is proposed to estimate the focal depth and epicenter distance. TTNN is built upon a CNN, introducing **residual shrinkage modules** (RSMs) that leverage a soft thresholding attention mechanism to extract features more effectively from seismic records with high noise levels.
