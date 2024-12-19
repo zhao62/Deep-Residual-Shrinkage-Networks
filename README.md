@@ -3067,3 +3067,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [975] 汪文斌. 基于SwinTransformer的片状颗粒厚度检测[D]. 西南科技大学, 2024.
 
 >同时为了提取到更加精细的特征，在骨干网络的末端使用**深度残差收缩网络**(**Deep Residual Shrinkage Network**，**DRSN**)。
+
+[976] 崔菲凡. 家用低压交流串联故障电弧诊断方法研究[D]. 辽宁工程技术大学, 2023.
+
+>针对构建的图片数据集，使用具有并联卷积的Inception网络与含有通道注意力机制的**DRSN**相结合的方法来充分挖掘图片样本特征量，该引入了软阈值化作用的算法具备从带有噪声的数据中直接进行特征提取和分类的能力。
