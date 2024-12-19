@@ -3223,3 +3223,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1014] Ming X, Cheng W, Zhu R, et al. Human Activities Recognition with Amplitude-Phase of Channel State Information using Deep Residual Networks. In 2022 IEEE 17th Conference on Industrial Electronics and Applications (ICIEA) 2022 Dec 16 (pp. 1-6).
 
 >The results show that the accuracy of activity recognition based on the amplitude-phase of channel state information under **deep residual shrinkage network** is 97.2% on average, which is higher than the accuracy of analyzing the amplitude and phase using CNN, the amplitude of CSI using DRSN and the phase of CSI using DRSN.
+
+[1015] Zhu H, Ma Y, Zhang X, Hao C. Adaptive Denoising With Efficient Channel Attention for Automatic Modulation Recognition. In ICC 2024-IEEE International Conference on Communications 2024 Jun 9 (pp. 2113-2118).
+
+>An Efficient **Residual Shrinkage Block** (ERSB) is proposed to improve **Residual Shrinkage Blocks** (RSB) for feature extraction.
+
+[1016] Lin J, Wang C. Image Classification Algorithm Based on Improved Soft Thresholding and Residual Network. InInternational Conference on Artificial Intelligence in China 2023 Jul 22 (pp. 231-239).
+
+>The soft thresholding technique adopted in this paper is derived from the **deep residual shrinkage networks** (**DRSN**).
