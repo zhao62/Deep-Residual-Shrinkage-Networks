@@ -3239,3 +3239,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1018] Wang W, Gu J, Zhang S. Dual Contrastive Learning for Unpaired Image Dehazing. In 2023 3rd International Symposium on Artificial Intelligence and Intelligent Manufacturing (AIIM) 2023 Oct 27 (pp. 51-56).
 
 >Our approach improves the Cycle-Consistent Adversarial Networks (Cyclegan) by incorporating an improved **Deep Residual Shrinkage Network** in the generator...
+
+[1019] Jin Z, Cao Y, Liu L, et al. Research on Predicting Container Vessel Handling Time Based on Improved **Deep Residual Shrinkage Net**. In 2024 9th International Symposium on Computer and Information Processing Technology (ISCIPT) 2024 May 24 (pp. 509-514).
