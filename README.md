@@ -3079,3 +3079,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [978] Yin H, Xu H, Zhao Y, et al. Fault Diagnosis of Control Valve Based on Fusion of Deep Learning and Elastic Weight Consolidation. BATH/ASME Symposium on Fluid Power and Motion Control (FPMC), 2022.
 
 >Therefore, this paper proposed a fusion of elastic weight consolidation algorithm and **residual shrinkage network** method, sharing common feature layers.
+
+[979] 段卓然.《第三章基于时频注意力机制的双通道**残差收缩模型**的调制识别方法》基于深度学习的多制式通信信号盲识别技术研究[D]. 北京邮电大学, 2024.
+
+[980] 杨山山. 降雹声波信号检测及其量级估计方法研究[D]. 南京信息工程大学, 2023.
+
+>本文提出了一种双通道异构**残差收缩网络**（DCI-**DRSN**）能够同时获取两种不同途径得到的特征阈值。
