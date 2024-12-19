@@ -3071,3 +3071,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [976] 崔菲凡. 家用低压交流串联故障电弧诊断方法研究[D]. 辽宁工程技术大学, 2023.
 
 >针对构建的图片数据集，使用具有并联卷积的Inception网络与含有通道注意力机制的**DRSN**相结合的方法来充分挖掘图片样本特征量，该引入了软阈值化作用的算法具备从带有噪声的数据中直接进行特征提取和分类的能力。
+
+[977] Ma H, Li T, Fu M, et al. An Intrusion Detection Model of Incorporating Deep Residual Shrinking Networks for Power Internet of Things. In International Conference on Intelligent Computing (pp. 479-490). 2024.
+
+>To address the aforementioned issues, this paper proposes a new intrusion detection model for power Internet of Things systems, which comprehensively utilizes **Deep Residual Shrinkage Network** (**DRSN**), SMOTE algorithm, and Generative Adversarial Network (GAN) to improve the effectiveness of data processing and feature extraction.
+
+[978] Yin H, Xu H, Zhao Y, et al. Fault Diagnosis of Control Valve Based on Fusion of Deep Learning and Elastic Weight Consolidation. BATH/ASME Symposium on Fluid Power and Motion Control (FPMC), 2022.
+
+>Therefore, this paper proposed a fusion of elastic weight consolidation algorithm and **residual shrinkage network** method, sharing common feature layers.
