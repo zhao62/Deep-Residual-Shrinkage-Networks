@@ -28,7 +28,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 ## Thanks for the Applications (感谢以下文献及作者)
 
-**According to incomplete statistics, deep residual shrinkage networks have been directly applied or improved by many scholars to many fields such as machinery, electricity, vision, medical, speech, text, radar, remote sensing.(根据不完全统计，深度残差收缩网络已经被国内外学者直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域)**
+**According to incomplete statistics, deep residual shrinkage networks have been directly applied or improved by over 1000 literatures to many fields such as machinery, electricity, vision, medical, speech, text, radar, remote sensing.(根据不完全统计，深度残差收缩网络已经被超过1000篇文献直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域)**
 
 [1] Li Y, Chen H. Image recognition based on **deep residual shrinkage Network**[C]//2021 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA). IEEE, 2021: 334-337.
 
@@ -3102,26 +3102,66 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >So first the **deep residual shrinkage network** is pre-trained on the big data simulation dataset.
 
-[985] Liu Y, Xu G, Qi L. Research on Power Transformer Health Indicator Based on Improved Convolutional Neural Network. In2023 6th Asia Conference on Energy and Electrical Engineering (ACEEE) 2023 Jul 21 (pp. 129-133).
+[985] Liu Y, Xu G, Qi L. Research on Power Transformer Health Indicator Based on Improved Convolutional Neural Network. In 2023 6th Asia Conference on Energy and Electrical Engineering (ACEEE) 2023 Jul 21 (pp. 129-133).
 
 >In this regard, we propose a method for constructing a power transformer HI based on ICNN-DRSN (Improved Convolutional Neural Network and **Deep Residual Shrinkage Network**).
 
-[986] Ba Y, Zhang K, Sun W, Chang S. **DRSN** Fan Rolling Bearing Fault Diagnosis Method Based on DWT with Improvement. In2023 3rd International Conference on New Energy and Power Engineering (ICNEPE) 2023 Nov 24 (pp. 337-340).
+[986] Ba Y, Zhang K, Sun W, Chang S. **DRSN** Fan Rolling Bearing Fault Diagnosis Method Based on DWT with Improvement. In 2023 3rd International Conference on New Energy and Power Engineering (ICNEPE) 2023 Nov 24 (pp. 337-340).
 
 >In view of the strong noise environment traditional bearing fault diagnosis method for fault recognition rate low, is put forward based on the discrete wavelet transform (discrete wavelet transform, DWT and the improved **deep residual shrinkage network** (IDRSN) fault diagnosis model.
 
-[987] Deng K, Tao B, Hu J. Unpaired medical image enhancement based on generative adversarial networks. InFifteenth International Conference on Information Optics and Photonics (CIOP 2024) 2024 Dec 5 (Vol. 13418, pp. 331-339).
+[987] Deng K, Tao B, Hu J. Unpaired medical image enhancement based on generative adversarial networks. In Fifteenth International Conference on Information Optics and Photonics (CIOP 2024) 2024 Dec 5 (Vol. 13418, pp. 331-339).
 
 >In the generator, we introduce the **residual shrinkage building unit** with the channel-shared thresholds module (DRSN-CS) to suppress artifacts and image noise and extract medical image information through three paths using different convolution kernels.
 
-[988] Wen X, Cao C, Li Y, Sun Y. **DRSN** with Simple Parameter-Free Attention Module for Specific Emitter Identification. In2022 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom) 2022 Dec 9 (pp. 192-200). 
+[988] Wen X, Cao C, Li Y, Sun Y. **DRSN** with Simple Parameter-Free Attention Module for Specific Emitter Identification. In 2022 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom) 2022 Dec 9 (pp. 192-200). 
 
 >The advantages of the parameter-free attention module and **deep residual shrinkage network** are integrated by **DRSN**-SimAM. The parameter-free attention module is introduced into the **residual shrinkage building unit** for adaptively learning thresholds, filtering out redundant information irrelevant to the signal fingerprint.
 
-[989] Hui D, Xu H, Ma Z, Sun F, Zhou J, Meng Y. Study on Intelligent Pressure Reducing Valve and Leakage Diagnosis. In2022 IEEE 6th Information Technology and Mechatronics Engineering Conference (ITOEC) 2022 Mar 4 (Vol. 6, pp. 584-588). IEEE.
+[989] Hui D, Xu H, Ma Z, Sun F, Zhou J, Meng Y. Study on Intelligent Pressure Reducing Valve and Leakage Diagnosis. In 2022 IEEE 6th Information Technology and Mechatronics Engineering Conference (ITOEC) 2022 Mar 4 (Vol. 6, pp. 584-588).
 
 >Meanwhile, pressure sensors are set in front of the valve and behind the valve to collect data by the **deep residual shrinkage network** to train the pressure.
 
-[990] Peng H, Cao C, Sun Y, Li H, Wen X. Blind identification of channel codes under awgn and fading conditions via deep learning. In2022 International Conference on Networking and Network Applications (NaNA) 2022 Dec 3 (pp. 67-73).
+[990] Peng H, Cao C, Sun Y, Li H, Wen X. Blind identification of channel codes under awgn and fading conditions via deep learning. In 2022 International Conference on Networking and Network Applications (NaNA) 2022 Dec 3 (pp. 67-73).
 
 >For solving these difficulties, based on **deep residual shrinkage network** (**DRSN**), this paper proposes a novel recognizer by deep learning technologies to blindly distinguish the type and the parameter of channel codes without any prior knowledge or channel state, furthermore, feature extractions by the neural network from codewords can avoid intricate calculations.
+
+[991] Yuan C, Chen Z, Chen P, Tian R, Xiong D, Guo W. Fine-Grained Gesture Recognition by Using FMCW Millimeter-Wave Radar. In 2023 Cross Strait Radio Science and Wireless Technology Conference (CSRSWTC) 2023 Nov 10 (pp. 1-3). IEEE.
+
+>Particularly, we design an improved **Deep Residual Shrinkage Network** (**DRSN**) with variable channels to recognize features of fine-grained gestures.
+
+[992] Yan L, Zhiming H, Meng G, Qiulin C, Wang W, YuanJia L, Rongfu Z, Zhi W. Typical Fault Simulation and Fault Diagnosis of High Voltage Circuit Breaker. In 2024 IEEE 7th International Electrical and Energy Conference (CIEEC) 2024 May 10 (pp. 2434-2438).
+
+>Utilizing the denoising and feature extraction capabilities of the Channel-Wise **Residual Shrinkage Module** (**DRSN**-CW) with different thresholds in a deep residual neural network, a fault diagnosis model based on deep residual neural networks is proposed.
+
+[993] Zhang C, Li S, Wen J, Fu S. Remaining useful life prediction method based on the improved holt double exponential model. In 2022 5th International Conference on Pattern Recognition and Artificial Intelligence (PRAI) 2022 Aug 19 (pp. 47-52).
+
+>For the problem of low prediction accuracy due to the difficulty in determining the parameters of Holt double exponential model, a remaining useful life (RUL) prediction method based on **deep residual shrinkage network** (**DRSN**) and Holt double exponential model is proposed.
+
+[994] Zeng R, Wang Y. Improved Tracking Algorithm Based on Motion Trend Prediction. In Proceedings of the 2024 9th International Conference on Cyber Security and Information Engineering 2024 Sep 15 (pp. 752-756).
+
+>The algorithm combines a **Deep Residual Shrinkage Network** (**DRSN**) for appearance feature extraction and non-linear motion model prediction.
+
+[995] Ma P, Xue T. Embedding Chinese Face painting into the StyleGAN latent space. In 2021 Ninth International Conference on Advanced Cloud and Big Data (CBD) 2022 Mar 26 (pp. 145-150). 
+
+>We for the first time propose the application of the **deep residual shrinkage networks** to the image generation problem and verify the effectiveness of the proposed method through experiments on various noises.
+
+[996] Ma G, Xu Z, Gao W, Chen J. Few-Shot Bearing Fault Diagnosis in Time-Frequency Maps Using Prototypical Networks. In 2023 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC) 2023 Nov 14 (pp. 1-6).
+
+>To this end, we propose a novel few-shot fault diagnosis model using the prototypical network based on the **deep residual shrinkage network** (**DRSN**).
+
+[997] Shi B, Zhang Q, Li Y. Synthetic Aperture Radar image target recognition based on hybrid attention mechanism. In Proceedings of the 2021 International Conference on Pattern Recognition and Intelligent Systems 2021 Jul 28 (pp. 37-42).
+
+>The trunk branch composed of the **residual shrinkage network** and the improved channel attention mechanism is responsible for extracting the main characteristics.
+
+[998] Yu L, Tang P, Jiang Z, Zhang X. Denoise Enhanced Neural Network with Efficient Data Generation for Automatic Sleep Stage Classification of Class Imbalance. In 2023 International Joint Conference on Neural Networks (IJCNN) 2023 Jun 18 (pp. 1-8).
+
+>Meanwhile, we design a **Residual Shrinkage** Sequence Network for Sleep Staging (RsSleepNet) as the baseline to compare other resolutions of class imbalance with ours.
+
+[999] Shu T, Zhang F, Sun X. Gaze behavior based depression severity estimation. In 2023 IEEE 4th International Conference on Pattern Recognition and Machine Learning (PRML) 2023 Aug 4 (pp. 313-319).
+
+>We employ a **deep residual shrinkage network** with channel-wise thresholds (**DRSN**-CW) to process the input gaze sequence and estimate the depression severity score.
+
+[1000] Dai H. LinGAN: an Advanced Model for Code Generating based on Linformer. In Journal of Physics: Conference Series 2021 Nov 1 (Vol. 2082, No. 1, p. 012019). 
+
+>We also propose the pre-norm **residual shrinkage unit** to solve the problem of deep degradation of Linformer.
