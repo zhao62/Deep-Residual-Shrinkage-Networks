@@ -3213,3 +3213,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1012] Wang Y, Cheng L, Mao T, Wu M. Rolling Bearing Fault Diagnosis Based on CWT and Two-Stream Convolutional Neural Network. In 2024 5th Information Communication Technologies Conference (ICTC) 2024 May 10 (pp. 1-6).
 
 >The method incorporates **Deep Residual Shrinkage Network** with Different Thresholds Channel by Channel (DRSN-CW), continuous wavelet transform and multi-scale convolutional network into the model...
+
+[1013] Cai Z, Lu L, Cong S. Rolling Bearing Fault Diagnosis Based on Transfer Learning and Dual-Channel CNN and BiGRU. In 2024 International Conference on Advanced Robotics and Mechatronics (ICARM) 2024 Jul 8 (pp. 819-824). 
+
+>To enhance noise immunity and inter-channel feature information, the **Residual Shrinkage Network** module (**DRSN**-CW) is first introduced. 
+
+>Subsequently, the EAM mechanism is integrated into the **residual shrinkage network** module (RSBU-CW) to address the impact of time-domain feature vectors on the threshold τ.
