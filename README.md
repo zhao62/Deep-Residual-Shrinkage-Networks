@@ -3263,3 +3263,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1024] Ji D, Fang W, Zhai C, Cao Z, Ma Y. TTNN: A Physically-Guided Deep Learning Model for Focal Depth and Epicenter Distance Estimation Base on Multistation Waveforms. IEEE Transactions on Geoscience and Remote Sensing. 2024 Sep 2.
 
 >In this study, a physically guided deep learning model, referred to as the travel time neural network (TTNN), is proposed to estimate the focal depth and epicenter distance. TTNN is built upon a CNN, introducing **residual shrinkage modules** (RSMs) that leverage a soft thresholding attention mechanism to extract features more effectively from seismic records with high noise levels.
+
+[1025] Yang M, Cai J, Yang Z, et al. Insect Recognition Method With Strong Anti-Interference Capability for Next-Generation Consumer Imaging Technology. IEEE Transactions on Consumer Electronics. 2024 Jun 17.
+
+>Therefore, this paper proposes a novel multi-source visual data fusion insect recognition algorithm based on a **deep residual shrinkage network**.
