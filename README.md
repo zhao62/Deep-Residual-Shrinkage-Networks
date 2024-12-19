@@ -3165,3 +3165,27 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1000] Dai H. LinGAN: an Advanced Model for Code Generating based on Linformer. In Journal of Physics: Conference Series 2021 Nov 1 (Vol. 2082, No. 1, p. 012019). 
 
 >We also propose the pre-norm **residual shrinkage unit** to solve the problem of deep degradation of Linformer.
+
+[1001] Li J, Huang Y. Open-Set Recognition of Underwater Acoustic Communication Signals in Impulsive Noise Environment Based on Feature Fusion and Prototype Classification. In 2023 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC) 2023 Nov 14 (pp. 1-6).
+
+>In this paper, the impulsive noise is suppressed by INP. Then we use the **deep residual shrinkage network** (**DRSN**) and squeeze and excitation (SE) attention unit to extract and fuse the features of time-frequency spectrums and fusion spectrograms.
+
+[1002] Zhang R, Zhao X, Li J, Zhang S, Shang Z. A malicious code family classification method based on self-attention mechanism. In Journal of Physics: Conference Series 2021 Sep 1 (Vol. 2010, No. 1, p. 012066).
+
+>This paper introduces spatial pyramid pooling (SPP) in the **deep residual shrinkage network** to replace the original GAP, so that the network can accept images of different sizes.
+
+[1003] Li S, Wen H, Deng L, et al. Denoising Network of Dynamic Features for Enhanced Malware Classification. In 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC) 2023 Nov 17 (pp. 32-39).
+
+>To achieve noise reduction, four **residual shrinkage blocks** are incorporated into our neural network...
+
+[1004] Zhao Y, Zhou Y. A Data Augmentation Method Based on GAN for Plant Disease Recognition. In International Conference on Computing, Control and Industrial Engineering 2024 Jun 21 (pp. 186-193).
+
+>In this paper, we integrate the **deep residual shrinkage network** (**DSRN**) and multipath methods for improving the generator.
+
+[1005] Yang ZY, Liu J, Han B, Wang ZN, Dong SS, Rao YJ. Ultra-long Large-Capacity FBG Sensing for Long-Haul Powerlines Monitoring. In International Conference on Experimental Vibration Analysis for Civil Engineering Structures 2023 Aug 29 (pp. 682-688).
+
+>Furthermore, with the proposed deep-learning spectrum denoising model based on **Deep Residual Shrinkage Networks**, the mean OSNR at 150 km is enhanced to 7.1 dB.
+
+[1006] Pan Y, Zhou Y, Ji H, Li C. Automatic Modulation Recognition Based on Dual-Channel Fusion Hybrid Neural Network. In 2023 IEEE 16th International Conference on Electronic Measurement & Instruments (ICEMI) 2023 Aug 9 (pp. 201-207).
+
+>The spatial features of the dual-channel data are extracted by the **deep residual shrinkage network** (**DRSN**)...
