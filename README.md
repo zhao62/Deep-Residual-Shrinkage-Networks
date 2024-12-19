@@ -3089,3 +3089,39 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [981] 刘通. 基于迁移学习的试验环境反演分析方法研究[D]. 哈尔滨工程大学, 2023.
 
 >针对以上问题，本文提出了一种基于模型迁移的特征提取方法，其中，迁移模型采用MPECN模型，该模型由多尺度PRelu卷积网络（Multiscale PRelu Convolutional Network，MPCN）和深度高效卷积**残差收缩网络**（Deep Efficient Convolution **Residual Shrinkage Network**，DECRSN）构成。
+
+[982] He J, Xu C, Yin C. et al. Modulation recognition of communication signals based on deep learning. In 2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA) (Vol. 2, pp. 527-531).
+
+>**Deep residual shrinkage network** was used to realize modulation signals feature extraction and classification recognition according to the characteristics of signals to further improve the accuracy of communication signals modulation recognition under low signal-to-noise ratio.
+
+[983] Liu X, Zhang S, Xiao. Two Feature Fusion Network Based on Efficient Deep Residual Shrinkage Spatial-Temporal Graph Convolution for Emotion Recognition from Gaits. In 2022 34th Chinese Control and Decision Conference (CCDC) (pp. 5824-5829).
+
+>Firstly chebyshev polynomial approximation graph convolution is combined with efficient **deep residual shrinkage network** to obtain efficient deep residual shrinkage spatial-temporal graph convolution network to extract deep features.
+
+[984] Li M, Wang M, Chen L, et al. GAN-DRSN based inter-turn short circuit fault diagnosis of PMSM. In 2022 IEEE International Conference on Mechatronics and Automation (ICMA) (pp. 958-963).
+
+>So first the **deep residual shrinkage network** is pre-trained on the big data simulation dataset.
+
+[985] Liu Y, Xu G, Qi L. Research on Power Transformer Health Indicator Based on Improved Convolutional Neural Network. In2023 6th Asia Conference on Energy and Electrical Engineering (ACEEE) 2023 Jul 21 (pp. 129-133).
+
+>In this regard, we propose a method for constructing a power transformer HI based on ICNN-DRSN (Improved Convolutional Neural Network and **Deep Residual Shrinkage Network**).
+
+[986] Ba Y, Zhang K, Sun W, Chang S. **DRSN** Fan Rolling Bearing Fault Diagnosis Method Based on DWT with Improvement. In2023 3rd International Conference on New Energy and Power Engineering (ICNEPE) 2023 Nov 24 (pp. 337-340).
+
+>In view of the strong noise environment traditional bearing fault diagnosis method for fault recognition rate low, is put forward based on the discrete wavelet transform (discrete wavelet transform, DWT and the improved **deep residual shrinkage network** (IDRSN) fault diagnosis model.
+
+[987] Deng K, Tao B, Hu J. Unpaired medical image enhancement based on generative adversarial networks. InFifteenth International Conference on Information Optics and Photonics (CIOP 2024) 2024 Dec 5 (Vol. 13418, pp. 331-339).
+
+>In the generator, we introduce the **residual shrinkage building unit** with the channel-shared thresholds module (DRSN-CS) to suppress artifacts and image noise and extract medical image information through three paths using different convolution kernels.
+
+[988] Wen X, Cao C, Li Y, Sun Y. **DRSN** with Simple Parameter-Free Attention Module for Specific Emitter Identification. In2022 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom) 2022 Dec 9 (pp. 192-200). 
+
+>The advantages of the parameter-free attention module and **deep residual shrinkage network** are integrated by **DRSN**-SimAM. The parameter-free attention module is introduced into the **residual shrinkage building unit** for adaptively learning thresholds, filtering out redundant information irrelevant to the signal fingerprint.
+
+[989] Hui D, Xu H, Ma Z, Sun F, Zhou J, Meng Y. Study on Intelligent Pressure Reducing Valve and Leakage Diagnosis. In2022 IEEE 6th Information Technology and Mechatronics Engineering Conference (ITOEC) 2022 Mar 4 (Vol. 6, pp. 584-588). IEEE.
+
+>Meanwhile, pressure sensors are set in front of the valve and behind the valve to collect data by the **deep residual shrinkage network** to train the pressure.
+
+[990] Peng H, Cao C, Sun Y, Li H, Wen X. Blind identification of channel codes under awgn and fading conditions via deep learning. In2022 International Conference on Networking and Network Applications (NaNA) 2022 Dec 3 (pp. 67-73).
+
+>For solving these difficulties, based on **deep residual shrinkage network** (**DRSN**), this paper proposes a novel recognizer by deep learning technologies to blindly distinguish the type and the parameter of channel codes without any prior knowledge or channel state, furthermore, feature extractions by the neural network from codewords can avoid intricate calculations.
