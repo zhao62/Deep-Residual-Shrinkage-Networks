@@ -3231,3 +3231,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1016] Lin J, Wang C. Image Classification Algorithm Based on Improved Soft Thresholding and Residual Network. InInternational Conference on Artificial Intelligence in China 2023 Jul 22 (pp. 231-239).
 
 >The soft thresholding technique adopted in this paper is derived from the **deep residual shrinkage networks** (**DRSN**).
+
+[1017] Zhang X, Yuan W, Liu C, et al. Deep learning with a self-adaptive threshold for OTFS channel estimation. In 2022 International Symposium on Wireless Communication Systems (ISWCS) 2022 Oct 19 (pp. 1-5).
+
+>In particular, we consider the sparsity of the OTFS channel and propose a **deep residual shrinkage network** (**DRSN**) to implicitly learn the residual noise for recovering the channel information.
+
+[1018] Wang W, Gu J, Zhang S. Dual Contrastive Learning for Unpaired Image Dehazing. In 2023 3rd International Symposium on Artificial Intelligence and Intelligent Manufacturing (AIIM) 2023 Oct 27 (pp. 51-56).
+
+>Our approach improves the Cycle-Consistent Adversarial Networks (Cyclegan) by incorporating an improved **Deep Residual Shrinkage Network** in the generator...
