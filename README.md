@@ -3271,3 +3271,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1026] 张火明, 黄敏, 陆萍蓝. 基于改进Resnet-LSTM模型的系泊缆仿真张力预测[J]. 计量学报, 1-8 [2024-12-19].
 
 >本文利用LSTM算法的时序特性结合特征提取网络Resnet搭建改进型**残差收缩网络**(**residual shrinkage network**，Resnet-LSTM) 模型来优化网络同时提高风浪流联合作用下系泊力预测准确率。
+
+[1027] Zhou G, Zhuang Y, Ding X, et al. A Simple Siamese Framework for Vibration Signal Representations. In IEEE International Conference on Image Processing (ICIP) 2022 Oct 16 (pp. 2456-2460).
+
+>To improve the feature learning ability for TD data, a **deep residual shrinkage network** with channel-wise thresholds (**DRSN**-CW) [14] is utilized in this work.
