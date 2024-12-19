@@ -3085,3 +3085,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [980] 杨山山. 降雹声波信号检测及其量级估计方法研究[D]. 南京信息工程大学, 2023.
 
 >本文提出了一种双通道异构**残差收缩网络**（DCI-**DRSN**）能够同时获取两种不同途径得到的特征阈值。
+
+[981] 刘通. 基于迁移学习的试验环境反演分析方法研究[D]. 哈尔滨工程大学, 2023.
+
+>针对以上问题，本文提出了一种基于模型迁移的特征提取方法，其中，迁移模型采用MPECN模型，该模型由多尺度PRelu卷积网络（Multiscale PRelu Convolutional Network，MPCN）和深度高效卷积**残差收缩网络*8（Deep Efficient Convolution **Residual Shrinkage Network**，DECRSN）构成。
