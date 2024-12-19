@@ -3189,3 +3189,27 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1006] Pan Y, Zhou Y, Ji H, Li C. Automatic Modulation Recognition Based on Dual-Channel Fusion Hybrid Neural Network. In 2023 IEEE 16th International Conference on Electronic Measurement & Instruments (ICEMI) 2023 Aug 9 (pp. 201-207).
 
 >The spatial features of the dual-channel data are extracted by the **deep residual shrinkage network** (**DRSN**)...
+
+[1007] Lin X, Zhang L, Wu Z. Intelligent Cyclic Spectrum Features Based Modulation Recognition Design. In 2021 2nd Information Communication Technologies Conference (ICTC) 2021 May 7 (pp. 189-193). IEEE.
+
+>In order to further improve the classification accuracy with lower computational complexity, in this paper, we propose a CS and **deep residual shrinkage network** (**DRSN**) based MR system.
+
+[1008] Liao H, Zhu W, Zhang B, et al. Application of natural gas pipeline leakage detection based on improved DRSN-CW. In 2021 IEEE International Conference on Emergency Science and Information Technology (ICESIT) 2021 Nov 22 (pp. 514-518).
+
+>This paper develops a novel improved model based on **deep residual shrinkage networks** with channel-wise (**DRSN**-CW), to improve the recognition accuracy of natural gas pipeline leakage.
+
+[1009] Yu S, Ding Y, Qian K, Hu B, Li W, Schuller BW. A glance-and-gaze network for respiratory sound classification. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2022 May 23 (pp. 9007-9011). IEEE.
+
+>To suppress the noises in the spectrogram, we use a **deep residual shrinkage network** to suppress the noises in the spectrogram.
+
+[1010] Zhang S, Zeng Q. Command Words Recognition Algorithm of Shrinking Residual Network based on MFCC and Dual Micro-Array. In 2021 6th International Conference on Intelligent Computing and Signal Processing (ICSP) 2021 Apr 9 (pp. 46-49).
+
+>**Deep residual shrinkage network** with channel-wise thresholds (DRSN-CW) unit is used to calculate the soft threshold respectively for the feature information of each channel
+
+[1011] Xiong R, Huang X, Guo L. Intelligent seismic horizon picking based on Gabor wavelet transform of seismic attribute. In 84th EAGE Annual Conference & Exhibition 2023 Jun 5 (Vol. 2023, No. 1, pp. 1-5).
+
+>Finally, the support vector machine, random forest, extreme gradient boosting models and **deep residual shrinkage network** are used to horizon picking.
+
+[1012] Wang Y, Cheng L, Mao T, Wu M. Rolling Bearing Fault Diagnosis Based on CWT and Two-Stream Convolutional Neural Network. In 2024 5th Information Communication Technologies Conference (ICTC) 2024 May 10 (pp. 1-6).
+
+>The method incorporates **Deep Residual Shrinkage Network** with Different Thresholds Channel by Channel (DRSN-CW), continuous wavelet transform and multi-scale convolutional network into the model...
