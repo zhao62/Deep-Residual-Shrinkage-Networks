@@ -3337,3 +3337,31 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1047] Zhu L, Sun Y, Zhang S. Multi-angle recognition of vehicles based on carrier-free UWB sensor and **deep residual shrinkage** learning. IEEE Microwave and Wireless Components Letters. 2022 Mar 11;32(7):927-30.
 
 >This letter designs a **deep residual shrinkage network** to achieve the multiangle intelligent vehicle recognition.
+
+[1048] Shen Q, Yang X, Zou L, et al. Multitask **residual shrinkage** convolutional neural network for sleep apnea detection based on wearable bracelet photoplethysmography. IEEE Internet of Things Journal. 2022 Aug 2;9(24):25207-22.
+
+[1049] Roy A, Satija U. RS-2-BP: A Unified Deep Learning Framework for Deriving EIT-Based Breathing Patterns From Respiratory Sounds. IEEE Signal Processing Letters. 2024 Oct 8.
+
+>The major contributions of the proposed framework are following: (a) investigation of mel spectrograms of RSs for predicting BPs, (b) proposed a novel light- hybrid-DL architecture for deriving BPs that utilizes cascaded standard convolution and **residual shrinkage blocks** followed by feature-refined transformer encoder, and LSTM module.
+
+[1050] Zhang L, Yang X, Liu H, et al. Efficient **residual shrinkage** CNN denoiser design for intelligent signal processing: Modulation recognition, detection, and decoding. IEEE Journal on Selected Areas in Communications. 2021 Nov 8;40(1):97-111.
+
+[1051] Xie W, Xiao J, Zhu P, Yu C. Multi-task learning-based channel estimation for RIS assisted multi-user communication systems. IEEE Communications Letters. 2021 Dec 23;26(3):577-81.
+
+>Meanwhile, the **residual shrinkage blocks** are introduced into the multi-task network architecture to release the noise effect.
+
+[1052] Li C, Shi Z, Zhou L, et al. Tfformer: A time frequency information fusion based cnn-transformer model for osa detection with single-lead ecg. IEEE Transactions on Instrumentation and Measurement. 2023 Sep 6.
+
+>To address this problem, this article presents a time–frequency information fusion-based CNN-Transformer model (TFFormer) for OSA detection with single-lead ECG, in which a module consisting of a **deep residual shrinkage module**...
+
+[1053] Qian Y, Yang X, Tang SK. Dual-space aggregation learning and random erasure for visible infrared person re-identification. IEEE Access. 2023 Jul 21.
+
+>To address these issues, we explore a dual-space aggregation learning (DSAL) method that combines instance-batch normalization (IBN) and **residual shrinkage** (**RS**) into a baseline model for feature learning and compression at the channel-level.
+
+[1054] Li S, Zhang C, Zhang X. A Novel Spatio-Temporal Enhanced Convolutional Autoencoder Network for Unsupervised Health Indicator Construction. IEEE Transactions on Instrumentation and Measurement. 2024 Mar 29.
+
+>SMM enhances the deep mining of local spatial features via **deep residual shrinkage module**.
+
+[1055] Wu X, Peng H, Cui X, et al. Multichannel Vibration Signal Fusion Based on Rolling Bearings and MRST-Transformer Fault Diagnosis Model. IEEE Sensors Journal. 2024 Apr 10.
+
+>The MRST-Transformer comprises an enhanced **residual shrinkage building unit** with channel-wise (RSBU-CW) and a shallow cross-vision transformer (Cross Vit).
