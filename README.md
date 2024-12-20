@@ -3246,11 +3246,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >One method for one-dimensional timedomain signal inspection is the **Deep Residual Shrinkage Net** (**DRSN**), which offers noise immunity and has seen efficient improvements from ...
 
-[1021] Ma X, Hu H, Shang Y. A new method for transformer fault prediction based on multifeature enhancement and refined long short-term memory. IEEE Transactions on Instrumentation and Measurement. 2021, 19;70:1-1.
+[1021] Liu G, Jiang Q, Sun Y, et al. A Double-Branch Improved **Residual Shrinkage Network** for Diagnosis of Induction Motor Broken Rotor Bar under Small Samples. IEEE Transactions on Instrumentation and Measurement. 2024 Nov 20.
 
->First, this study constructs a cross-entropy loss function with variable thresholds and dynamic weights to reduce error transmission in the **deep residual shrinkage network**, enhancing the sensitivity of the normal and abnormal transformer states by the network.
-
->Finally, the improved subchannel threshold **depth residual shrinkage network** is integrated with the optimized LSTM network.
+>Aiming at the problems of limited data collection and the difficulty in estimating the severity of faults, a double-branch improved **residual shrinkage network** (DB-IRSN) for BRBs in IMs was proposed, where both transformed current and vibration signals are utilized.
 
 [1022] Wu X, Peng H, Cui X, Guo T, Ni R, Zhang Y. Multi-Channel vibration signals fusion based on rolling bearings and MRST-Transformer fault diagnosis model. IEEE Sensors Journal. 2024 Apr 10.
 
@@ -3299,3 +3297,43 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1033] 刘惠, 钟鹏程, 刘振宇, 等. 基于传感数据混合噪声抑制的装备零件故障诊断方法、装置及设备[P]. 浙江省: CN202411280901.0, 2024-12-17.
 
 >可选地，所述深度学习模型为带有选择性核卷积模块与全局参数化ReLU的**深度残差收缩网络**。
+
+[1034] Gong B, Zhang X, Chen X. Research on the Health Status Recognition Method of High Speed Train Bearings Based on **Deep Residual Shrinkage** Attention Block Network Model. In 2024 9th International Conference on Intelligent Computing and Signal Processing (ICSP) 2024 Apr 19 (pp. 977-982).
+
+>This model fully utilizes the soft thresholding ability of **residual shrinkage networks** to suppress noise and the filtering ability of spatial channel attention to key feature information...
+
+[1035] Yu S, Wei Y. Multi-focus image fusion method based on **deep residual shrinkage network**. In2024 7th International Conference on Computer Information Science and Application Technology (CISAT) 2024 Jul 12 (pp. 392-395).
+
+[1036] Wang R, Fang Y, Qiang Y, et al. A Novel Method of Myocardial Infarction Diagnosis Based on **Residual Shrinkage Network**. In 2024 43rd Chinese Control Conference (CCC) 2024 Jul 28 (pp. 8864-8869).
+
+[1037] Jiang W, Wu J, Zhu H, et al. Multi-Model Fusion Health Assessment for MultiState Industrial Robot via Fuzzy **Deep Residual Shrinkage Network** and Versatile Cluster. IEEE Transactions on Fuzzy Systems. 2024 Jun 7.
+
+[1038] Huang S, Guo L, Fu X, et al. Open-Set Specific Emitter Identification Leveraging Enhanced Metric Denoising Auto-Encoders. IEEE Internet of Things Journal. 2024 May 22.
+
+>This advanced framework incorporates a **deep residual shrinkage network**, significantly augmenting the denoising autoencoder’s capability, thereby bolstering its resilience against noisy environments.
+
+[1039] Fan F, Zhang M, Yu D, et al. Lightweight Context Awareness and Feature Enhancement for Anchor-Free Remote Sensing Target Detection. IEEE Sensors Journal. 2024 Feb 12.
+
+>Second, we proposed that ELAN-RSN uses an optimized **residual shrinkage network** (**RSN**) to eliminate background noise and conflicting information in the multiscale feature fusion.
+
+[1040] Li Y, Wang R, Mao R, et al. A Fault Diagnosis Method Based on an Improved Deep Q-Network for the Inter-Turn Short Circuits of a Permanent Magnet Synchronous Motor. IEEE Transactions on Transportation Electrification. 2023 Aug 18.
+
+>A 1-D **deep residual shrinkage network** and the prioritized experience replay (PER) strategy are introduced into the original network structure, and the sampling strategy of the original network is optimized.
+
+[1041] Wang K, Gou Y, Chen Z, et al. Complex Fault Diagnosis of Rolling Bearings Based on Improved **Residual Shrinkage Networks**. In 2023 3rd International Conference on Robotics, Automation and Intelligent Control (ICRAIC) 2023 Nov 24 (pp. 344-349).
+
+[1042] Wang Y, Cao C, Li Y, et al. Radiofrequency fingerprint feature extraction and recognition using a coordinate attention-guided **deep residual shrinkage network**. In 2023 International Conference on Networking and Network Applications (NaNA) 2023 Aug 18 (pp. 551-557).
+
+[1043] Li J, Tan L, Zhou Y, et al. Voice-Face Cross-Modal Association Learning Based on **Deep Residual Shrinkage Network**. In 2023 IEEE International Conference on Image Processing and Computer Applications (ICIPCA) 2023 Aug 11 (pp. 140-145).
+
+[1044] Luo M, Yang L, Sun Z, Yin M, Ma Y, Wu X, Cao W. Gait recognition based on sEMG and **Deep Residual Shrinkage Network**. In2023 IEEE International Conference on Real-time Computing and Robotics (RCAR) 2023 Jul 17 (pp. 122-127).
+
+[1045] Feng Q, Han L, Zhao B, et al. Microseismic events recognition via joint deep clustering with residual shrinkage dense network. IEEE Transactions on Geoscience and Remote Sensing. 2023 Sep 11.
+
+>To better suppress the noise in microseismic data, RSDB adds a densely connected hybrid dilated convolution and an improved threshold module to the **deep residual shrinkage network**.
+
+[1046] Zhang Z, Peng G, Tan Y, et al. THz Wave Detection of Gap Defects Based on a Convolutional Neural Network Improved by a **Residual Shrinkage Network**. CSEE Journal of Power and Energy Systems. 2020 Dec 21;9(3):1078-89.
+
+[1047] Zhu L, Sun Y, Zhang S. Multi-angle recognition of vehicles based on carrier-free UWB sensor and **deep residual shrinkage** learning. IEEE Microwave and Wireless Components Letters. 2022 Mar 11;32(7):927-30.
+
+>This letter designs a **deep residual shrinkage network** to achieve the multiangle intelligent vehicle recognition.
