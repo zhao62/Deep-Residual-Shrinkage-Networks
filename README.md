@@ -3328,7 +3328,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 [1044] Luo M, Yang L, Sun Z, Yin M, Ma Y, Wu X, Cao W. Gait recognition based on sEMG and **Deep Residual Shrinkage Network**. In2023 IEEE International Conference on Real-time Computing and Robotics (RCAR) 2023 Jul 17 (pp. 122-127).
 
-[1045] Feng Q, Han L, Zhao B, et al. Microseismic events recognition via joint deep clustering with residual shrinkage dense network. IEEE Transactions on Geoscience and Remote Sensing. 2023 Sep 11.
+[1045] Feng Q, Han L, Zhao B, et al. Microseismic events recognition via joint deep clustering with **residual shrinkage** dense network. IEEE Transactions on Geoscience and Remote Sensing. 2023 Sep 11.
 
 >To better suppress the noise in microseismic data, RSDB adds a densely connected hybrid dilated convolution and an improved threshold module to the **deep residual shrinkage network**.
 
