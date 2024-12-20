@@ -2096,9 +2096,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >Next, the augmented balanced dataset is utilized to train a **deep residual shrinkage network** (**DRSN**), which is then employed for the classification of test samples.
 
-[732] Dai C, Hu S, Zhang Y, et al. Cavitation state identification of centrifugal pump based on CEEMD-**DRSN**. Nuclear Engineering and Technology, 2023, 55(4), pp.1507-1517.
+[732] Wu X, Peng H, Cui X, et al. Multichannel Vibration Signal Fusion Based on Rolling Bearings and MRST-Transformer Fault Diagnosis Model. IEEE Sensors Journal. 2024 Apr 10.
 
->A closed cavitation test bench of a centrifugal pump is constructed, and a method for precisely identifying the cavitation state is proposed based on Complementary Ensemble Empirical Mode Decomposition (CEEMD) and **Deep Residual Shrinkage Network** (DRSN). First, we compared the cavitation sensitivity of pressure fluctuation, vibration, and liquid-borne noise and decomposed the liquid-borne noise by CEEMD to capture cavitation characteristics. The decomposition results are sent into a 12-layer **deep residual shrinkage network** (**DRSN**) for cavitation identification training.
+>The MRST-Transformer comprises an enhanced **residual shrinkage building unit** with channel-wise (RSBU-CW) and a shallow cross-vision transformer (Cross Vit).
 
 [733] Dai C, Hu S, Zhang Y, et al. Cavitation state identification of centrifugal pump based on CEEMD-DRSN. Nuclear Engineering and Technology, 2023, 55(4), pp.1507-1517.
 
@@ -3349,7 +3349,3 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1051] Qian Y, Yang X, Tang SK. Dual-space aggregation learning and random erasure for visible infrared person re-identification. IEEE Access. 2023 Jul 21.
 
 >To address these issues, we explore a dual-space aggregation learning (DSAL) method that combines instance-batch normalization (IBN) and **residual shrinkage** (**RS**) into a baseline model for feature learning and compression at the channel-level.
-
-[1052] Wu X, Peng H, Cui X, et al. Multichannel Vibration Signal Fusion Based on Rolling Bearings and MRST-Transformer Fault Diagnosis Model. IEEE Sensors Journal. 2024 Apr 10.
-
->The MRST-Transformer comprises an enhanced **residual shrinkage building unit** with channel-wise (RSBU-CW) and a shallow cross-vision transformer (Cross Vit).
