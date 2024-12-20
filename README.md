@@ -3291,3 +3291,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1031] X. Cui, C. Zhang, J. Li, et al. Channel estimation based on dual frequency domain Transformer in time-frequency doubly-selective fading underwater acoustic channels[J]. Physical Communication, 2024.
 
 >Additionally, a high-frequency feature extraction (HFE) module based on **deep residual shrinkage** is implemented to mitigate the impact of noise and ICI on channel estimation.
+
+[1032] 华锋. 模糊视觉环境下的密集水下目标检测算法研究[D]. 南昌航空大学, 2023.
+
+>首先，在主干分支中，本章采用了**收缩残差块**来加强特征。相较于传统的残差块，**收缩残差块**具有更强的降噪能力，可以有效地减少噪声对特征提取的干扰。
+
+[1033] 刘惠, 钟鹏程, 刘振宇, 等. 基于传感数据混合噪声抑制的装备零件故障诊断方法、装置及设备[P]. 浙江省: CN202411280901.0, 2024-12-17.
+
+>可选地，所述深度学习模型为带有选择性核卷积模块与全局参数化ReLU的**深度残差收缩网络**。
