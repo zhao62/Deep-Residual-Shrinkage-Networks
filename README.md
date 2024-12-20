@@ -3316,44 +3316,40 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >Second, we proposed that ELAN-RSN uses an optimized **residual shrinkage network** (**RSN**) to eliminate background noise and conflicting information in the multiscale feature fusion.
 
-[1040] Li Y, Wang R, Mao R, et al. A Fault Diagnosis Method Based on an Improved Deep Q-Network for the Inter-Turn Short Circuits of a Permanent Magnet Synchronous Motor. IEEE Transactions on Transportation Electrification. 2023 Aug 18.
+[1040] Wang K, Gou Y, Chen Z, et al. Complex Fault Diagnosis of Rolling Bearings Based on Improved **Residual Shrinkage Networks**. In 2023 3rd International Conference on Robotics, Automation and Intelligent Control (ICRAIC) 2023 Nov 24 (pp. 344-349).
 
->A 1-D **deep residual shrinkage network** and the prioritized experience replay (PER) strategy are introduced into the original network structure, and the sampling strategy of the original network is optimized.
+[1041] Wang Y, Cao C, Li Y, et al. Radiofrequency fingerprint feature extraction and recognition using a coordinate attention-guided **deep residual shrinkage network**. In 2023 International Conference on Networking and Network Applications (NaNA) 2023 Aug 18 (pp. 551-557).
 
-[1041] Wang K, Gou Y, Chen Z, et al. Complex Fault Diagnosis of Rolling Bearings Based on Improved **Residual Shrinkage Networks**. In 2023 3rd International Conference on Robotics, Automation and Intelligent Control (ICRAIC) 2023 Nov 24 (pp. 344-349).
+[1042] Li J, Tan L, Zhou Y, et al. Voice-Face Cross-Modal Association Learning Based on **Deep Residual Shrinkage Network**. In 2023 IEEE International Conference on Image Processing and Computer Applications (ICIPCA) 2023 Aug 11 (pp. 140-145).
 
-[1042] Wang Y, Cao C, Li Y, et al. Radiofrequency fingerprint feature extraction and recognition using a coordinate attention-guided **deep residual shrinkage network**. In 2023 International Conference on Networking and Network Applications (NaNA) 2023 Aug 18 (pp. 551-557).
+[1043] Luo M, Yang L, Sun Z, Yin M, Ma Y, Wu X, Cao W. Gait recognition based on sEMG and **Deep Residual Shrinkage Network**. In2023 IEEE International Conference on Real-time Computing and Robotics (RCAR) 2023 Jul 17 (pp. 122-127).
 
-[1043] Li J, Tan L, Zhou Y, et al. Voice-Face Cross-Modal Association Learning Based on **Deep Residual Shrinkage Network**. In 2023 IEEE International Conference on Image Processing and Computer Applications (ICIPCA) 2023 Aug 11 (pp. 140-145).
-
-[1044] Luo M, Yang L, Sun Z, Yin M, Ma Y, Wu X, Cao W. Gait recognition based on sEMG and **Deep Residual Shrinkage Network**. In2023 IEEE International Conference on Real-time Computing and Robotics (RCAR) 2023 Jul 17 (pp. 122-127).
-
-[1045] Feng Q, Han L, Zhao B, et al. Microseismic events recognition via joint deep clustering with **residual shrinkage** dense network. IEEE Transactions on Geoscience and Remote Sensing. 2023 Sep 11.
+[1044] Feng Q, Han L, Zhao B, et al. Microseismic events recognition via joint deep clustering with **residual shrinkage** dense network. IEEE Transactions on Geoscience and Remote Sensing. 2023 Sep 11.
 
 >To better suppress the noise in microseismic data, RSDB adds a densely connected hybrid dilated convolution and an improved threshold module to the **deep residual shrinkage network**.
 
-[1046] Zhang Z, Peng G, Tan Y, et al. THz Wave Detection of Gap Defects Based on a Convolutional Neural Network Improved by a **Residual Shrinkage Network**. CSEE Journal of Power and Energy Systems. 2020 Dec 21;9(3):1078-89.
+[1045] Zhang Z, Peng G, Tan Y, et al. THz Wave Detection of Gap Defects Based on a Convolutional Neural Network Improved by a **Residual Shrinkage Network**. CSEE Journal of Power and Energy Systems. 2020 Dec 21;9(3):1078-89.
 
-[1047] Zhu L, Sun Y, Zhang S. Multi-angle recognition of vehicles based on carrier-free UWB sensor and **deep residual shrinkage** learning. IEEE Microwave and Wireless Components Letters. 2022 Mar 11;32(7):927-30.
+[1046] Zhu L, Sun Y, Zhang S. Multi-angle recognition of vehicles based on carrier-free UWB sensor and **deep residual shrinkage** learning. IEEE Microwave and Wireless Components Letters. 2022 Mar 11;32(7):927-30.
 
 >This letter designs a **deep residual shrinkage network** to achieve the multiangle intelligent vehicle recognition.
 
-[1048] Shen Q, Yang X, Zou L, et al. Multitask **residual shrinkage** convolutional neural network for sleep apnea detection based on wearable bracelet photoplethysmography. IEEE Internet of Things Journal. 2022 Aug 2;9(24):25207-22.
+[1047] Shen Q, Yang X, Zou L, et al. Multitask **residual shrinkage** convolutional neural network for sleep apnea detection based on wearable bracelet photoplethysmography. IEEE Internet of Things Journal. 2022 Aug 2;9(24):25207-22.
 
-[1049] Roy A, Satija U. RS-2-BP: A Unified Deep Learning Framework for Deriving EIT-Based Breathing Patterns From Respiratory Sounds. IEEE Signal Processing Letters. 2024 Oct 8.
+[1048] Roy A, Satija U. RS-2-BP: A Unified Deep Learning Framework for Deriving EIT-Based Breathing Patterns From Respiratory Sounds. IEEE Signal Processing Letters. 2024 Oct 8.
 
 >The major contributions of the proposed framework are following: (a) investigation of mel spectrograms of RSs for predicting BPs, (b) proposed a novel light- hybrid-DL architecture for deriving BPs that utilizes cascaded standard convolution and **residual shrinkage blocks** followed by feature-refined transformer encoder, and LSTM module.
 
-[1050] Zhang L, Yang X, Liu H, et al. Efficient **residual shrinkage** CNN denoiser design for intelligent signal processing: Modulation recognition, detection, and decoding. IEEE Journal on Selected Areas in Communications. 2021 Nov 8;40(1):97-111.
+[1049] Zhang L, Yang X, Liu H, et al. Efficient **residual shrinkage** CNN denoiser design for intelligent signal processing: Modulation recognition, detection, and decoding. IEEE Journal on Selected Areas in Communications. 2021 Nov 8;40(1):97-111.
 
-[1051] Xie W, Xiao J, Zhu P, Yu C. Multi-task learning-based channel estimation for RIS assisted multi-user communication systems. IEEE Communications Letters. 2021 Dec 23;26(3):577-81.
+[1050] Xie W, Xiao J, Zhu P, Yu C. Multi-task learning-based channel estimation for RIS assisted multi-user communication systems. IEEE Communications Letters. 2021 Dec 23;26(3):577-81.
 
 >Meanwhile, the **residual shrinkage blocks** are introduced into the multi-task network architecture to release the noise effect.
 
-[1052] Qian Y, Yang X, Tang SK. Dual-space aggregation learning and random erasure for visible infrared person re-identification. IEEE Access. 2023 Jul 21.
+[1051] Qian Y, Yang X, Tang SK. Dual-space aggregation learning and random erasure for visible infrared person re-identification. IEEE Access. 2023 Jul 21.
 
 >To address these issues, we explore a dual-space aggregation learning (DSAL) method that combines instance-batch normalization (IBN) and **residual shrinkage** (**RS**) into a baseline model for feature learning and compression at the channel-level.
 
-[1053] Wu X, Peng H, Cui X, et al. Multichannel Vibration Signal Fusion Based on Rolling Bearings and MRST-Transformer Fault Diagnosis Model. IEEE Sensors Journal. 2024 Apr 10.
+[1052] Wu X, Peng H, Cui X, et al. Multichannel Vibration Signal Fusion Based on Rolling Bearings and MRST-Transformer Fault Diagnosis Model. IEEE Sensors Journal. 2024 Apr 10.
 
 >The MRST-Transformer comprises an enhanced **residual shrinkage building unit** with channel-wise (RSBU-CW) and a shallow cross-vision transformer (Cross Vit).
