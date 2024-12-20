@@ -3287,3 +3287,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1030] 秦明华, 苗升伍. 一种基于图像识别算法的多机位同步音影录播系统[P]. 江苏省: CN202311008485.4, 2023-10-27.
 
 >所述Google Net V3‑Unet+模型首先将Google Net V3中inception模块和**深度残差收缩模块**的组合模块移植到Unet网络的编码器...
+
+[1031] X. Cui, C. Zhang, J. Li, et al. Channel estimation based on dual frequency domain Transformer in time-frequency doubly-selective fading underwater acoustic channels[J]. Physical Communication, 2024.
+
+>Additionally, a high-frequency feature extraction (HFE) module based on **deep residual shrinkage** is implemented to mitigate the impact of noise and ICI on channel estimation.
