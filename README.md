@@ -3349,3 +3349,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1051] Qian Y, Yang X, Tang SK. Dual-space aggregation learning and random erasure for visible infrared person re-identification. IEEE Access. 2023 Jul 21.
 
 >To address these issues, we explore a dual-space aggregation learning (DSAL) method that combines instance-batch normalization (IBN) and **residual shrinkage** (**RS**) into a baseline model for feature learning and compression at the channel-level.
+
+[1052] 刘硕佳. 《第4章 基于**深度残差收缩网络**的低信噪比信号识别技术》基于深度学习的非授权频段无线信号识别[D]. 华侨大学, 2023.
+
+>提出了一种基于**深度残差收缩网络**(**DRSN**)的低信噪比信号识别方法。
+
+[1053] 曹雯琪. 基于二维卷积神经网络的轴承故障诊断方法研究[D]. 华侨大学, 2023.
+
+>针对复杂工况下多源数据冗余与特征难以充分提取的问题，提出基于**深度残差收缩模块**的多传感器数据故障诊断方法，该方法具有一定的抗噪能力，可以实现在不同工况下的故障诊断。
