@@ -3328,7 +3328,9 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 
 >To better suppress the noise in microseismic data, RSDB adds a densely connected hybrid dilated convolution and an improved threshold module to the **deep residual shrinkage network**.
 
-[1045] Zhang Z, Peng G, Tan Y, et al. THz Wave Detection of Gap Defects Based on a Convolutional Neural Network Improved by a **Residual Shrinkage Network**. CSEE Journal of Power and Energy Systems. 2020 Dec 21;9(3):1078-89.
+[1045] 孟晶晶, 徐雅斌. 基于集成学习的乐声分离方法[J]. 北京信息科技大学学报(自然科学版), 2023, 38(03): 27-34.
+
+>本文基于集成学习的方法，提出一种将卷积神经网络、注意力机制和**深度残差收缩网络**相结合的深度学习模型，能有效提升分离质量。
 
 [1046] Zhu L, Sun Y, Zhang S. Multi-angle recognition of vehicles based on carrier-free UWB sensor and **deep residual shrinkage** learning. IEEE Microwave and Wireless Components Letters. 2022 Mar 11;32(7):927-30.
 
@@ -3373,7 +3375,3 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1057] 张旗. 噪声环境下基于深度学习的滚动轴承剩余寿命预测方法研究[D]. 大连交通大学, 2024.
 
 >MSCNN-DRSNA 模型的核心思想是将Stacking集成学习的思想与**深度残差收缩网络**以及注意力机制结合，以实现对噪声环境下原始振动信号的多尺度建模和有效的信息提取。
-
-[1058] 孟晶晶, 徐雅斌. 基于集成学习的乐声分离方法[J]. 北京信息科技大学学报(自然科学版), 2023, 38(03): 27-34.
-
->本文基于集成学习的方法，提出一种将卷积神经网络、注意力机制和**深度残差收缩网络**相结合的深度学习模型，能有效提升分离质量。
