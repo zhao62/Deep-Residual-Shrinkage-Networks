@@ -3375,3 +3375,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1057] 张旗. 噪声环境下基于深度学习的滚动轴承剩余寿命预测方法研究[D]. 大连交通大学, 2024.
 
 >MSCNN-DRSNA 模型的核心思想是将Stacking集成学习的思想与**深度残差收缩网络**以及注意力机制结合，以实现对噪声环境下原始振动信号的多尺度建模和有效的信息提取。
+
+[1058] 王安义, 李婼嫚, 李新宇, 等. 基于深度学习的导频设计和信道估计联合优化[J/OL]. 计算机科学, 1-13[2024-12-27].
+
+>然后将优化后的导频位置输入**深度残差收缩网络**（**Deep Residual Shrinkage Network**， **DRSN**）获取更精确的CSI，进一步完成信道的精确估计。
