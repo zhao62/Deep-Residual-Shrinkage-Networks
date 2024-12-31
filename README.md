@@ -3379,3 +3379,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1058] 王安义, 李婼嫚, 李新宇, 等. 基于深度学习的导频设计和信道估计联合优化[J/OL]. 计算机科学, 1-13[2024-12-27].
 
 >然后将优化后的导频位置输入**深度残差收缩网络**（**Deep Residual Shrinkage Network**， **DRSN**）获取更精确的CSI，进一步完成信道的精确估计。
+
+[1059] M. Zhang, S. Huang, S. Chen, T. Ma. Research on ECG signal processing under complex noise based on machine learning algorithm[J]. IEEE 10th World Forum on Internet of Things (WF-IoT), 2024.
+
+>and proposes a framework for ECG signal processing based on the **Deep Residual Shrinkage Network** combined with the Fully Convolutional Self-Coder and Decoder for ECG signals in a complex noise environment.
