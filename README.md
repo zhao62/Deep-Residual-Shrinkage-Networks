@@ -3383,3 +3383,6 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1059] M. Zhang, S. Huang, S. Chen, T. Ma. Research on ECG signal processing under complex noise based on machine learning algorithm[J]. IEEE 10th World Forum on Internet of Things (WF-IoT), 2024.
 
 >and proposes a framework for ECG signal processing based on the **Deep Residual Shrinkage Network** combined with the Fully Convolutional Self-Coder and Decoder for ECG signals in a complex noise environment.
+
+[1060] 邹腾枭. 基于CEEMD和自适应特征融合的滚动轴承故障诊断方法研究[D]. 三峡大学, 2024.
+>该方法首先以CEEMD分解的有效IMF分量作为输入，在**深度残差收缩网络**的基础上，设计子域网络计算改进软阈值函数中的斜率因子和阈值参数...
