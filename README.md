@@ -3449,3 +3449,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1078] 李鑫. 基于地基云图的超短期光伏功率预测研究[D]. 天津大学, 2023.
 
 >本文提出了基于一维**深度残差收缩网络**(One-Dimensional **Deep Residual Shrinkage Network**,1D-**DRSN**)的光伏功率预测方法。
+
+[1079] Z. Jiang, J. Wu, H. Yu, et al. End-to-End Methane Concentration Measurement Model with **Deep Residual Shrinkage Network** for Direct Absorption Spectroscopy. IEEE Transactions on Instrumentation and Measurement, 2025.
+
+[1080] Zhuang Q, Zhang J, Lin J, Liu W. A fault diagnosis method for partial discharge in distribution switchgear based on global Feature-enhanced **residual shrinkage network**. In Journal of Physics: Conference Series (Vol. 2935, No. 1, p. 012032), 2025. IOP Publishing.
+
+[1081] Feng X, Guo Z, Kwong S.ID3RSNet: cross-subject driver drowsiness detection from raw single-channel EEG with an interpretable **residual shrinkage network**. Frontiers in Neuroscience, 2025, 18, 1508747.
+
+[1082] C. Ma, S. Nan, Z. Kun, et al. A novel cross domain diagnosis method based on physical feature weighting and **deep residual shrinkage network**. Measurement Science and Technology 36, no. 1 (2024): 0161b6.
