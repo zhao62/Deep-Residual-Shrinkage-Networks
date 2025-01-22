@@ -3445,3 +3445,7 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >该方法利用设备自动采集的CSI数据，将计算预处理后的数据滑动方差作为输入特征，对改进的**深度残差收缩网络**(**Deep Residual Shrinkage Network**，**DRSN**)进行训练，从而实现CSI数据到对应步态的映射。
 
 [1077] 陈昊杰, 陈永毅, 倪洪杰, 等. 基于双维度注意力**残差收缩网络**的滚动轴承故障诊断[J]. 高技术通讯, 2024, 34(12): 1330-1340.
+
+[1078] 李鑫. 基于地基云图的超短期光伏功率预测研究[D]. 天津大学, 2023.
+
+>本文提出了基于一维**深度残差收缩网络**(One-Dimensional **Deep Residual Shrinkage Network**,1D-**DRSN**)的光伏功率预测方法。
