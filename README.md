@@ -3457,3 +3457,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1081] Feng X, Guo Z, Kwong S.ID3RSNet: cross-subject driver drowsiness detection from raw single-channel EEG with an interpretable **residual shrinkage network**. Frontiers in Neuroscience, 2025, 18, 1508747.
 
 [1082] C. Ma, S. Nan, Z. Kun, et al. A novel cross domain diagnosis method based on physical feature weighting and **deep residual shrinkage network**. Measurement Science and Technology 36, no. 1 (2024): 0161b6.
+
+[1083] 赵建. 基于集成学习与**残差收缩网络**的IoT入侵检测方法[D]. 哈尔滨师范大学, 2024.
