@@ -20,7 +20,7 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
 **作者主页**(**赵明航**-**哈工大教师主页**)：http://homepage.hit.edu.cn/zhaominghang
 
-**百度百科**：https://baike.baidu.com/item/深度残差收缩网络/24267828
+**百度百科**：https://baike.baidu.com/item/深度残差收缩网络
 
 **作者谷歌学术主页**：https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
