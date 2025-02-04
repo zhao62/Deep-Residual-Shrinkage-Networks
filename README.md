@@ -3461,3 +3461,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1082] C. Ma, S. Nan, Z. Kun, et al. A novel cross domain diagnosis method based on physical feature weighting and **deep residual shrinkage network**. Measurement Science and Technology 36, no. 1 (2024): 0161b6.
 
 [1083] 赵建. 基于集成学习与**残差收缩网络**的IoT入侵检测方法[D]. 哈尔滨师范大学, 2024.
+
+[1084] Cao H, Xu B, Wang C, et al. Automatic Seismic Event Detection in Low Signal-to-noise Ratio Seismic Signal Based on a **Deep Residual Shrinkage Network**. Computers & Geosciences, 2025, 105868.
