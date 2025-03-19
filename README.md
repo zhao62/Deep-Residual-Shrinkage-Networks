@@ -3597,3 +3597,35 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1120] Y. Xu, H. Liao, W. Ke, et al. IM**DRSN**-BiLSTM for Rolling Bearing Fault Diagnosis.
 
 [1121] W. Jiang, G. Zhao, Z. Gao, et al. Compound Fault Diagnosis of Wind Turbine Gearbox via Modified Signal Quality Coefficient and Versatile **Residual Shrinkage Network**. Sensors 25, no. 3 (2025): 913.
+
+[1122] Zhao, S., Mu, D. R., & Tan, D. Y. (2025). A deep learning-based adaptive denoising approach for fine identification of rock microcracks from noisy strain data. Engineering Applications of Artificial Intelligence, 148, 110471.
+
+>To address this limitation, this research develops a hybrid attention **residual shrinkage network** (HARSNet) to enhance feature extraction ability from highly noisy DFOS data and achieve a high rock (micro) crack identification accuracy.
+
+[1123] Pan, Xiaolei, Ao Shen, Hongxiao Chen, and Kunyi Wu. "Bearing fault diagnosis method based on contrastive learning and domain adaptation under variable working conditions." (2025).
+
+>Firstly, a **deep residual shrinkage network** with channel-wise thresholds (DRSN-CWT) is utilized to directly extract features from raw vibration data, thereby maximizing the extraction of relevant features.
+
+[1124] Gao, W., Xu, Z., & Akoudad, Y. (2025). Metric-Based Meta-Learning Relation Network for Cross-Domain Few-Shot Bearing Fault Diagnosis. IEEE Sensors Journal.
+
+>Following this division, a **residual shrinkage** non-local feature extraction module is introduced to extract and combine features from both subsets.
+
+[1125] Yang, T., Li, G., Huo, J., Li, X., Zhou, X., & Han, Q. (2025). The DRTS-Net Framework: Enhanced Probabilistic Health Perception for Wind Turbine Bearings under Complex Operating Conditions with Improved Interpretability. IEEE Transactions on Instrumentation and Measurement.
+
+>Inspired by improvements in residual network structures, the DRTS-Net integrates an attention mechanism and a soft thresholding mechanism from the **deep residual shrinkage network** to optimize the feature extraction process.
+
+[1126] Ma, X., Sun, M., Li, J., McCane, B., Wang, B., & Zhang, M. (2025). Identification of Stochastic Gravitational Wave Backgrounds from Cosmic String Using Machine Learning. arXiv preprint arXiv:2502.11804.
+
+>We employed a **Residual Shrinkage Network** (ResNet) for this learning task, incorporating Dropout and regularization to mitigate overfitting.
+
+[1127] Chen, H., Zhou, Q., Hu, H., & Li, B. (2025). Multipath and noise resilient direction of arrival method for low-cost mechanical arm calibration. Computers and Electrical Engineering, 123, 110075.
+
+>The initial four layers of encoder utilize **Deep Residual Shrinkage Networks**-Channel Wise (DRSN-CW), which apply adaptive soft thresholding across individual feature map channels, thereby achieve a more robust signal denoising. 
+
+[1128] Zhang, Y., Lin, L., Wang, J., Zhang, W., Gao, S., & Zhang, Z. (2025). Attention activation network for bearing fault diagnosis under various noise environments. Scientific Reports, 15(1), 977.
+
+>The **deep residual shrinkage network** module (DRSN-CW) with different thresholds per channel was distributed to multiple key locations of the MLSCA-CW model.
+
+[1129] Gan, J., Lin, X., Chen, T., Fan, C., Wei, P., Li, Z., ... & He, T. (2025). Improving Short-Term Photovoltaic Power Generation Forecasting with a Bidirectional Temporal Convolutional Network Enhanced by Temporal Bottlenecks and Attention Mechanisms. Electronics, 14(2), 214.
+
+>It introduces a temporal bottleneck structure and **Deep Residual Shrinkage Network** (**DRSN**) into the Temporal Convolutional Network (TCN), improving feature extraction and reducing redundancy.
