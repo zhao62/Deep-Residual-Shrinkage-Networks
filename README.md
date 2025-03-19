@@ -3673,3 +3673,11 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1140] Salimy, A. (2024). Deep Learning for High Voltage Condition Monitoring.
 
 >A further system is developed to overcome the non-stationary nature and noise contamination in EMI signals, the proposed system implements a Stockwell (S) transform for feature extraction and uses a **deep residual shrinkage Network** (**DRSN**) architecture to classify data in varying noise contamination levels.
+
+[1141] Wu, Xidong, et al. "Multiscale feature enhanced gating network for atrial fibrillation detection." Computer Methods and Programs in Biomedicine (2025): 108606.
+
+>The FE module consists of a soft-threshold **residual shrinkage** component, a dilated convolution module, and a Squeeze-and-Excitation (SE) module, eliminating redundant features and emphasizing effective features.
+
+[1142] Ling, Haoran, Fengchao Zhu, and Minli Yao. "A RSBU-LSTM network for radio frequency fingerprint identification relying on multiple features." EURASIP Journal on Advances in Signal Processing 2024.1 (2024): 72.
+
+>Then, we use multiple **Residual Shrinkage Building Units** (RSBUs) to extract the correlation features within the cycle of signals and preserve as many features as possible in low SNR environments. 
