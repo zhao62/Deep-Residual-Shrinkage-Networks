@@ -3629,3 +3629,47 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1129] Gan, J., Lin, X., Chen, T., Fan, C., Wei, P., Li, Z., ... & He, T. (2025). Improving Short-Term Photovoltaic Power Generation Forecasting with a Bidirectional Temporal Convolutional Network Enhanced by Temporal Bottlenecks and Attention Mechanisms. Electronics, 14(2), 214.
 
 >It introduces a temporal bottleneck structure and **Deep Residual Shrinkage Network** (**DRSN**) into the Temporal Convolutional Network (TCN), improving feature extraction and reducing redundancy.
+
+[1130] Cui, X., Zhang, C., Li, J., Jiang, B., Li, S., & Liu, J. (2025). Channel estimation based on dual frequency domain Transformer in time–frequency doubly-selective fading underwater acoustic channels. Physical Communication, 68, 102585.
+
+>a high-frequency feature extraction (HFE) module based on **deep residual shrinkage** is implemented to mitigate the impact of noise and ICI on channel estimation.
+
+[1131] Deng, K., Tao, B., & Hu, J. (2024, December). Unpaired medical image enhancement based on generative adversarial networks. In Fifteenth International Conference on Information Optics and Photonics (CIOP 2024) (Vol. 13418, pp. 331-339). SPIE.
+
+>In the generator, we introduce the **residual shrinkage building unit** with the channel-shared thresholds module (DRSN-CS) to suppress artifacts and image noise and extract medical image information through three paths using different convolution kernels.
+
+[1132] Cao, B., Ping, Q., Zhao, M., He, C., Zhou, X., & He, M. Non-Contact Detection of Electrocardiogram Fiducial Points with Millimeter-Wave Radar. Available at SSRN 5017329.
+
+> To enhance the detection process, we developed a one-dimensional semantic segmentation model by integrating a **deep residual shrinkage network block** (DRSN) into the U-Net architecture, which we term DRSN-U-Net.
+
+[1133] Ping, Z., Wang, D., Zhang, Y., Ding, B., Duan, Y., & Zhou, W. (2025). Few-shot aero-engine bearing fault diagnosis with denoising diffusion based data augmentation. Neurocomputing, 622, 129327.
+
+>Subsequently, a **Deep Residual Shrinkage Network** (**DRSN**) is employed to perform fault diagnosis on the generated synthetic samples, fully leveraging its advantages in handling noise and anomalous signals, thereby further improving the accuracy and robustness of the diagnosis.
+
+[1134] Li, T., Yin, C., Chai, Y., Chen, H., Rong, W., & Ouyang, Y. (2024, October). An RSB-GNN-Based EEG Approach for Exploring Students' Affective States in E-Learning. In 2024 IEEE Frontiers in Education Conference (FIE) (pp. 1-9). IEEE.
+
+>we adopted a novel **residual shrinkage block** (RSB) to construct the graph neural network (GNN).
+
+[1135] Guo, W., Wang, Z., Li, S., Liu, Y., Yue, M., & Sun, R. (2024, October). Research on Rotor Fault Diagnosis Method Based on Multi-Sensor Fusion. In 2024 Global Reliability and Prognostics and Health Management Conference (PHM-Beijing) (pp. 1-6). IEEE.
+
+>To address this issue, this paper proposes a rotor fault diagnosis method based on a **deep residual shrinkage network** (DRSN_CS) utilizing multi-sensor data fusion.
+
+[1136] Li, Wentao, et al. "Self-supervised network for oriented synthetic aperture radar ship detection based on self-distillation." Journal of Applied Remote Sensing 18.4 (2024): 046504-046504.
+
+>The framework consists of three core components: a self-supervised learning paradigm utilizing knowledge distillation, a **deep residual shrinkage network** (SAR-DRSN) model, and an oriented bounding boxes progressive generation model.
+
+[1137] Zhao, Tiezhu, et al. "Heterogeneous information alignment and re-ranking for cross-modal pedestrian re-identification." Multimedia Tools and Applications (2024): 1-24.
+
+>this study employs a **Residual Shrinkage Building Unit** (**RSBU**) to extract pedestrian features, reducing the impact of image noise on pedestrian features and enhancing their robustness.
+
+[1138] Li, Qing, et al. "Object Detection in Remote Sensing Images of Pine Wilt Disease Based on Adversarial Attacks and Defenses." Forests 15.9 (2024): 1623.
+
+>By employing the aforementioned method, **residual shrinkage modules** are introduced into residual networks, ensuring that all thresholds are positive and preventing the output from being zero, thus keeping the thresholds within a reasonable range.
+
+[1139] Chen, Jianbing, et al. "Multibeam water column image super-resolution by combining morphological and intensity features." International Journal of Digital Earth 17.1 (2024): 2398760.
+
+>With deep and shallow feature fusion, a **depth residual shrinkage block** (DRSB) is designed to provide a set of soft thresholds in the channel dimension.
+
+[1140] Salimy, A. (2024). Deep Learning for High Voltage Condition Monitoring.
+
+>A further system is developed to overcome the non-stationary nature and noise contamination in EMI signals, the proposed system implements a Stockwell (S) transform for feature extraction and uses a **deep residual shrinkage Network** (**DRSN**) architecture to classify data in varying noise contamination levels.
