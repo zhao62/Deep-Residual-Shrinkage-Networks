@@ -3587,3 +3587,13 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1116] 李德望,周瑶.基于改进**DRSN**-CW的气体泄漏检测技术[J].中国高新科技,2024,(22):140-142.
 
 >**深度残差收缩网络**是深度残差网络的改进版本，是深度残差网络、注意机制和软阈值函数的集成。
+
+[1117] X. Li, J. Chen, J. Wang, et al. Multi-Scale Channel Mixing Convolutional Network and Enhanced **Residual Shrinkage Network** for Rolling Bearing Fault Diagnosis. Electronics, 2025, 14(5), p.855.
+
+[1118] J. Guo, R. Yang, F. Han. Coal Seam Roof and Floor Lithology Prediction for Underground Coal Gasification Based on **Deep Residual Shrinkage Network**. Energy Science & Engineering, 2025.
+
+[1119] P. Huang, J.n Huang, S. Huang, et al. High-Resistance Grounding Fault Location in High-Voltage Direct Current Transmission Systems Based on **Deep Residual Shrinkage Network**. Electronics, 14, no. 3 (2025): 628.
+
+[1120] Y. Xu, H. Liao, W. Ke, et al. IM**DRSN**-BiLSTM for Rolling Bearing Fault Diagnosis.
+
+[1121] W. Jiang, G. Zhao, Z. Gao, et al. Compound Fault Diagnosis of Wind Turbine Gearbox via Modified Signal Quality Coefficient and Versatile **Residual Shrinkage Network**. Sensors 25, no. 3 (2025): 913.
