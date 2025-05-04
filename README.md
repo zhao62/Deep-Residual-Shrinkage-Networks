@@ -3797,3 +3797,5 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >利用**深度残差收缩网络**建立模型，以预测癌旁组织的DNA甲基化。
 
 [1176] Ren, Z., Liu, D., Liu, Y., Zhang, S., Hu, H., & Jiang, A. A new parallel PQDs classification method based on an optimized NLM and an improved **DRSN**-TCN model. Computers and Electrical Engineering, 2025, 124, 110326.
+
+[1177] 潘鹏程,董一凡,王世青,等.基于样本扩充和KOA-**DRSN**-BiGRU-ProbSparse Attention的变压器故障诊断[J/OL].电子设计工程,1-7[2025-05-04].
