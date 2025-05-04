@@ -3783,3 +3783,17 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1171] 马晶.基于注意力机制的信息科技课程在线学习平台学习效果提升研究[J].电脑与电信,2025,(01):59-64.
 
 >构建**深度残差收缩网络**(**DRSN**)进行学习情感识别与分类，最后通过多组横向对比实验验证模型和算法的有效性
+
+[1172] 施杰,张威,李志,等.采用改进Transformer模型的滚动轴承声振信号故障诊断方法[J/OL].电子测量技术,1-14[2025-05-04].
+
+>在Transformer模型的基础上引入**深度残差收缩网络**，构建局部特征提取层，提高模型的局部特征提取能力；
+
+[1173] 张典秋.基于**残差收缩**和三级注意力机制的微博文本情感分析研究[D].广东财经大学,2024.
+
+[1174] 李伟真.基于**残差收缩**和生成对抗网络的轴承故障诊断方法研究[D].武汉理工大学,2023.
+
+[1175] 刘玉.集成多组学特征的DNA甲基化预测模型研究[D].大连海事大学,2024.
+
+>利用**深度残差收缩网络**建立模型，以预测癌旁组织的DNA甲基化。
+
+[1176] Ren, Z., Liu, D., Liu, Y., Zhang, S., Hu, H., & Jiang, A. A new parallel PQDs classification method based on an optimized NLM and an improved **DRSN**-TCN model. Computers and Electrical Engineering, 2025, 124, 110326.
