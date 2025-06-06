@@ -14,7 +14,7 @@ This paper develops new deep learning methods, namely, deep residual shrinkage n
 ***Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, 
 IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
-**The paper has been cited over 1000 times on Google Scholar. (本论文的谷歌学术引用量已经超过1000次)**
+**The paper has been cited over 1000 times on Google Scholar. (本论文的谷歌学术引用量已经超过1200次)**
 
 **论文网址**：https://ieeexplore.ieee.org/document/8850096
 
@@ -3859,3 +3859,47 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1194] 李相泽.基于生理信号的心律失常识别分析与研究[D].东北大学,2022.
 
 >本文提出了一种基于函数型主成分分析(Functional Principal Com-ponents Analysis,FPCA)和**深度残差收缩网络**(Deep Residual Shrinkage Network,DRSN)的多类型心律失常识别方法。
+
+[1195] 李晶.基于深度学习的声学层析成像温度分布重建研究[D].华北电力大学,2023.
+
+>针对重建模型易受噪声干扰的问题,设计了带有通道阈值的多尺度**残差收缩网络**(multiscale deep residual shrinkage network with channel-wise thresholds,MDRSN-CW)。
+
+[1196] 李萌瑞.基于改进孪生网络的滚动轴承智能诊断方法[D].长安大学,2024.
+
+>针对高噪声情况下数据特征提取困难,现有的滚动轴承故障诊断方法效果差的问题,构建了基于长短时**残差收缩**的孪生神经网络(SN-LTDRSN)智能故障诊断方法。
+
+[1197] 杨舒怡.基于钢轨动态响应的高速列车车轮多边形智能检测算法研究[D].北京交通大学,2024.
+
+>针对高阶车轮多边形的波深的准确识别问题,提出了一种结合区域融合注意力机制的**深度残差收缩网络**(RFA-DRSN)模型
+
+[1198] 李晶.基于深度学习的声学层析成像温度分布重建研究[D].华北电力大学,2023.
+
+>针对重建模型易受噪声干扰的问题,设计了带有通道阈值的多尺度**残差收缩网络**(multiscale deep residual shrinkage network with channel-wise thresholds,MDRSN-CW)。
+
+[1199] 王晓琪.非理想数据下船用机械装备故障诊断方法研究[D].华中科技大学,2024.
+
+>针对机械装备监测数据质量差导致故障诊断精度低的问题,提出一种基于全局注意力**残差收缩网络**的故障诊断方法。
+
+[1200] 马鹏森.基于Transformer与生成对抗网络的图像着色算法研究[D].西安工程大学,2023.
+
+>**深度残差收缩网络**减少了噪声对模型的影响同时避免了由于网络层数过深带来的过拟合问题
+
+[1201] 郭舒心.化工减速器轴承故障监测及三维可视化技术研究[D].淮阴工学院,2024.
+
+>该算法结合了改进的**残差收缩模块**和Inception网络,能够提高轴承故障监测的准确度,同时增强监测系统的稳定性和效率
+
+[1202] 孙欣宇.基于生成对抗网络的轴承音频异常检测系统的研究与实现[D].辽宁大学,2024.
+
+>在本文提出的f-AnoGAN-SAIDC网络中,结合**深度残差收缩结构**,对编码器也进行了调整和改进优化,以提升编码器在强噪声环境下的特征提取能力
+
+[1203] 张翔.基于机器学习的热红外遥感地震预测模型研究[D].上海工程技术大学,2022.
+
+>**深度残差收缩网络**的预测准确率和召回率最高,预测准确率为73.68%,召回率为70.09%,该网络对预测精度上有很大程度的提高。
+
+[1204] 孙靓.深度残差网络模型研究及其在断路器故障诊断中的应用[D].河北工业大学,2023.
+
+>该方法采用Res2Net对**深度残差收缩网络**(Deep Residual Shrinkage Network,DRSN)进行改进,构建了更细粒度级别多尺度**深度残差收缩网络模型**(DR2SN)
+
+[1205] 张千雪.基于深度学习的音乐结构分析系统的研究与实现[D].西华大学,2024.
+
+>设计了一种基于**深度残差收缩网络**的音乐流派分类方法。
