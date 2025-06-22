@@ -3903,3 +3903,41 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1205] 张千雪.基于深度学习的音乐结构分析系统的研究与实现[D].西华大学,2024.
 
 >设计了一种基于**深度残差收缩网络**的音乐流派分类方法。
+
+[1206] 高雪瑶,张澐凯,张春祥.基于中心锚困难三元组损失和多视图特征融合的三维模型分类[J/OL].电子与信息学报,1-13[2025-06-22].
+
+>以3维模型的多视图集为输入，利用**深度残差收缩网络**(**DRSN**)提取视图特征并融合2维形状分布特征D1,D2和D3得到视图融合特征；
+
+[1207] 王志,郭伟军,田晶,等.基于双流故障网络的转子系统振动故障诊断方法[J/OL].推进技术,1-13[2025-06-22].
+
+>设计了一种基于**深度残差收缩网络**（Deep Residual Shrinkage Networks， DRSN）和Transformer的双流故障诊断网络(DS-ESAFNet)。
+
+[1208] 郑罡,张智宇,于吉港,等.基于**深度残差收缩网络**的超声混凝土应力识别[J].科学技术与工程,2025,25(16):6869-6878.
+
+[1209] 祝国铸,左翔,丛小飞,等.考虑多影响因素的感潮河段潮位模拟方法研究[J/OL].人民长江,1-9[2025-06-22].
+
+>融合**深度残差收缩网络**（**DRSN**）、双向长短时记忆网络（BILSTM）和注意力机制（Attention）构建智能模型（DRSN-BILSTM-Attention）
+
+[1210] 刘修恒,左翔,马剑波,等.基于机理与数据联合驱动的感潮河段潮位预报模型研究[J/OL].中国农村水利水电,1-15[2025-06-22].
+
+>利用**深度残差收缩网络**（**DRSN**）和长短时记忆网络（LSTM）构建数据驱动模型（DRSN-LSTM），挖掘多影响因子对潮位的影响
+
+[1211] 中山大学.一种基于**残差收缩**重构循环神经网络的雷达工作模式识别方法:202510050941.4[P].2025-06-03.
+
+[1212] 西南石油大学.一种基于机器视觉的破碎岩石粒度识别方法:202510066176.5[P].2025-06-03.
+
+>合融合注意力的可变形卷积模块以及注意力**残差收缩单元**,并使用空洞卷积层替换最大池化层,得到改进的轻量级边缘分割模型；
+
+[1213] 安徽商高大数据技术有限公司.基于多源融合深度对抗网络的轴承故障诊断方法及系统:202510063932.9[P].2025-05-13.
+
+>轴承故障诊断将真实样本的数据分布结果输入到增强型**深度残差收缩网络模型**中,得到滚动轴承故障诊断结果。
+
+[1214] Tastimur, Canan, Erhan Akin, and Mehmet Agrikli. "Fabric Faults Robust Classification Based on Logarithmic **Residual Shrinkage Network** in a Four-Point System." Applied Sciences 15, no. 12 (2025): 6783.
+
+[1215] Zhang, Ridong, Zichao Li, and Furong Gao. "Modeling and Diagnosis of Industrial System Using Hybrid **Deep Residual Shrinkage Network** and XGBoost." Process Safety and Environmental Protection (2025): 107438.
+
+[1216] Xu, Bo, Hu Zhang, Chongshi Gu, Zeyuan Chen, and Hao Gu. "Multi-target prediction and dynamic interpretation method for displacement of arch dam with cracks based on A-DSRSN and SHAP." Advanced Engineering Informatics 66 (2025): 103467.
+
+>this study proposes a deep stacked **residual shrinkage network** based on attention mechanisms (A-DSRSN),
+
+[1217] Ma, Jinting, Lifen Wang, Renxiang Wu, Naiwen Zhang, Jing Wei, Jianjun Li, Qiuyuan Li et al. "A multi-label **deep residual shrinkage network** for high-density surface electromyography decomposition in real-time." Journal of NeuroEngineering and Rehabilitation 22, no. 1 (2025): 1-19.
