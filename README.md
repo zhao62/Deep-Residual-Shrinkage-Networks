@@ -3941,3 +3941,12 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >this study proposes a deep stacked **residual shrinkage network** based on attention mechanisms (A-DSRSN),
 
 [1217] Ma, Jinting, Lifen Wang, Renxiang Wu, Naiwen Zhang, Jing Wei, Jianjun Li, Qiuyuan Li et al. "A multi-label **deep residual shrinkage network** for high-density surface electromyography decomposition in real-time." Journal of NeuroEngineering and Rehabilitation 22, no. 1 (2025): 1-19.
+
+[1218] 曹明华,姚瑞芳,张悦,等.MIMO-FTN无线光通信系统中IDRSN检测算法[J/OL].北京邮电大学学报,1-6[2025-06-28].
+
+>在深度残差收缩网络的基础上，结合InceptionA模块提出了一种改进型**深度残差收缩网络**(IDRSN)检测算法。
+
+[1219] 李丹,罗娇娇,缪书唯,等.考虑动态时空特性和风速-功率转换机理的超短期风电场功率预测[J/OL].高电压技术,1-14[2025-06-28].
+
+>通过**深度残差收缩网络**去噪并提取风机风速的空间分布特征，以反映风向等气象条件下尾流效应对风电场内风速空间分布的影响；
+
