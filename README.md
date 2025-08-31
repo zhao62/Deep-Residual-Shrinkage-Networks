@@ -4177,3 +4177,15 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 >将历史回望时窗内各台风机轮毂处的风速、桨距角等信息构成输入特征图,通过**深度残差收缩网络**去噪并提取风机风速的空间分布特征,以反映风向等气象条件下尾流效应对风电场内风速空间分布的影响
 
 [1281] 深圳市比一比网络科技有限公司.一种基于**深度残差收缩网络**的钢轨缺陷检测方法及系统:202111120010.5[P].2025-06-10.
+
+[1282] Ye, Y., Wang, J., Yang, J., Yao, D. and Lu, Y., Supervised Contrastive Learning Enhanced **Deep Residual Shrinkage Network** for Dual Uncertainty-Aware Bearing RUL Prediction. IEEE Sensors Journal. 2025.
+
+[1283] Wang, Y. and Zhu, Y.,. **Deep Residual Shrinkage Network** Recognition Method for Transformer Partial Discharge. Electronics, 2025, 14(16), p.3181.
+
+[1284] Dong, H., Zhang, R. and Mi, Y., 2025, August. Fault diagnosis on bearing of electric motor based on **DRSN**-BIGRU using stator current signals. In Journal of Physics: Conference Series (Vol. 3079, No. 1, p. 012050). IOP Publishing.
+
+[1285] Bai, S., Xu, Y., Wang, J. and Xie, T., 2025. Research on Fault Diagnosis of Metro Traction Motor Bearings Based on Information Fusion and Optimized **DRSN**-GRU. Engineering Research Express.
+
+[1286] Zhu, Y., Liao, X., Li, A. and Gao, Z., 2025. A **DRSN**-Based Wireless Channel Propagation Scenario Identification. IEEE Communications Letters.
+
+[1287] Suman, P. and Qu, Y., 2025. A Lightweight Deep Learning Model for Automatic Modulation Classification Using Dual-Path **Deep Residual Shrinkage Network**. AI, 6(8), p.195.
