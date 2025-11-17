@@ -26,6 +26,7 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
   pages     = {4681-4690},
   doi       = {10.1109/TII.2019.2942898}
 }
+```
 
 **The paper has been cited over 1400 times on Google Scholar. (本论文的谷歌学术引用量已经超过1400次)**
 
