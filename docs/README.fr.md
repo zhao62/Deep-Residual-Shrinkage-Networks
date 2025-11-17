@@ -1,5 +1,7 @@
 # Réseau Résiduel-Contractant Profond : un algorithme d’IA adapté aux données fortement bruitées
 
+Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
+
 **BibTeX**
 ```bibtex
 @article{Zhao2020,
