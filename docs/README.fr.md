@@ -17,7 +17,6 @@ Par exemple, lors de l'entraînement d'un classifieur de chats et de chiens, par
 **2.Le seuillage doux**
 
 Le seuillage doux, qui est une étape fondamentale de nombreux algorithmes de débruitage de signal, consiste à mettre à zéro les caractéristiques dont la valeur absolue est inférieure à un certain seuil, et à effectuer une contraction en direction de zéro sur celles dont la valeur absolue est supérieure à ce même seuil. Il peut être mis en œuvre au moyen de la formule suivante :
-
 ```math
 y = \begin{cases}
 x - \tau & x > \tau \\
@@ -27,7 +26,6 @@ x + \tau & x < -\tau
 ```
 
 La dérivée de la sortie du seuillage doux par rapport à l'entrée est :
-
 ```math
 \frac{\partial y}{\partial x} = \begin{cases}
 1 & x > \tau \\
