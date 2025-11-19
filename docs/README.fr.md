@@ -47,7 +47,7 @@ En effet, le niveau de bruit varie souvent d'un échantillon à l'autre. Il est 
 Le mécanisme d'attention est relativement simple à comprendre dans le domaine de la vision par ordinateur. Le système visuel des animaux peut balayer rapidement une zone entière pour y détecter un objet cible, puis focaliser son attention sur cet objet afin d'en extraire davantage de détails, tout en inhibant les informations non pertinentes. Pour plus de détails, veuillez vous référer aux publications spécialisées sur le mécanisme d'attention.
 
 Le réseau Squeeze-and-Excitation (SENet) est une méthode d'apprentissage profond relativement récente qui relève du mécanisme d'attention. Pour différents échantillons, la contribution de chaque canal de caractéristiques à la tâche de classification est souvent inégale. SENet utilise un petit sous-réseau pour obtenir un ensemble de poids, qui sont ensuite multipliés par les caractéristiques de chaque canal respectif afin d'en moduler l'amplitude. Ce processus peut être interprété comme l'application d'une attention d'intensité variable à chaque canal de caractéristiques.
-![Architecture du Réseau Résiduel-Contractant Profond](assets/SENET_fr_1.png)
+<img src="assets/SENET_fr_1.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="67%">
 
 De cette manière, chaque échantillon obtient son propre ensemble de poids. En d'autres termes, les poids de deux échantillons quelconques sont différents. Dans SENet, le cheminement spécifique pour obtenir ces poids est le suivant : « Pooling global → Couche entièrement connectée → Fonction ReLU → Couche entièrement connectée → Fonction sigmoïde ».
 
