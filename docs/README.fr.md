@@ -26,6 +26,33 @@ x + \tau & x < -\tau
 \end{cases}
 ```
 
+La dérivée de la sortie du seuillage doux par rapport à l'entrée est :
+
+```math
+\frac{\partial y}{\partial x} = \begin{cases}
+1 & x > \tau \\
+0 & -\tau \le x \le \tau \\
+1 & x < -\tau
+\end{cases}
+```
+
+D'après ce qui précède, la dérivée du seuillage doux est soit 1, soit 0. Cette propriété est identique à celle de la fonction d'activation ReLU. Par conséquent, le seuillage doux peut également réduire le risque que les algorithmes d'apprentissage profond soient confrontés à la disparition du gradient et à l'explosion du gradient.
+
+Pour la fonction de seuillage doux, la définition du seuil doit satisfaire à deux conditions : premièrement, le seuil doit être un nombre positif ; deuxièmement, il ne doit pas être supérieur à la valeur maximale du signal d'entrée, sans quoi la sortie serait entièrement nulle.
+
+Parallèlement, il est préférable que le seuil satisfasse également à une troisième condition : chaque échantillon devrait posséder son propre seuil, défini en fonction de son niveau de bruit.
+
+En effet, le niveau de bruit varie souvent d'un échantillon à l'autre. Il est fréquent, par exemple, que dans un même jeu de données, l'échantillon A contienne moins de bruit et l'échantillon B en contienne davantage. Dans ce cas, lors de l'application du seuillage doux au sein d'un algorithme de débruitage, l'échantillon A devrait se voir appliquer un seuil plus élevé, et l'échantillon B un seuil plus faible. Bien que dans les réseaux de neurones profonds, ces caractéristiques et seuils perdent leur signification physique explicite, le principe fondamental reste analogue. Autrement dit, chaque échantillon devrait avoir un seuil indépendant, déterminé par son propre niveau de bruit.
+
+**3.Le mécanisme d'attention**
+
+Le mécanisme d'attention est relativement simple à comprendre dans le domaine de la vision par ordinateur. Le système visuel des animaux peut balayer rapidement une zone entière pour y détecter un objet cible, puis focaliser son attention sur cet objet afin d'en extraire davantage de détails, tout en inhibant les informations non pertinentes. Pour plus de détails, veuillez vous référer aux publications spécialisées sur le mécanisme d'attention.
+
+Le réseau Squeeze-and-Excitation (SENet) est une méthode d'apprentissage profond relativement récente qui relève du mécanisme d'attention. Pour différents échantillons, la contribution de chaque canal de caractéristiques à la tâche de classification est souvent inégale. SENet utilise un petit sous-réseau pour obtenir un ensemble de poids, qui sont ensuite multipliés par les caractéristiques de chaque canal respectif afin d'en moduler l'amplitude. Ce processus peut être interprété comme l'application d'une attention d'intensité variable à chaque canal de caractéristiques.
+
+De cette manière, chaque échantillon obtient son propre ensemble de poids. En d'autres termes, les poids de deux échantillons quelconques sont différents. Dans SENet, le cheminement spécifique pour obtenir ces poids est le suivant : « Pooling global → Couche entièrement connectée → Fonction ReLU → Couche entièrement connectée → Fonction sigmoïde ».
+
+
 **Références**
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
