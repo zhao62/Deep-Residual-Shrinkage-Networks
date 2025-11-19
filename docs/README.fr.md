@@ -73,7 +73,7 @@ De plus, des échantillons différents obtiennent ainsi des seuils différents. 
 Enfin, l'empilement d'un certain nombre de modules de base, ainsi que de couches telles que des couches convolutionnelles, de normalisation par lots, des fonctions d'activation, un pooling de moyenne globale et une couche de sortie entièrement connectée, constitue le Réseau Résiduel-Contractant Profond complet.
 
 <p align="center">
-  <img src="assets/fr/DRSN_fr_2.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="30%">
+  <img src="assets/fr/DRSN_fr_2.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="35%">
 </p>
 
 **5.Généralité**
