@@ -88,6 +88,8 @@ Dans le domaine de la reconnaissance vocale, dans un environnement particulière
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
+[![IEEE](https://img.shields.io/badge/Publication-IEEE-00629B.svg)](https://ieeexplore.ieee.org/document/8850096)
+
 **BibTeX**
 ```bibtex
 @article{Zhao2020,
