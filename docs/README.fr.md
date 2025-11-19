@@ -103,3 +103,7 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## Impact
+
+L'article a été cité plus de 1400 fois sur Google Scholar.
