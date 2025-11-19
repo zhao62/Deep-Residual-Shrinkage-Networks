@@ -52,6 +52,23 @@ Le réseau Squeeze-and-Excitation (SENet) est une méthode d'apprentissage profo
 
 De cette manière, chaque échantillon obtient son propre ensemble de poids. En d'autres termes, les poids de deux échantillons quelconques sont différents. Dans SENet, le cheminement spécifique pour obtenir ces poids est le suivant : « Pooling global → Couche entièrement connectée → Fonction ReLU → Couche entièrement connectée → Fonction sigmoïde ».
 
+**4.Le seuillage doux dans le cadre d'un mécanisme d'attention profond**
+
+Le Réseau Résiduel-Contractant Profond s'inspire de la structure du sous-réseau de SENet afin de mettre en œuvre un seuillage doux dans le cadre d'un mécanisme d'attention profond. Au moyen du sous-réseau encadré en bleu, il est possible d'apprendre un ensemble de seuils afin d'appliquer un seuillage doux à chaque canal de caractéristiques.
+
+Dans ce sous-réseau, la première étape consiste à calculer la valeur absolue de toutes les caractéristiques de la carte d'entrée. Celles-ci subissent ensuite un pooling de moyenne globale pour obtenir une caractéristique unique, notée A. Sur une autre branche, la carte de caractéristiques issue du pooling de moyenne globale est injectée dans un petit réseau entièrement connecté. Ce réseau, qui utilise la fonction sigmoïde comme couche finale, normalise la sortie entre 0 et 1 pour produire un coefficient, noté α. Le seuil final peut alors être représenté par α × A. Le seuil est donc le produit d'un nombre compris entre 0 et 1 et de la moyenne des valeurs absolues de la carte de caractéristiques. Cette approche garantit non seulement que le seuil est positif, mais aussi qu'il n'est pas excessivement grand.
+
+De plus, des échantillons différents obtiennent ainsi des seuils différents. Par conséquent, cela peut être interprété, dans une certaine mesure, comme un mécanisme d'attention particulier : identifier les caractéristiques non pertinentes pour la tâche en cours, les transformer en valeurs proches de zéro au moyen de deux couches convolutionnelles, puis les mettre à zéro par le seuillage doux ; ou, en d'autres termes, identifier les caractéristiques pertinentes, les transformer en valeurs éloignées de zéro via ces mêmes couches, et les conserver.
+
+Enfin, l'empilement d'un certain nombre de modules de base, ainsi que de couches telles que des couches convolutionnelles, de normalisation par lots, des fonctions d'activation, un pooling de moyenne globale et une couche de sortie entièrement connectée, constitue le Réseau Résiduel-Contractant Profond complet.
+
+**5.Généralité**
+
+Le Réseau Résiduel-Contractant Profond constitue en réalité une méthode générale d'apprentissage de caractéristiques. En effet, dans de nombreuses tâches d'apprentissage de caractéristiques, les échantillons contiennent, à des degrés divers, du bruit ainsi que des informations non pertinentes. Ce bruit et ces informations non pertinentes sont susceptibles d'affecter la performance de l'apprentissage de caractéristiques. Par exemple :
+
+Lors de la classification d'images, si une image contient simultanément de nombreux autres objets, ces derniers peuvent être interprétés comme du « bruit ». Le Réseau Résiduel-Contractant Profond, en s'appuyant sur le mécanisme d'attention pour identifier ce « bruit » et en utilisant le seuillage doux pour mettre à zéro les caractéristiques correspondantes, pourrait alors potentiellement améliorer la précision de la classification d'images.
+
+Dans le domaine de la reconnaissance vocale, dans un environnement particulièrement bruyant, comme lors d'une conversation au bord d'une route ou dans un atelier d'usine, le Réseau Résiduel-Contractant Profond serait susceptible d'améliorer la précision de la reconnaissance vocale, ou de fournir une approche permettant d'atteindre cette amélioration.
 
 **Références**
 
