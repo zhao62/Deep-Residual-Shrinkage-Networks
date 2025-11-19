@@ -63,7 +63,7 @@ De cette manière, chaque échantillon obtient son propre ensemble de poids. En 
 Le Réseau Résiduel-Contractant Profond s'inspire de la structure du sous-réseau de SENet afin de mettre en œuvre un seuillage doux dans le cadre d'un mécanisme d'attention profond. Au moyen du sous-réseau encadré en bleu, il est possible d'apprendre un ensemble de seuils afin d'appliquer un seuillage doux à chaque canal de caractéristiques.
 
 <p align="center">
-  <img src="assets/fr/DRSN_fr_1.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="70%">
+  <img src="assets/fr/DRSN_fr_1.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="60%">
 </p>
 
 Dans ce sous-réseau, la première étape consiste à calculer la valeur absolue de toutes les caractéristiques de la carte d'entrée. Celles-ci subissent ensuite un pooling de moyenne globale pour obtenir une caractéristique unique, notée A. Sur une autre branche, la carte de caractéristiques issue du pooling de moyenne globale est injectée dans un petit réseau entièrement connecté. Ce réseau, qui utilise la fonction sigmoïde comme couche finale, normalise la sortie entre 0 et 1 pour produire un coefficient, noté α. Le seuil final peut alors être représenté par α × A. Le seuil est donc le produit d'un nombre compris entre 0 et 1 et de la moyenne des valeurs absolues de la carte de caractéristiques. Cette approche garantit non seulement que le seuil est positif, mais aussi qu'il n'est pas excessivement grand.
@@ -73,7 +73,7 @@ De plus, des échantillons différents obtiennent ainsi des seuils différents. 
 Enfin, l'empilement d'un certain nombre de modules de base, ainsi que de couches telles que des couches convolutionnelles, de normalisation par lots, des fonctions d'activation, un pooling de moyenne globale et une couche de sortie entièrement connectée, constitue le Réseau Résiduel-Contractant Profond complet.
 
 <p align="center">
-  <img src="assets/fr/DRSN_fr_2.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="40%">
+  <img src="assets/fr/DRSN_fr_2.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="30%">
 </p>
 
 **5.Généralité**
