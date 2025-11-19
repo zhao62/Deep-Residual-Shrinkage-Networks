@@ -4,7 +4,7 @@ Le Réseau Résiduel-Contractant Profond est une version améliorée du Réseau 
 
 Dans une certaine mesure, le principe de fonctionnement du Réseau Résiduel-Contractant Profond peut être interprété comme suit : il utilise le mécanisme d'attention pour identifier les caractéristiques non pertinentes et les met à zéro par le biais de la fonction de seuillage doux ; ou, en d'autres termes, il utilise le mécanisme d'attention pour identifier les caractéristiques pertinentes et les conserver, renforçant ainsi la capacité du Réseau de Neurones Profond à extraire les caractéristiques utiles à partir de signaux bruités.
 
-**Contexte et motivations**
+**1.Contexte et motivations**
 
 Premièrement, lors de la classification des échantillons, ceux-ci contiennent inévitablement une certaine forme de bruit, tel que le bruit gaussien, le bruit rose ou le bruit laplacien. Dans un sens plus large, les échantillons sont susceptibles de contenir des informations non pertinentes pour la tâche de classification en cours ; ces informations peuvent également être considérées comme du bruit. Ce bruit risque d'affecter négativement la performance de la classification. (Le seuillage doux est d'ailleurs une étape cruciale dans de nombreux algorithmes de débruitage de signal.)
 
@@ -13,6 +13,18 @@ Par exemple, lors d'une conversation au bord d'une route, le signal vocal peut �
 Deuxièmement, même au sein d'un même jeu de données, la quantité de bruit varie souvent d'un échantillon à l'autre. (Ce principe présente une analogie avec le mécanisme d'attention ; dans un jeu de données d'images, par exemple, la position de l'objet cible peut varier d'une image à l'autre. Le mécanisme d'attention est capable, pour chaque image, d'identifier la localisation de cet objet cible.)
 
 Par exemple, lors de l'entraînement d'un classifieur de chats et de chiens, parmi cinq images étiquetées comme « chien », la première pourrait contenir à la fois un chien et une souris, la deuxième un chien et une oie, la troisième un chien et un poulet, la quatrième un chien et un âne, et la cinquième un chien et un canard. Durant l'entraînement du classifieur, nous sommes inévitablement confrontés aux interférences causées par ces objets non pertinents — la souris, l'oie, le poulet, l'âne et le canard — ce qui entraîne une baisse de la précision de la classification. Si nous parvenions à identifier ces objets non pertinents et à supprimer les caractéristiques qui leur correspondent, il serait alors possible d'améliorer la précision du classifieur de chats et de chiens.
+
+**2.Le seuillage doux**
+
+Le seuillage doux, qui est une étape fondamentale de nombreux algorithmes de débruitage de signal, consiste à mettre à zéro les caractéristiques dont la valeur absolue est inférieure à un certain seuil, et à effectuer une contraction en direction de zéro sur celles dont la valeur absolue est supérieure à ce même seuil. Il peut être mis en œuvre au moyen de la formule suivante :
+
+```math
+y = \begin{cases}
+x - \tau & x > \tau \\
+0 & -\tau \le x \le \tau \\
+x + \tau & x < -\tau
+\end{cases}
+```
 
 **Références**
 
