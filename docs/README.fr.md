@@ -107,3 +107,5 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
 ## Impact
 
 L'article a été cité plus de 1400 fois sur Google Scholar.
+
+Selon des statistiques non-exhaustives, le Réseau Résiduel-Contractant Profond a été appliqué ou adapté dans plus de 1000 publications couvrant de nombreux domaines, tels que la mécanique, l'ingénierie électrique, la vision par ordinateur, le domaine médical, la parole, le texte, le radar et la télédétection.
