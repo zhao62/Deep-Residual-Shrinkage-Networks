@@ -4,7 +4,7 @@
 
 Dans une certaine mesure, le principe de fonctionnement du Réseau Résiduel-Contractant Profond peut être interprété comme suit : **il utilise le mécanisme d'attention pour identifier les caractéristiques non pertinentes et les met à zéro par le biais de la fonction de seuillage doux ; ou, en d'autres termes, il utilise le mécanisme d'attention pour identifier les caractéristiques pertinentes et les conserver, renforçant ainsi la capacité du Réseau de Neurones Profond à extraire les caractéristiques utiles à partir de signaux bruités.**
 
-**1.Contexte et motivations**
+## 1.Contexte et motivations
 
 **Premièrement, lors de la classification des échantillons, ceux-ci contiennent inévitablement une certaine forme de bruit**, tel que le bruit gaussien, le bruit rose ou le bruit laplacien. Dans un sens plus large, les échantillons sont susceptibles de contenir des informations non pertinentes pour la tâche de classification en cours ; ces informations peuvent également être considérées comme du bruit. Ce bruit risque d'affecter négativement la performance de la classification. (Le seuillage doux est d'ailleurs une étape cruciale dans de nombreux algorithmes de débruitage de signal.)
 
@@ -14,7 +14,7 @@ Par exemple, lors d'une conversation au bord d'une route, le signal vocal peut �
 
 Par exemple, lors de l'entraînement d'un classifieur de chats et de chiens, parmi cinq images étiquetées comme « chien », la première pourrait contenir à la fois un chien et une souris, la deuxième un chien et une oie, la troisième un chien et un poulet, la quatrième un chien et un âne, et la cinquième un chien et un canard. Durant l'entraînement du classifieur, nous sommes inévitablement confrontés aux interférences causées par ces objets non pertinents — la souris, l'oie, le poulet, l'âne et le canard — ce qui entraîne une baisse de la précision de la classification. Si nous parvenions à identifier ces objets non pertinents et à supprimer les caractéristiques qui leur correspondent, il serait alors possible d'améliorer la précision du classifieur de chats et de chiens.
 
-**2.Le seuillage doux**
+## 2.Le seuillage doux
 
 **Le seuillage doux, qui est une étape fondamentale de nombreux algorithmes de débruitage de signal**, consiste à mettre à zéro les caractéristiques dont la valeur absolue est inférieure à un certain seuil, et à effectuer une contraction en direction de zéro sur celles dont la valeur absolue est supérieure à ce même seuil. Il peut être mis en œuvre au moyen de la formule suivante :
 ```math
@@ -42,7 +42,7 @@ D'après ce qui précède, la dérivée du seuillage doux est soit 1, soit 0. Ce
 
 En effet, le niveau de bruit varie souvent d'un échantillon à l'autre. Il est fréquent, par exemple, que dans un même jeu de données, l'échantillon A contienne moins de bruit et l'échantillon B en contienne davantage. Dans ce cas, lors de l'application du seuillage doux au sein d'un algorithme de débruitage, l'échantillon A devrait se voir appliquer un seuil plus élevé, et l'échantillon B un seuil plus faible. Bien que dans les réseaux de neurones profonds, ces caractéristiques et seuils perdent leur signification physique explicite, le principe fondamental reste analogue. Autrement dit, chaque échantillon devrait avoir un seuil indépendant, déterminé par son propre niveau de bruit.
 
-**3.Le mécanisme d'attention**
+## 3.Le mécanisme d'attention
 
 Le mécanisme d'attention est relativement simple à comprendre dans le domaine de la vision par ordinateur. Le système visuel des animaux peut balayer rapidement une zone entière pour y détecter un objet cible, puis focaliser son attention sur cet objet afin d'en extraire davantage de détails, tout en inhibant les informations non pertinentes. Pour plus de détails, veuillez vous référer aux publications spécialisées sur le mécanisme d'attention.
 
@@ -58,7 +58,7 @@ De cette manière, chaque échantillon obtient son propre ensemble de poids. En 
   <img src="assets/fr/SENET_fr_2.png" alt="Architecture du réseau Squeeze-and-Excitation" width="50%">
 </p>
 
-**4.Le seuillage doux dans le cadre d'un mécanisme d'attention profond**
+## 4.Le seuillage doux dans le cadre d'un mécanisme d'attention profond
 
 Le Réseau Résiduel-Contractant Profond s'inspire de la structure du sous-réseau de SENet afin de mettre en œuvre un seuillage doux dans le cadre d'un mécanisme d'attention profond. Au moyen du sous-réseau encadré en bleu, il est possible d'apprendre un ensemble de seuils afin d'appliquer un seuillage doux à chaque canal de caractéristiques.
 
@@ -76,7 +76,7 @@ Enfin, l'empilement d'un certain nombre de modules de base, ainsi que de couches
   <img src="assets/fr/DRSN_fr_2.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="35%">
 </p>
 
-**5.Généralité**
+## 5.Généralité
 
 Le Réseau Résiduel-Contractant Profond constitue en réalité une méthode générale d'apprentissage de caractéristiques. En effet, dans de nombreuses tâches d'apprentissage de caractéristiques, les échantillons contiennent, à des degrés divers, du bruit ainsi que des informations non pertinentes. Ce bruit et ces informations non pertinentes sont susceptibles d'affecter la performance de l'apprentissage de caractéristiques. Par exemple :
 
@@ -84,13 +84,13 @@ Lors de la classification d'images, si une image contient simultanément de nomb
 
 Dans le domaine de la reconnaissance vocale, dans un environnement particulièrement bruyant, comme lors d'une conversation au bord d'une route ou dans un atelier d'usine, le Réseau Résiduel-Contractant Profond serait susceptible d'améliorer la précision de la reconnaissance vocale, ou de fournir une approche permettant d'atteindre cette amélioration.
 
-**Références**
+## Références
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
 [https://ieeexplore.ieee.org/document/8850096](https://ieeexplore.ieee.org/document/8850096)
 
-**BibTeX**
+## BibTeX
 ```bibtex
 @article{Zhao2020,
   author    = {Minghang Zhao and Shisheng Zhong and Xuyun Fu and Baoping Tang and Michael Pecht},
