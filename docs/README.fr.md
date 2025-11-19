@@ -84,11 +84,9 @@ Lors de la classification d'images, si une image contient simultanément de nomb
 
 Dans le domaine de la reconnaissance vocale, dans un environnement particulièrement bruyant, comme lors d'une conversation au bord d'une route ou dans un atelier d'usine, le Réseau Résiduel-Contractant Profond serait susceptible d'améliorer la précision de la reconnaissance vocale, ou de fournir une approche permettant d'atteindre cette amélioration.
 
-**Références**
+**Références** [![IEEE](https://img.shields.io/badge/Publication-IEEE-00629B.svg)](https://ieeexplore.ieee.org/document/8850096)
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
-
-[![IEEE](https://img.shields.io/badge/Publication-IEEE-00629B.svg)](https://ieeexplore.ieee.org/document/8850096)
 
 **BibTeX**
 ```bibtex
