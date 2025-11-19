@@ -49,7 +49,7 @@ Le mécanisme d'attention est relativement simple à comprendre dans le domaine 
 Le réseau Squeeze-and-Excitation (SENet) est une méthode d'apprentissage profond relativement récente qui relève du mécanisme d'attention. Pour différents échantillons, la contribution de chaque canal de caractéristiques à la tâche de classification est souvent inégale. SENet utilise un petit sous-réseau pour obtenir un ensemble de poids, qui sont ensuite multipliés par les caractéristiques de chaque canal respectif afin d'en moduler l'amplitude. Ce processus peut être interprété comme l'application d'une attention d'intensité variable à chaque canal de caractéristiques.
 
 <p align="center">
-  <img src="assets/SENET_fr_1.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="80%">
+  <img src="assets/fr/SENET_fr_1.png" alt="Architecture du Réseau Résiduel-Contractant Profond" width="80%">
 </p>
 
 
