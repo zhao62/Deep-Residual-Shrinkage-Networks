@@ -1,6 +1,6 @@
-# Głęboka Rezydualna Sieć Ściągająca: Metoda sztucznej inteligencji dla silnie zaszumionych danych
+# Diep Residueel Krimpnetwerk: Een methode van kunstmatige intelligentie voor sterk verruiste data
 
-## Bibliografia
+## Literatuurlijst
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
