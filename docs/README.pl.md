@@ -1,4 +1,4 @@
-# Głęboka Rezydualna Sieć Ściągająca: Metoda sztucznej inteligencji dla silnie zaszumionych danych
+# Głęboka Rezydualna Sieć Ściągająca (Deep Residual Shrinkage Network): Metoda sztucznej inteligencji dla silnie zaszumionych danych
 
 ## Bibliografia
 
