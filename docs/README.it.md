@@ -1,4 +1,4 @@
-# Rete Residua Profonda a Contrazione: Un metodo di intelligenza artificiale per dati fortemente rumorosi
+# Rete Residua Profonda a Contrazione (Deep Residual Shrinkage Network): Un metodo di intelligenza artificiale per dati fortemente rumorosi
 
 ## Bibliografia
 
