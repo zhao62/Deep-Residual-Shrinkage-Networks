@@ -1,10 +1,6 @@
-<div dir="rtl">
-شبكة الانكماش المتبقية العميقة: طريقة ذكاء اصطناعي مناسبة للبيانات ذات الضجيج القوي #
-</div>
+# شبكة الانكماش المتبقية العميقة: طريقة ذكاء اصطناعي مناسبة للبيانات ذات الضجيج القو#ي
 
-<div dir="rtl">
-  ## المراجع
-</div>
+## المراجع
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
