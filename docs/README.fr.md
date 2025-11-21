@@ -1,4 +1,4 @@
-# Réseau Résiduel-Contractant Profond : un algorithme d’IA adapté aux données fortement bruitées
+# Réseau Résiduel-Contractant Profond (Deep Residual Shrinkage Network) : une méthode d'intelligence artificielle pour les données fortement bruitées
 
 **Le Réseau Résiduel-Contractant Profond est une version améliorée du Réseau de Neurones Résiduel Profond, qui est en fait une intégration du Réseau de Neurones Résiduel Profond, du mécanisme d'attention et de la fonction de seuillage doux.**
 
