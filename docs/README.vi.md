@@ -1,4 +1,4 @@
-# Mạng Thặng dư Co Sâu: Một Phương pháp Trí tuệ Nhân tạo cho Dữ liệu Nhiễu mạnh
+# Mạng Thặng dư Co Sâu (Deep Residual Shrinkage Network): Một Phương pháp Trí tuệ Nhân tạo cho Dữ liệu Nhiễu mạnh
 
 ## Tài liệu tham khảo
 
