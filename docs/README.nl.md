@@ -1,4 +1,4 @@
-# Diep Residueel Krimpnetwerk: Een methode van kunstmatige intelligentie voor sterk verruiste data
+# Diep Residueel Krimpnetwerk (Deep Residual Shrinkage Network): Een methode van kunstmatige intelligentie voor sterk verruiste data
 
 ## Literatuurlijst
 
