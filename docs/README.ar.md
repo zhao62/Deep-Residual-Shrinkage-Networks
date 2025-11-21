@@ -2,6 +2,10 @@
 
 <h1>شبكة الانكماش المتبقية العميقة: طريقة ذكاء اصطناعي مناسبة للبيانات ذات الضجيج القوي</h1>
 
+</div>
+
+<div dir="rtl">
+
 <h2>المراجع</h2>
 
 </div>
@@ -12,7 +16,7 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
 
 <div dir="rtl">
 
-<h2>BibTeX</h2>
+<h2>BibTeX كود</h2>
 
 </div>
 
