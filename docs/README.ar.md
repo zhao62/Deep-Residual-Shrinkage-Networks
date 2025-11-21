@@ -14,11 +14,7 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
 
 [https://ieeexplore.ieee.org/document/8850096](https://ieeexplore.ieee.org/document/8850096)
 
-<div dir="rtl">
-
-<h2>BibTeX كود</h2>
-
-</div>
+<h2 align="right">BibTeX</h2>
 
 ```bibtex
 @article{Zhao2020,
