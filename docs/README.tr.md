@@ -1,4 +1,4 @@
-# Derin Artık Büzülme Ağı: Yoğun Gürültülü Veriler İçin Bir Yapay Zeka Yöntemi
+# Derin Artık Büzülme Ağı (Deep Residual Shrinkage Network): Yoğun Gürültülü Veriler İçin Bir Yapay Zeka Yöntemi
 
 ## Kaynakça
 
