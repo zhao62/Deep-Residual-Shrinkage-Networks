@@ -1,4 +1,4 @@
-# Rede de Contração Residual Profunda: Um método de inteligência artificial para dados altamente ruidosos
+# Rede de Contração Residual Profunda (Deep Residual Shrinkage Network): Um método de inteligência artificial para dados altamente ruidosos
 
 ## Referências
 
