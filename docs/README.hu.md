@@ -1,4 +1,4 @@
-# Mélyen reziduális zsugorodó hálózatok (Deep Residual Shrinkage Network): Mesterséges intelligencia megközelítés zajos adatokhoz
+# Mély reziduális szűkítő hálózat (Deep Residual Shrinkage Network): Egy erős zajos adatokra alkalmazható mesterséges intelligencia-megközelítés
 
 ## Hivatkozások
 
