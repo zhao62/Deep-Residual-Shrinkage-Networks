@@ -1,4 +1,4 @@
-# Dərin Qalıq Sıxılma Şəbəkəsi: Güclü Səs-küylü Verilənlər üçün Süni İntellekt Metodu
+# Dərin Qalıq Sıxılma Şəbəkəsi (Deep Residual Shrinkage Network): Güclü Səs-küylü Verilənlər üçün Süni İntellekt Metodu
 
 ## Ədəbiyyat
 
