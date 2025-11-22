@@ -1,6 +1,6 @@
-# Shabakaa Gadi-Fageenya Hafuura Xiqqeessuu (Deep Residual Shrinkage Network): Tooftaa Ogummaa Artifishiyaa Daataa Jeequmsa Cimaa Irratti Mijataa
+# Diip Reziiduwaal Shiriinkeej Neetworkii (Deep Residual Shrinkage Network): Mala Ogummaa Nam-tolchee Daataa Jeeqamsa Cimaa Qabuuf Ta'u
 
-## Maddaalee
+## Wabiilee
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
