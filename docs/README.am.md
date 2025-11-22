@@ -1,4 +1,4 @@
-# ጥልቅ ቀሪ ማቀነስ ኔትወርክ (Deep Residual Shrinkage Network): ለከፍተኛ የድምብ መረጃ የሚስራ የሰው ሠራ እውቀት ዘዴ
+# ጥልቅ ቀሪ መቀነሻ ኔትወርክ (Deep Residual Shrinkage Network)፡ ለጠንካራ ጫጫታ ዳታ ተስማሚ የሆነ የአርቴፊሻል ኢንተለጀንስ ዘዴ
 
 ## የጥናት ምንጮች
 
