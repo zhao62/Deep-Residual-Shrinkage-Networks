@@ -1,6 +1,6 @@
-# Chuqur qoldiq qisqaradigan tarmoqlar: shovqinli ma'lumotlarga sun'iy intellekt yondashuvi
+# Chuqur qoldiqli qisqarish tarmog'i (Deep Residual Shrinkage Network): Kuchli shovqinli ma'lumotlar uchun sun'iy intellekt usuli
 
-## Ma'lumotnomalar
+## Foydalanilgan adabiyotlar
 
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
