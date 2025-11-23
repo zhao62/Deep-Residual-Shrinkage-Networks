@@ -6,7 +6,7 @@
 
 <div dir="rtl">
 
-<h2>רעפֿערענצן</h2>
+<h3>רעפֿערענצן</h3>
 
 </div>
 
@@ -14,7 +14,7 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
 
 [https://ieeexplore.ieee.org/document/8850096](https://ieeexplore.ieee.org/document/8850096)
 
-<h2 align="right">BibTeX</h2>
+<h3 align="right">BibTeX</h3>
 
 ```bibtex
 @article{Zhao2020,
