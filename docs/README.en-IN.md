@@ -80,3 +80,23 @@ The Deep Residual Shrinkage Network is, in fact, a general feature learning meth
 In image classification, if an image simultaneously contains many other objects, these objects can be understood as "noise". The Deep Residual Shrinkage Network may be able to utilise the attention mechanism to notice this "noise" and then employ soft thresholding to set the features corresponding to this "noise" to zero, thereby potentially improving image classification accuracy.
 
 In speech recognition, specifically in relatively noisy environments such as conversational settings by a roadside or inside a factory workshop, the Deep Residual Shrinkage Network may improve speech recognition accuracy, or at the very least, offer a methodology capable of improving speech recognition accuracy.
+
+## Reference
+
+Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
+
+[https://ieeexplore.ieee.org/document/8850096](https://ieeexplore.ieee.org/document/8850096)
+
+## BibTeX
+```bibtex
+@article{Zhao2020,
+  author    = {Minghang Zhao and Shisheng Zhong and Xuyun Fu and Baoping Tang and Michael Pecht},
+  title     = {Deep Residual Shrinkage Networks for Fault Diagnosis},
+  journal   = {IEEE Transactions on Industrial Informatics},
+  year      = {2020},
+  volume    = {16},
+  number    = {7},
+  pages     = {4681-4690},
+  doi       = {10.1109/TII.2019.2942898}
+}
+```
