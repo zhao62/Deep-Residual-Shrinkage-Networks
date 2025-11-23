@@ -15,22 +15,24 @@
 
 ## 2.ソフト閾値処理
 **ソフト閾値処理（Soft Thresholding）は、多くの信号ノイズ除去アルゴリズムにおける核心的なステップであり、絶対値がある閾値（しきい値）より小さい特徴を削除し、絶対値がその閾値より大きい特徴をゼロの方向へ収縮させる処理です**。これは以下の式で実現できます：
-```math
-y = \begin{cases}
-x - \tau & x > \tau \\
-0 & -\tau \le x \le \tau \\
-x + \tau & x < -\tau
+
+$$
+y = \begin{cases} 
+x - \tau & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+x + \tau & x < -\tau 
 \end{cases}
-```
+$$
 
 ソフト閾値処理の出力の入力に対する導関数は以下の通りです：
-```math
-\frac{\partial y}{\partial x} = \begin{cases}
-1 & x > \tau \\
-0 & -\tau \le x \le \tau \\
-1 & x < -\tau
+
+$$
+\frac{\partial y}{\partial x} = \begin{cases} 
+1 & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+1 & x < -\tau 
 \end{cases}
-```
+$$
 
 上記から分かるように、ソフト閾値処理の導関数は1か0のいずれかです。この性質はReLU活性化関数と同じです。したがって、ソフト閾値処理もまた、深層学習アルゴリズムが勾配消失や勾配爆発のリスクに遭遇するのを軽減することができます。
 
