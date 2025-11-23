@@ -15,6 +15,7 @@
 
 ## 2. 소프트 임계값 처리 (Soft Thresholding)
 **소프트 임계값 처리는 많은 신호 노이즈 제거(Denoising) 알고리즘의 핵심 단계로, 절대값이 특정 임계값(Threshold)보다 작은 특징은 제거하고, 절대값이 이 임계값보다 큰 특징은 0(zero) 방향으로 수축(Shrinkage)시키는 것입니다.** 이는 다음 수식을 통해 구현할 수 있습니다.
+
 $$
 y = \begin{cases} 
 x - \tau & x > \tau \\ 
@@ -24,6 +25,7 @@ x + \tau & x < -\tau
 $$
 
 입력에 대한 소프트 임계값 처리 결과의 도함수(Derivative)는 다음과 같습니다.
+
 $$
 \frac{\partial y}{\partial x} = \begin{cases} 
 1 & x > \tau \\ 
