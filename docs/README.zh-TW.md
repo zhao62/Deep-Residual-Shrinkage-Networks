@@ -49,13 +49,13 @@ x + \tau & x < -\tau
 Squeeze-and-Excitation Network（SENet）是一種較新的注意力機制下的深度學習方法。 在不同的樣本中，不同的特徵通道，在分類任務中的貢獻大小，往往是不同的。SENet採用一個小型子網路，獲得一組權重，進而將這組權重與各個通道的特徵分別相乘，以調整各個通道特徵的大小。這個過程，就可以認為是在施加不同大小的注意力在各個特徵通道上。
 
 <p align="center">
-  <img src="assets/zh-TW/SENET_zhTW_1.png" alt="Squeeze-and-Excitation Network" width="80%">
+  <img src="assets/zh-TW/SENET_zhTW_1.png" alt="Squeeze-and-Excitation Network" width="60%">
 </p>
 
 在這種方式下，每一個樣本，都會有自己獨立的一組權重。換言之，任意的兩個樣本，它們的權重，都是不一樣的。在SENet中，獲得權重的具體路徑是，「全域池化→全連接層→ReLU函數→全連接層→Sigmoid函數」。
 
 <p align="center">
-  <img src="assets/zh-TW/SENET_zhTW_2.png" alt="Squeeze-and-Excitation Network" width="50%">
+  <img src="assets/zh-TW/SENET_zhTW_2.png" alt="Squeeze-and-Excitation Network" width="36%">
 </p>
 
 ## 4.深度注意力機制下的軟閾值化
@@ -63,7 +63,7 @@ Squeeze-and-Excitation Network（SENet）是一種較新的注意力機制下的
 深度殘差收縮網路借鑒了上述SENet的子網路結構，以實現深度注意力機制下的軟閾值化。透過藍色框內的子網路，就可以學習得到一組閾值，對各個特徵通道進行軟閾值化。
 
 <p align="center">
-  <img src="assets/zh-TW/DRSN_zhTW_1.png" alt="深度殘差收縮網路" width="60%">
+  <img src="assets/zh-TW/DRSN_zhTW_1.png" alt="深度殘差收縮網路" width="45%">
 </p>
 
 在這個子網路中，首先對輸入特徵圖的所有特徵，求它們的絕對值。然後經過全域均值池化和平均，獲得一個特徵，記為A。在另一條路徑中，全域均值池化之後的特徵圖，被輸入到一個小型全連接網路。這個全連接網路以Sigmoid函數作為最後一層，將輸出歸一化到0和1之間，獲得一個係數，記為α。最終的閾值可以表示為α×A。因此閾值就是，一個0和1之間的數字×特徵圖的絕對值的平均。這種方式，不僅保證了閾值為正，而且不會太大。
@@ -73,7 +73,7 @@ Squeeze-and-Excitation Network（SENet）是一種較新的注意力機制下的
 最後，堆疊一定數量的基本模組以及卷積層、批標準化、激活函數、全域均值池化以及全連接輸出層等，就得到了完整的深度殘差收縮網路。
 
 <p align="center">
-  <img src="assets/zh-TW/DRSN_zhTW_2.png" alt="深度殘差收縮網路" width="35%">
+  <img src="assets/zh-TW/DRSN_zhTW_2.png" alt="深度殘差收縮網路" width="30%">
 </p>
 
 ## 5.通用性
