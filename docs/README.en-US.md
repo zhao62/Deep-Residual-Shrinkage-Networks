@@ -2,7 +2,7 @@
 
 **The Deep Residual Shrinkage Network is an improved variant of the Deep Residual Network. Essentially, it is an integration of the Deep Residual Network, attention mechanisms, and soft thresholding functions.**
 
-To a certain extent, **the working principle of the Deep Residual Shrinkage Network can be understood as follows: it utilizes attention mechanisms to identify unimportant features and employs soft thresholding functions to set them to zero; conversely, it identifies important features and retains them.** This process enhances the deep neural network's ability to extract useful features from signals containing noise.
+**To a certain extent, the working principle of the Deep Residual Shrinkage Network can be understood as follows: it utilizes attention mechanisms to identify unimportant features and employs soft thresholding functions to set them to zero; conversely, it identifies important features and retains them.** This process enhances the deep neural network's ability to extract useful features from signals containing noise.
 
 ## 1. Research Motivation
 
