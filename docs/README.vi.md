@@ -38,7 +38,7 @@ Từ trên có thể thấy, đạo hàm của phân ngưỡng mềm hoặc là 
 
 **Trong hàm phân ngưỡng mềm, việc thiết lập ngưỡng phải tuân thủ hai điều kiện: Thứ nhất, ngưỡng phải là số dương; Thứ hai, ngưỡng không được lớn hơn giá trị cực đại của tín hiệu đầu vào, nếu không toàn bộ đầu ra sẽ bằng 0.**
 
-**Đồng thời, ngưỡng tốt nhất nên thỏa mãn điều kiện thứ ba: Mỗi mẫu dữ liệu nên có một ngưỡng độc lập riêng, dựa trên hàm lượng nhiễu của chính nó.**
+**Đồng thời, ngưỡng tốt nhất nên thỏa mãn điều kiện thứ ba: Mỗi mẫu dữ liệu nên có các ngưỡng độc lập riêng, dựa trên hàm lượng nhiễu của chính nó.**
 
 Lý do là vì hàm lượng nhiễu của nhiều mẫu thường không giống nhau. Ví dụ, thường xuyên xảy ra trường hợp trong cùng một tập dữ liệu, mẫu A chứa ít nhiễu, trong khi mẫu B chứa nhiều nhiễu. Vì vậy, nếu thực hiện phân ngưỡng mềm trong thuật toán khử nhiễu, mẫu A nên áp dụng ngưỡng lớn hơn, và mẫu B nên áp dụng ngưỡng nhỏ hơn. Trong mạng nơ-ron sâu, mặc dù các đặc trưng và ngưỡng này đã mất đi ý nghĩa vật lý rõ ràng, nhưng nguyên lý cơ bản vẫn tương thông. Nói cách khác, mỗi mẫu nên có một ngưỡng độc lập riêng dựa trên hàm lượng nhiễu của chính nó.
 
