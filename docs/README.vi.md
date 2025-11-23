@@ -47,16 +47,32 @@ Cơ chế chú ý trong lĩnh vực thị giác máy tính khá dễ hiểu. H�
 
 Squeeze-and-Excitation Network (SENet) là một phương pháp học sâu khá mới sử dụng cơ chế chú ý. Trong các mẫu khác nhau, mức độ đóng góp của các kênh đặc trưng (feature channels) khác nhau vào nhiệm vụ phân loại thường không giống nhau. SENet sử dụng một mạng con nhỏ (subnet) để thu được một tập hợp các trọng số (weights), sau đó nhân các trọng số này với các đặc trưng của từng kênh tương ứng để điều chỉnh kích thước (độ lớn) của các đặc trưng đó. Quá trình này có thể được coi là đang áp dụng các mức độ chú ý khác nhau lên các kênh đặc trưng.
 
+<p align="center">
+  <img src="assets/vi/SENET_vi_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+</p>
+
 Theo cách này, mỗi mẫu dữ liệu sẽ có một tập hợp trọng số độc lập của riêng nó. Nói cách khác, trọng số của hai mẫu bất kỳ đều khác nhau. Trong SENet, đường dẫn cụ thể để thu được trọng số là: "Gộp trung bình toàn cục (Global Pooling) → Lớp toàn kết nối (Fully Connected Layer) → Hàm ReLU → Lớp toàn kết nối → Hàm Sigmoid".
+
+<p align="center">
+  <img src="assets/vi/SENET_vi_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+</p>
 
 ## 4. Phân ngưỡng mềm dưới cơ chế chú ý sâu
 Mạng Nơ-ron Thặng dư Co rút Sâu đã tham khảo cấu trúc mạng con của SENet nêu trên để thực hiện phân ngưỡng mềm dưới cơ chế chú ý sâu. Thông qua mạng con nằm trong khung màu xanh lam, hệ thống có thể học được một tập hợp các ngưỡng để thực hiện phân ngưỡng mềm cho từng kênh đặc trưng.
+
+<p align="center">
+  <img src="assets/vi/DRSN_vi_1.png" alt="深度残差收缩网络" width="45%">
+</p>
 
 Trong mạng con này, đầu tiên tính giá trị tuyệt đối của tất cả các đặc trưng trong bản đồ đặc trưng đầu vào (feature map). Sau đó, trải qua bước gộp trung bình toàn cục và tính trung bình, thu được một đặc trưng, ký hiệu là A. Ở một nhánh khác, bản đồ đặc trưng sau khi gộp trung bình toàn cục được đưa vào một mạng toàn kết nối nhỏ. Mạng toàn kết nối này sử dụng hàm Sigmoid làm lớp cuối cùng để chuẩn hóa đầu ra về khoảng giữa 0 và 1, thu được một hệ số, ký hiệu là α (alpha). Ngưỡng cuối cùng có thể được biểu diễn là α × A. Do đó, ngưỡng chính là: một số trong khoảng 0 và 1 nhân với giá trị trung bình tuyệt đối của bản đồ đặc trưng. **Cách thức này không chỉ đảm bảo ngưỡng là số dương mà còn đảm bảo ngưỡng không quá lớn.**
 
 **Hơn nữa, các mẫu khác nhau sẽ có các ngưỡng khác nhau. Do đó, ở một mức độ nào đó, điều này có thể được hiểu là một cơ chế chú ý đặc biệt: nhận biết các đặc trưng không liên quan đến nhiệm vụ hiện tại, thông qua hai lớp tích chập (convolutional layers) để biến đổi các đặc trưng này thành giá trị tiệm cận 0, rồi dùng hàm phân ngưỡng mềm để gán chúng bằng 0; hoặc ngược lại, nhận biết các đặc trưng liên quan đến nhiệm vụ, biến đổi chúng thành giá trị xa 0 và giữ lại các đặc trưng này.**
 
 Cuối cùng, việc xếp chồng một số lượng nhất định các mô-đun cơ bản cùng với các lớp tích chập, chuẩn hóa theo lô (Batch Normalization), hàm kích hoạt (activation function), gộp trung bình toàn cục và lớp đầu ra toàn kết nối sẽ tạo nên một Mạng Nơ-ron Thặng dư Co rút Sâu hoàn chỉnh.
+
+<p align="center">
+  <img src="assets/vi/DRSN_vi_2.png" alt="深度残差收缩网络" width="30%">
+</p>
 
 ## 5. Tính phổ quát
 Mạng Nơ-ron Thặng dư Co rút Sâu thực tế là một phương pháp học đặc trưng mang tính phổ quát. Lý do là trong nhiều nhiệm vụ học đặc trưng, các mẫu dữ liệu ít nhiều đều chứa một số nhiễu cũng như thông tin không liên quan. Những nhiễu và thông tin không liên quan này có khả năng ảnh hưởng đến hiệu quả học đặc trưng. Ví dụ:
