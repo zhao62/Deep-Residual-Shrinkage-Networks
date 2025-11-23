@@ -48,20 +48,20 @@ $$
 Squeeze-and-Excitation Network（SENet）是一种较新的注意力机制下的深度学习方法。 在不同的样本中，不同的特征通道，在分类任务中的贡献大小，往往是不同的。SENet采用一个小型的子网络，获得一组权重，进而将这组权重与各个通道的特征分别相乘，以调整各个通道特征的大小。这个过程，就可以认为是在施加不同大小的注意力在各个特征通道上。
 
 <p align="center">
-  <img src="assets/zh/SENET_cn_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+  <img src="assets/en-US/SENET_enUS_1.png" alt="Squeeze-and-Excitation Network" width="60%">
 </p>
 
 在这种方式下，每一个样本，都会有自己独立的一组权重。换言之，任意的两个样本，它们的权重，都是不一样的。在SENet中，获得权重的具体路径是，“全局池化→全连接层→ReLU函数→全连接层→Sigmoid函数”。
 
 <p align="center">
-  <img src="assets/zh/SENET_cn_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+  <img src="assets/en-US/SENET_enUS_2.png" alt="Squeeze-and-Excitation Network" width="36%">
 </p>
 
 ## 4.深度注意力机制下的软阈值化
 深度残差收缩网络借鉴了上述SENet的子网络结构，以实现深度注意力机制下的软阈值化。通过蓝色框内的子网络，就可以学习得到一组阈值，对各个特征通道进行软阈值化。
 
 <p align="center">
-  <img src="assets/zh/DRSN_cn_1.png" alt="深度残差收缩网络" width="45%">
+  <img src="assets/en-US/DRSN_enUS_1.png" alt="深度残差收缩网络" width="45%">
 </p>
 
 在这个子网络中，首先对输入特征图的所有特征，求它们的绝对值。然后经过全局均值池化和平均，获得一个特征，记为A。在另一条路径中，全局均值池化之后的特征图，被输入到一个小型的全连接网络。这个全连接网络以Sigmoid函数作为最后一层，将输出归一化到0和1之间，获得一个系数，记为α。最终的阈值可以表示为α×A。因此，阈值就是，一个0和1之间的数字×特征图的绝对值的平均。**这种方式，不仅保证了阈值为正，而且不会太大。**
@@ -71,7 +71,7 @@ Squeeze-and-Excitation Network（SENet）是一种较新的注意力机制下的
 最后，堆叠一定数量的基本模块以及卷积层、批标准化、激活函数、全局均值池化以及全连接输出层等，就得到了完整的深度残差收缩网络。
 
 <p align="center">
-  <img src="assets/zh/DRSN_cn_2.png" alt="深度残差收缩网络" width="30%">
+  <img src="assets/en-US/DRSN_enUS_2.png" alt="深度残差收缩网络" width="30%">
 </p>
 
 ## 5.算法的通用性
