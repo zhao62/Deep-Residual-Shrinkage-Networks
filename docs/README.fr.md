@@ -17,22 +17,24 @@ Par exemple, lors de l'entraînement d'un classifieur de chats et de chiens, par
 ## 2.Le seuillage doux
 
 **Le seuillage doux, qui est une étape fondamentale de nombreux algorithmes de débruitage de signal**, consiste à mettre à zéro les caractéristiques dont la valeur absolue est inférieure à un certain seuil, et à effectuer une contraction en direction de zéro sur celles dont la valeur absolue est supérieure à ce même seuil. Il peut être mis en œuvre au moyen de la formule suivante :
-```math
-y = \begin{cases}
-x - \tau & x > \tau \\
-0 & -\tau \le x \le \tau \\
-x + \tau & x < -\tau
+
+$$
+y = \begin{cases} 
+x - \tau & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+x + \tau & x < -\tau 
 \end{cases}
-```
+$$
 
 La dérivée de la sortie du seuillage doux par rapport à l'entrée est :
-```math
-\frac{\partial y}{\partial x} = \begin{cases}
-1 & x > \tau \\
-0 & -\tau \le x \le \tau \\
-1 & x < -\tau
+
+$$
+\frac{\partial y}{\partial x} = \begin{cases} 
+1 & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+1 & x < -\tau 
 \end{cases}
-```
+$$
 
 D'après ce qui précède, la dérivée du seuillage doux est soit 1, soit 0. Cette propriété est identique à celle de la fonction d'activation ReLU. Par conséquent, le seuillage doux peut également réduire le risque que les algorithmes d'apprentissage profond soient confrontés à la disparition du gradient et à l'explosion du gradient.
 
