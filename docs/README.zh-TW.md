@@ -17,22 +17,24 @@
 ## 2.軟閾值化
 
 **軟閾值化，是很多訊號降噪演算法的核心步驟**，將絕對值小於某個閾值的特徵刪除掉，將絕對值大於這個閾值的特徵朝著零的方向進行收縮。它可以透過以下公式來實現：
-```math
-y = \begin{cases}
-x - \tau & x > \tau \\
-0 & -\tau \le x \le \tau \\
-x + \tau & x < -\tau
+
+$$
+y = \begin{cases} 
+x - \tau & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+x + \tau & x < -\tau 
 \end{cases}
-```
+$$
 
 軟閾值化的輸出對於輸入的導數為：
-```math
-\frac{\partial y}{\partial x} = \begin{cases}
-1 & x > \tau \\
-0 & -\tau \le x \le \tau \\
-1 & x < -\tau
+
+$$
+\frac{\partial y}{\partial x} = \begin{cases} 
+1 & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+1 & x < -\tau 
 \end{cases}
-```
+$$
 
 由上可知，軟閾值化的導數要麼是1，要麼是0。這個性質是和ReLU激活函數是相同的。因此，軟閾值化也能夠減小深度學習演算法遭遇梯度彌散和梯度爆炸的風險。
 
