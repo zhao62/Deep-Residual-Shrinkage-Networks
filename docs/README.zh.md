@@ -15,22 +15,24 @@
 
 ## 2.软阈值化
 **软阈值化，是很多信号降噪算法的核心步骤**，将绝对值小于某个阈值的特征删除掉，将绝对值大于这个阈值的特征朝着零的方向进行收缩。它可以通过以下公式来实现：
-```math
-y = \begin{cases}
-x - \tau & x > \tau \\
-0 & -\tau \le x \le \tau \\
-x + \tau & x < -\tau
+
+$$
+y = \begin{cases} 
+x - \tau & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+x + \tau & x < -\tau 
 \end{cases}
-```
+$$
 
 软阈值化的输出对于输入的导数为：
-```math
-\frac{\partial y}{\partial x} = \begin{cases}
-1 & x > \tau \\
-0 & -\tau \le x \le \tau \\
-1 & x < -\tau
+
+$$
+\frac{\partial y}{\partial x} = \begin{cases} 
+1 & x > \tau \\ 
+0 & -\tau \le x \le \tau \\ 
+1 & x < -\tau 
 \end{cases}
-```
+$$
 
 由上可知，软阈值化的导数要么是1，要么是0。这个性质是和ReLU激活函数是相同的。因此，软阈值化也能够减小深度学习算法遭遇梯度弥散和梯度爆炸的风险。
 
