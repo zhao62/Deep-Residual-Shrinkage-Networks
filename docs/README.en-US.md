@@ -50,17 +50,33 @@ Attention mechanisms are relatively easy to understand in the field of computer 
 
 The Squeeze-and-Excitation Network (SENet) represents a relatively new deep learning method utilizing attention mechanisms. Across different samples, the contribution of different feature channels to the classification task often varies. SENet employs a small sub-network to obtain a set of weights and then multiplies these weights by the features of the respective channels to adjust the magnitude of the features in each channel. This process can be viewed as applying varying levels of attention to different feature channels.
 
+<p align="center">
+  <img src="assets/en-US/SENET_enUS_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+</p>
+
 In this approach, every sample possesses its own independent set of weights. In other words, the weights for any two arbitrary samples are different. In SENet, the specific path for obtaining weights is "Global Pooling → Fully Connected Layer → ReLU Function → Fully Connected Layer → Sigmoid Function."
+
+<p align="center">
+  <img src="assets/en-US/SENET_enUS_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+</p>
 
 ## 4. Soft Thresholding with Deep Attention Mechanism
 
 The Deep Residual Shrinkage Network draws inspiration from the aforementioned SENet sub-network structure to implement soft thresholding under a deep attention mechanism. Through the sub-network (indicated within the blue box), a set of thresholds can be learned to apply soft thresholding to each feature channel.
+
+<p align="center">
+  <img src="assets/en-US/DRSN_enUS_1.png" alt="Deep Residual Shrinkage Network" width="45%">
+</p>
 
 In this sub-network, the absolute values of all features in the input feature map are first calculated. Then, through global average pooling and averaging, a feature is obtained, denoted as $A$. In the other path, the feature map after global average pooling is input into a small fully connected network. This fully connected network uses the Sigmoid function as its final layer to normalize the output between 0 and 1, yielding a coefficient denoted as $\alpha$. The final threshold can be expressed as $\alpha \times A$. Therefore, the threshold is the product of a number between 0 and 1 and the average of the absolute values of the feature map. **This method ensures that the threshold is not only positive but also not excessively large.**
 
 Furthermore, different samples result in different thresholds. Consequently, to a certain extent, this can be interpreted as a specialized attention mechanism: **it identifies features irrelevant to the current task, transforms them into values close to zero via two convolutional layers, and sets them to zero using soft thresholding; alternatively, it identifies features relevant to the current task, transforms them into values far from zero via two convolutional layers, and preserves them.**
 
 Finally, by stacking a certain number of basic modules along with convolutional layers, batch normalization, activation functions, global average pooling, and fully connected output layers, the complete Deep Residual Shrinkage Network is constructed.
+
+<p align="center">
+  <img src="assets/en-US/DRSN_enUS_2.png" alt="Deep Residual Shrinkage Network" width="30%">
+</p>
 
 ## 5. Generalization Capability
 
