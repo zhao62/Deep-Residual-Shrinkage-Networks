@@ -107,3 +107,9 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## 학술적 영향력
+
+본 논문의 구글 스칼라(Google Scholar) 피인용 수는 현재 1,400회를 상회하고 있습니다.
+
+현재까지 집계된 바에 따르면, 심층 잔차 수축 네트워크(DRSN)는 1,000편 이상의 문헌을 통해 기계, 전력, 비전, 의료, 음성, 텍스트, 레이더, 원격 탐사 등 광범위한 분야에 직접 적용되거나 이를 기반으로 개선되어 활용되고 있습니다.
