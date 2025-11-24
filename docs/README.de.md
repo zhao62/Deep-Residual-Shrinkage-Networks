@@ -47,16 +47,32 @@ Der Aufmerksamkeitsmechanismus ist im Bereich Computer Vision (Maschinelles Sehe
 
 Das Squeeze-and-Excitation Network (SENet) ist eine neuere Deep-Learning-Methode, die auf dem Aufmerksamkeitsmechanismus basiert. In verschiedenen Stichproben ist der Beitrag unterschiedlicher Merkmalskanäle (Feature Channels) zur Klassifizierungsaufgabe oft unterschiedlich groß. SENet verwendet ein kleines Sub-Netzwerk, um einen Satz von Gewichtungen zu erhalten, und multipliziert diese Gewichtungen dann jeweils mit den Merkmalen der einzelnen Kanäle, um die Größe der Merkmale in den Kanälen anzupassen. Dieser Prozess kann so aufgefasst werden, als ob unterschiedliche Grade an Aufmerksamkeit auf die jeweiligen Merkmalskanäle angewendet würden.
 
+<p align="center">
+  <img src="assets/de/SENET_de_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+</p>
+
 Bei diesem Ansatz hat jede Stichprobe ihren eigenen, unabhängigen Satz von Gewichtungen. Mit anderen Worten: Die Gewichtungen zweier beliebiger Stichproben sind unterschiedlich. Im SENet ist der konkrete Pfad zum Erhalt der Gewichtungen: „Globales Pooling (Global Pooling) $\rightarrow$ Fully Connected Layer (Vollständig verbundene Schicht) $\rightarrow$ ReLU-Funktion $\rightarrow$ Fully Connected Layer $\rightarrow$ Sigmoid-Funktion“.
+
+<p align="center">
+  <img src="assets/de/SENET_de_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+</p>
 
 ## 4. Weiche Schwellenwertsetzung unter einem tiefen Aufmerksamkeitsmechanismus
 Das Tiefe Residual-Schrumpfungs-Netzwerk (Deep Residual Shrinkage Network) greift die oben genannte Sub-Netzwerk-Struktur des SENet auf, um eine weiche Schwellenwertsetzung unter einem tiefen Aufmerksamkeitsmechanismus zu realisieren. Durch das blaue Sub-Netzwerk (in den Diagrammen der Originalarbeit) kann ein Satz von Schwellenwerten erlernt werden, um die weiche Schwellenwertsetzung auf die einzelnen Merkmalskanäle anzuwenden.
+
+<p align="center">
+  <img src="assets/de/DRSN_de_1.png" alt="Tiefes Residual-Schrumpfungs-Netzwerk" width="45%">
+</p>
 
 In diesem Sub-Netzwerk werden zunächst die Absolutwerte aller Merkmale der Eingabe-Merkmalskarte berechnet. Anschließend wird durch Globales Durchschnitts-Pooling (Global Average Pooling) und Mittelwertbildung ein Merkmal gewonnen, das als A bezeichnet wird. Auf einem anderen Pfad wird die Merkmalskarte nach dem Globalen Durchschnitts-Pooling in ein kleines Fully Connected Network eingegeben. Dieses Netzwerk nutzt eine Sigmoid-Funktion als letzte Schicht, um die Ausgabe auf den Bereich zwischen 0 und 1 zu normieren und so einen Koeffizienten zu erhalten, der als $\alpha$ bezeichnet wird. Der endgültige Schwellenwert lässt sich als $\alpha \times A$ ausdrücken. Der Schwellenwert ist also: eine Zahl zwischen 0 und 1 multipliziert mit dem Durchschnitt der Absolutwerte der Merkmalskarte. **Diese Methode garantiert nicht nur, dass der Schwellenwert positiv ist, sondern auch, dass er nicht zu groß wird.**
 
 **Zudem erhalten unterschiedliche Stichproben somit unterschiedliche Schwellenwerte. Daher kann dies in gewissem Maße als ein spezieller Aufmerksamkeitsmechanismus verstanden werden: Merkmale, die für die aktuelle Aufgabe irrelevant sind, werden bemerkt; diese Merkmale werden durch zwei Faltungsschichten (Convolutional Layers) in Werte nahe 0 transformiert und anschließend durch die weiche Schwellenwertsetzung auf Null gesetzt. Oder anders gesagt: Merkmale, die für die aktuelle Aufgabe relevant sind, werden bemerkt; diese werden durch zwei Faltungsschichten in Werte fern von 0 transformiert und somit beibehalten.**
 
 Schließlich erhält man das vollständige Tiefe Residual-Schrumpfungs-Netzwerk, indem man eine bestimmte Anzahl dieser Basismodule sowie Faltungsschichten, Batch-Normalisierung (Batch Normalization), Aktivierungsfunktionen, Globales Durchschnitts-Pooling und eine Fully-Connected-Ausgabeschicht stapelt.
+
+<p align="center">
+  <img src="assets/de/DRSN_de_2.png" alt="Tiefes Residual-Schrumpfungs-Netzwerk" width="30%">
+</p>
 
 ## 5. Allgemeingültigkeit
 Das Tiefe Residual-Schrumpfungs-Netzwerk ist faktisch eine universelle Methode zum Lernen von Merkmalen (Feature Learning). Dies liegt daran, dass in vielen Aufgaben des Feature Learning die Stichproben mehr oder weniger Rauschen sowie irrelevante Informationen enthalten. Dieses Rauschen und die irrelevanten Informationen können die Effektivität des Feature Learning beeinträchtigen. Zum Beispiel:
