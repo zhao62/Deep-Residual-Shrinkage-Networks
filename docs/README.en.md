@@ -105,3 +105,9 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## Academic Impact
+
+This paper has received over 1,400 citations on Google Scholar.
+
+According to conservative estimates, Deep Residual Shrinkage Networks (DRSN) have been utilized in more than 1,000 publications. These works have either directly applied or improved upon the network across a wide range of fields, including mechanical engineering, electric power, computer vision, healthcare, speech processing, text analysis, radar, and remote sensing.
