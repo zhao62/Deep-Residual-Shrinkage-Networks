@@ -2,7 +2,7 @@
 
 **The Deep Residual Shrinkage Network is an improved variant of the Deep Residual Network. Essentially, it is an integration of the Deep Residual Network, attention mechanisms, and soft thresholding functions.**
 
-**To a certain extent, the working principle of the Deep Residual Shrinkage Network can be understood as follows: it utilizes attention mechanisms to identify unimportant features and employs soft thresholding functions to set them to zero; conversely, it identifies important features and retains them.** This process enhances the deep neural network's ability to extract useful features from signals containing noise.
+**To a certain extent, the working principle of the Deep Residual Shrinkage Network can be understood as follows: it utilizes attention mechanisms to identify unimportant features and employs soft thresholding functions to set them to zero; conversely, it identifies important features and retains them. This process enhances the deep neural network's ability to extract useful features from signals containing noise.**
 
 ## 1. Research Motivation
 
@@ -16,7 +16,7 @@ For instance, when training a cat-and-dog classifier, consider five images label
 
 ## 2. Soft Thresholding
 
-**Soft thresholding is a core step in many signal denoising algorithms.** It eliminates features whose absolute values are lower than a certain threshold and shrinks features whose absolute values are higher than this threshold towards zero. It can be implemented using the following formula:
+**Soft thresholding is a core step in many signal denoising algorithms. It eliminates features whose absolute values are lower than a certain threshold and shrinks features whose absolute values are higher than this threshold towards zero.** It can be implemented using the following formula:
 
 $$
 y = \begin{cases} 
@@ -70,7 +70,7 @@ The Deep Residual Shrinkage Network draws inspiration from the aforementioned SE
 
 In this sub-network, the absolute values of all features in the input feature map are first calculated. Then, through global average pooling and averaging, a feature is obtained, denoted as $A$. In the other path, the feature map after global average pooling is input into a small fully connected network. This fully connected network uses the Sigmoid function as its final layer to normalize the output between 0 and 1, yielding a coefficient denoted as $\alpha$. The final threshold can be expressed as $\alpha \times A$. Therefore, the threshold is the product of a number between 0 and 1 and the average of the absolute values of the feature map. **This method ensures that the threshold is not only positive but also not excessively large.**
 
-Furthermore, different samples result in different thresholds. Consequently, to a certain extent, this can be interpreted as a specialized attention mechanism: **it identifies features irrelevant to the current task, transforms them into values close to zero via two convolutional layers, and sets them to zero using soft thresholding; alternatively, it identifies features relevant to the current task, transforms them into values far from zero via two convolutional layers, and preserves them.**
+**Furthermore, different samples result in different thresholds. Consequently, to a certain extent, this can be interpreted as a specialized attention mechanism: it identifies features irrelevant to the current task, transforms them into values close to zero via two convolutional layers, and sets them to zero using soft thresholding; alternatively, it identifies features relevant to the current task, transforms them into values far from zero via two convolutional layers, and preserves them.**
 
 Finally, by stacking a certain number of basic modules along with convolutional layers, batch normalization, activation functions, global average pooling, and fully connected output layers, the complete Deep Residual Shrinkage Network is constructed.
 
