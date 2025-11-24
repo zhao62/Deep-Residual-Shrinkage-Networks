@@ -100,3 +100,9 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## Tầm ảnh hưởng
+
+Số lượng trích dẫn trên Google Scholar của bài báo này đã vượt quá 1.400 lượt.
+
+Theo thống kê sơ bộ, **Mạng Nơ-ron Thặng dư Co rút Sâu** đã được ứng dụng trực tiếp hoặc cải tiến trong hơn 1.000 công trình nghiên cứu thuộc nhiều lĩnh vực khác nhau như cơ khí, điện lực, thị giác máy tính, y tế, xử lý giọng nói, văn bản, radar và viễn thám.
