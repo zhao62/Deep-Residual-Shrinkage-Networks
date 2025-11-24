@@ -47,16 +47,32 @@ Il meccanismo di attenzione (*Attention Mechanism*) è un concetto relativamente
 
 La Squeeze-and-Excitation Network (SENet) rappresenta un metodo di deep learning relativamente recente basato sul meccanismo di attenzione. In campioni diversi, il contributo dei vari canali delle caratteristiche (*feature channels*) al compito di classificazione è spesso diverso. La SENet utilizza una piccola sottorete per ottenere un insieme di pesi (weights), e successivamente moltiplica questi pesi per le caratteristiche dei rispettivi canali, al fine di regolare l'ampiezza delle caratteristiche di ogni canale. Questo processo può essere considerato come l'applicazione di diversi livelli di "attenzione" ai vari canali delle caratteristiche.
 
+<p align="center">
+  <img src="assets/it/SENET_it_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+</p>
+
 In questa modalità, ogni campione avrà il proprio insieme indipendente di pesi. In altre parole, i pesi di due campioni qualsiasi saranno diversi. Nella SENet, il percorso specifico per ottenere i pesi è: "Global Pooling → Strato completamente connesso (Fully Connected Layer) → Funzione ReLU → Strato completamente connesso → Funzione Sigmoide".
+
+<p align="center">
+  <img src="assets/it/SENET_it_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+</p>
 
 ## 4. Sogliatura Soffice basata su Meccanismo di Attenzione Profonda
 La Rete Residua Profonda a Contrazione (Deep Residual Shrinkage Network) prende in prestito la struttura della sottorete SENet sopra menzionata per realizzare una sogliatura soffice guidata da un meccanismo di attenzione profonda. Attraverso la sottorete (indicata solitamente in blu nei diagrammi architetturali), è possibile apprendere un insieme di soglie per applicare la sogliatura soffice ai vari canali delle caratteristiche.
+
+<p align="center">
+  <img src="assets/it/DRSN_it_1.png" alt="Rete Residua Profonda a Contrazione" width="45%">
+</p>
 
 In questa sottorete, si calcola innanzitutto il valore assoluto di tutte le caratteristiche della mappa delle caratteristiche (*feature map*) in ingresso. Successivamente, attraverso il *Global Average Pooling* e la media, si ottiene una caratteristica, che denotiamo come A. In un altro percorso, la mappa delle caratteristiche dopo il *Global Average Pooling* viene inserita in una piccola rete completamente connessa (*Fully Connected network*). Questa rete completamente connessa utilizza una funzione Sigmoide come ultimo strato, normalizzando l'uscita tra 0 e 1 per ottenere un coefficiente, che denotiamo come α. La soglia finale può essere espressa come α × A. Pertanto, la soglia è costituita da un numero tra 0 e 1 moltiplicato per la media del valore assoluto della mappa delle caratteristiche. **Questo metodo non solo garantisce che la soglia sia positiva, ma assicura anche che non sia eccessivamente grande.**
 
 **Inoltre, campioni diversi avranno soglie diverse. Di conseguenza, questo può essere inteso, in una certa misura, come un meccanismo di attenzione speciale: la rete "nota" le caratteristiche irrilevanti per il compito attuale, le trasforma in valori vicini allo 0 attraverso due strati di convoluzione e le imposta definitivamente a zero tramite la sogliatura soffice; oppure, la rete "nota" le caratteristiche rilevanti per il compito, le trasforma in valori lontani dallo 0 tramite i due strati di convoluzione e le preserva.**
 
 Infine, impilando un certo numero di questi moduli base insieme a strati di convoluzione, *Batch Normalization*, funzioni di attivazione, *Global Average Pooling* e strati di uscita completamente connessi, si ottiene la Rete Residua Profonda a Contrazione completa.
+
+<p align="center">
+  <img src="assets/it/DRSN_it_2.png" alt="Rete Residua Profonda a Contrazione" width="30%">
+</p>
 
 ## 5. Generalità e Applicabilità
 La Rete Residua Profonda a Contrazione è, di fatto, un metodo di apprendimento delle caratteristiche (*feature learning*) di uso generale. Questo perché in molti compiti di apprendimento delle caratteristiche, i campioni contengono più o meno rumore e informazioni non correlate. Tale rumore e tali informazioni irrilevanti possono influenzare negativamente l'efficacia dell'apprendimento. Per esempio:
