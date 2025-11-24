@@ -100,3 +100,9 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## 影响力情况
+
+该论文的谷歌学术引用量已经超过1400次。
+
+根据不完全统计，深度残差收缩网络已经被超过1000篇文献直接应用或改进后应用于机械、电力、视觉、医疗、语音、文本、雷达、遥感等众多领域。
