@@ -47,16 +47,32 @@ El mecanismo de atención es relativamente fácil de entender en el campo de la 
 
 Squeeze-and-Excitation Network (SENet) es un método de aprendizaje profundo relativamente nuevo basado en mecanismos de atención. En diferentes muestras, la contribución de los distintos canales de características a la tarea de clasificación suele ser diferente. SENet emplea una pequeña sub-red para obtener un conjunto de pesos (*weights*) y, posteriormente, multiplica estos pesos por las características de los canales respectivos para ajustar la magnitud de las características de cada canal. Este proceso puede considerarse como la aplicación de diferentes niveles de atención a cada canal de características.
 
+<p align="center">
+  <img src="assets/es/SENET_es_1.png" alt="Squeeze-and-Excitation Network" width="60%">
+</p>
+
 En este enfoque, cada muestra tendrá su propio conjunto independiente de pesos. En otras palabras, los pesos de dos muestras cualesquiera son diferentes. En SENet, la ruta específica para obtener los pesos es: "Agrupamiento global (*Global Pooling*) → Capa totalmente conectada (*Fully Connected Layer*) → Función ReLU → Capa totalmente conectada → Función Sigmoide".
+
+<p align="center">
+  <img src="assets/es/SENET_es_2.png" alt="Squeeze-and-Excitation Network" width="36%">
+</p>
 
 ## 4. Umbralización suave bajo un mecanismo de atención profunda
 La Red de Contracción Residual Profunda toma como referencia la estructura de la sub-red de SENet mencionada anteriormente para implementar la umbralización suave bajo un mecanismo de atención profunda. A través de la sub-red (indicada dentro del recuadro azul en los diagramas originales), se puede aprender un conjunto de umbrales para aplicar la umbralización suave a cada canal de características.
+
+<p align="center">
+  <img src="assets/es/DRSN_es_1.png" alt="Red de Contracción Residual Profunda (Deep Residual Shrinkage Network)" width="45%">
+</p>
 
 En esta sub-red, primero se calcula el valor absoluto de todas las características del mapa de características de entrada. Luego, mediante el agrupamiento promedio global (*Global Average Pooling*) y el promedio, se obtiene una característica, denotada como A. En la otra ruta, el mapa de características resultante del agrupamiento promedio global se introduce en una pequeña red totalmente conectada. Esta red totalmente conectada utiliza la función Sigmoide como su última capa para normalizar la salida entre 0 y 1, obteniendo un coeficiente denotado como α. El umbral final se puede expresar como α × A. Por lo tanto, el umbral es el producto de un número entre 0 y 1 por el promedio de los valores absolutos del mapa de características. **Esta forma no solo garantiza que el umbral sea positivo, sino que también asegura que no sea excesivamente grande.**
 
 **Además, diferentes muestras tendrán diferentes umbrales. Por lo tanto, hasta cierto punto, esto puede entenderse como un mecanismo de atención especial: nota ("presta atención a") las características irrelevantes para la tarea actual, transforma estas características en valores cercanos a 0 a través de dos capas convolucionales, y las pone a cero mediante la umbralización suave; o, dicho de otro modo, nota las características relevantes para la tarea actual, las transforma en valores alejados de 0 a través de dos capas convolucionales y las conserva.**
 
 Finalmente, al apilar una cierta cantidad de módulos básicos junto con capas convolucionales, normalización por lotes (*Batch Normalization*), funciones de activación, agrupamiento promedio global y capas de salida totalmente conectadas, se obtiene la Red de Contracción Residual Profunda completa.
+
+<p align="center">
+  <img src="assets/es/DRSN_es_2.png" alt="Red de Contracción Residual Profunda (Deep Residual Shrinkage Network)" width="30%">
+</p>
 
 ## 5. Capacidad de generalización (Universalidad)
 La Red de Contracción Residual Profunda es, de hecho, un método de aprendizaje de características de propósito general. Esto se debe a que, en muchas tareas de aprendizaje de características, las muestras contienen, en mayor o menor medida, algo de ruido e información irrelevante. Este ruido y la información irrelevante pueden afectar la eficacia del aprendizaje de características. Por ejemplo:
