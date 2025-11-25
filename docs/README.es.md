@@ -83,14 +83,6 @@ En el reconocimiento de voz, si el entorno es ruidoso, como al conversar al lado
 
 ## Referencias
 
-## Impacto Académico
-
-Las citas de este artículo en Google Scholar han superado las 1400.
-
-Según estadísticas conservadoras, la Red de Contracción Residual Profunda ha sido utilizada directamente o mejorada en más de 1000 publicaciones académicas en numerosos campos como la ingeniería mecánica, la energía eléctrica, la visión por computadora, la medicina, el procesamiento de voz, el análisis de texto, el radar y la teledetección.
-
-## Referencias
-
 Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep residual shrinkage networks for fault diagnosis, IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.
 
 [https://ieeexplore.ieee.org/document/8850096](https://ieeexplore.ieee.org/document/8850096)
@@ -108,3 +100,9 @@ Minghang Zhao, Shisheng Zhong, Xuyun Fu, Baoping Tang, Michael Pecht, Deep resid
   doi       = {10.1109/TII.2019.2942898}
 }
 ```
+
+## Impacto Académico
+
+Las citas de este artículo en Google Scholar han superado las 1400.
+
+Según estadísticas conservadoras, la Red de Contracción Residual Profunda ha sido utilizada directamente o mejorada en más de 1000 publicaciones académicas en numerosos campos como la ingeniería mecánica, la energía eléctrica, la visión por computadora, la medicina, el procesamiento de voz, el análisis de texto, el radar y la teledetección.
