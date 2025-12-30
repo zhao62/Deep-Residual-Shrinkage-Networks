@@ -42,6 +42,14 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
 * **English Blog**：https://zhao62.github.io/en/2025/12/23/DRSN/
 
+* **Blog español**：https://zhao62.github.io/es/2025/12/23/DRSN/
+
+* **Blog français**：https://zhao62.github.io/fr/2025/12/23/DRSN/
+
+* **블로그**：https://zhao62.github.io/ko/2025/12/23/DRSN/
+
+* **ブログ**：https://zhao62.github.io/ja/2025/12/23/DRSN/
+
 ## Additional Notes (备注)
 
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
