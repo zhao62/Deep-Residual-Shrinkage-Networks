@@ -38,6 +38,12 @@ IEEE Transactions on Industrial Informatics, 2020, 16(7): 4681-4690.***
 
 * **作者谷歌学术主页**：https://scholar.google.com/citations?user=k82TzLwAAAAJ&hl=zh-CN
 
+<!-- 英文博客徽章 -->
+[![English](https://img.shields.io/badge/Blog-English-blue?style=flat&logo=github)](https://zhao62.github.io/en/2025/12/23/DRSN/)
+
+<!-- 中文博客徽章 -->
+[![Chinese](https://img.shields.io/badge/博客-中文-red?style=flat&logo=github)](https://zhao62.github.io/zh/2025/12/23/DRSN/)
+
 ## Additional Notes (备注)
 
 There might be some problems in the Keras code. The TFLearn code is recommended for usage.
