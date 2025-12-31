@@ -4215,3 +4215,13 @@ There might be some problems in the Keras code. The TFLearn code is recommended 
 [1286] Zhu, Y., Liao, X., Li, A. and Gao, Z., 2025. A **DRSN**-Based Wireless Channel Propagation Scenario Identification. IEEE Communications Letters.
 
 [1287] Suman, P. and Qu, Y., 2025. A Lightweight Deep Learning Model for Automatic Modulation Classification Using Dual-Path **Deep Residual Shrinkage Network**. AI, 6(8), p.195.
+
+[1288] 北方民族大学. 一种基于**残差收缩网络**的心电图心律失常分类方法及系统: 202511200903.9[P]. 2025-11-28.
+
+[1289] 烟台大学. 一种基于动态小波频带增强模块与**深度残差收缩网络**的LPI雷达调制识别方法、系统及计算机设备: 202510778467.7[P]. 2025-09-02.
+
+[1290] 孟威. 基于Laplace小波卷积的改进**残差收缩网络**的智能故障诊断方法研究[J]. 机械工程师, 2025,(11): 84-88+97.
+
+[1291] 罗养霞, 崔泽豪. **深度残差收缩网**络结合主动学习的安卓恶意代码分类[J/OL]. 吉林大学学报(工学版), 1-14[2025-12-31].
+
+[1292] 徐威, 朱志宇, 魏莱, 等. 基于多源信号融合与**深度残差收缩网络**的AUV推进器故障诊断方法[J]. 计算机与数字工程, 2025, 53(09): 2455-2460.
